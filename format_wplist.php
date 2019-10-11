@@ -1,9 +1,11 @@
 <?php
 $string['accordioneffect'] = 'Accordion effect';
 $string['accordioneffect_help'] = 'Select Yes to close open sections when opening another section';
+$string['collapsesection'] = 'Collapse section {$a}';
 $string['currentsection'] = 'This wplist';
 $string['deletesection'] = 'Delete section';
 $string['emptysection'] = 'This section is empty';
+$string['expandsection'] = 'Expand section {$a}';
 $string['hidefromothers'] = 'Hide section';
 $string['highlight'] = 'Highlight section';
 $string['page-course-view-wplists'] = 'Any course main page in Workplace list format';
