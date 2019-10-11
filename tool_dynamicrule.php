@@ -2,7 +2,9 @@
 $string['active'] = 'Active';
 $string['activerules'] = 'Active rules';
 $string['addcondition'] = 'Add condition';
+$string['addconditions'] = 'Add conditions to this rule';
 $string['addoutcome'] = 'Add action';
+$string['addoutcomes'] = 'Add actions to this rule';
 $string['after'] = 'On or after';
 $string['archive'] = 'Archive';
 $string['archived'] = 'Archived';
