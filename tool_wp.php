@@ -2,6 +2,7 @@
 $string['confighideparentlang'] = 'Hide Workplace parent packs';
 $string['confighideparentlangdesc'] = 'If enabled, the parent of any installed Workplace language pack is not displayed in the language menu. For example, \'English (en)\' is not displayed if \'English for Workplace (en_wp)\' is installed.';
 $string['coursesadmintab'] = 'Learning';
+$string['invaliddevice'] = 'You are trying to access a Moodle Workplace site using the Moodle app. Please download the Moodle Workplace app to continue';
 $string['loading'] = 'Loading...';
 $string['nopermissionform'] = 'You don\'t have permission to access this form.';
 $string['nopermissiontab'] = 'You don\'t have permission to access this page.';

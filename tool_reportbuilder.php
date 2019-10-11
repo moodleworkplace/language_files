@@ -161,6 +161,7 @@ $string['quarter'] = 'Quarter';
 $string['recurrence'] = 'Recurrence';
 $string['recurrenceannualy'] = 'Annually';
 $string['recurrencedaily'] = 'Daily';
+$string['recurrencedailyweekday'] = 'Daily - Weekdays';
 $string['recurrencedonorepeat'] = 'Does not repeat';
 $string['recurrencemonthly'] = 'Monthly';
 $string['recurrenceweekly'] = 'Weekly';
