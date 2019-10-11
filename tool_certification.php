@@ -138,6 +138,7 @@ $string['fullname'] = 'Fullname';
 $string['futureallocation'] = 'Future allocation';
 $string['helperactionnotallowed'] = 'Helper action not allowed';
 $string['idnumber'] = 'ID number';
+$string['lessthanaday'] = 'Less than a day';
 $string['manageprograms'] = 'Manage programs';
 $string['manual'] = 'Manual';
 $string['markcertificationcompletednotice'] = 'Mark certification as completed without waiting for the program completion';
