@@ -197,6 +197,7 @@ $string['privacy:metadata:certification_users:status'] = 'Wether the user has be
 $string['privacy:metadata:certification_users:timemodified'] = 'The modified time of the user allocation.';
 $string['privacy:metadata:certification_users:userid'] = 'The allocated user.';
 $string['program'] = 'Program';
+$string['program_help'] = 'Program associated with this certification';
 $string['programcourse'] = 'Program course';
 $string['programname'] = 'Program name';
 $string['programprogress'] = 'Program progress';

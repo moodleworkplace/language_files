@@ -6,6 +6,7 @@ $string['datastorefieldscourser_desc'] = 'Enter field names separated with a com
 $string['datastorefieldsuser'] = 'Fields of user entity to store';
 $string['datastorefieldsuser_desc'] = 'Enter field names separated with a comma (,).';
 $string['datastoresettings'] = 'Data store settings';
+$string['datastore:uploadcoursecompletion'] = 'Upload course completion to datastore';
 $string['pluginname'] = 'Data store';
 $string['privacy:metadata:tool_datastore:action'] = 'The action to be stored';
 $string['privacy:metadata:tool_datastore:actionid'] = 'The related action';

@@ -86,6 +86,7 @@ $string['eventpositionframeworkupdated'] = 'Position framework updated';
 $string['eventpositionupdated'] = 'Position updated';
 $string['expanddepartmentframework'] = 'Expand department framework \'{$a}\'';
 $string['expandpositionframework'] = 'Expand position framework \'{$a}\'';
+$string['fullcompletionreport'] = 'Full completion report';
 $string['fullname'] = 'User';
 $string['globalmanagementicons'] = 'Global management icons';
 $string['globalmanager'] = 'Global manager';

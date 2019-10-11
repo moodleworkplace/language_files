@@ -167,6 +167,7 @@ $string['eventsetupdated'] = 'Set updated';
 $string['eventuserallocated'] = 'User allocated';
 $string['eventuserdeallocated'] = 'User deallocated';
 $string['expired'] = 'Expired';
+$string['fullcompletionreport'] = 'Full completion report';
 $string['fullname'] = 'Full name';
 $string['programnamewithimage'] = 'Program name with image';
 $string['futureallocation'] = 'Future allocation';
