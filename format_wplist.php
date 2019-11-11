@@ -15,6 +15,6 @@ $string['privacy:metadata'] = 'The Workplace list format plugin stores user\'s p
 $string['privacy:metadata:opensections'] = 'The list of sections the user keeps open on courses.';
 $string['remhighlight'] = 'Disable highlight';
 $string['section0name'] = 'General';
-$string['sectionname'] = 'Topic';
 $string['section_completion'] = 'This section is {$a}% completed';
+$string['sectionname'] = 'Topic';
 $string['showfromothers'] = 'Show section';
