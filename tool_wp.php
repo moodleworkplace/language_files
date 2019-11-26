@@ -19,7 +19,6 @@ $string['nothing'] = 'Nothing';
 $string['notpossible'] = 'Not possible';
 $string['outcomes'] = 'Outcomes';
 $string['pluginname'] = 'Workplace';
-$string['privacy:metadata'] = 'The Workplace plugin does not store any personal data.';
 $string['privacy:metadata:certificationid'] = 'The certification id where this course comes from.';
 $string['privacy:metadata:courseid'] = 'The course that was reseted.';
 $string['privacy:metadata:grade'] = 'Grade the user had on the course before it was reseted.';
