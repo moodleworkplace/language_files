@@ -29,6 +29,7 @@ $string['appointment:addattendees'] = 'Add attendees to a Appointment session';
 $string['appointment:addinstance'] = 'Add instance';
 $string['appointment:configurecancellation'] = 'Allow the configuration of sign-up cancellations, upon adding/editing a Appointment activity.';
 $string['appointment:editsessions'] = 'Add, edit, copy and delete Appointment sessions';
+$string['appointment:managecustomfields'] = 'Manage custom fields for Appointment session.';
 $string['appointment:overbook'] = 'Sign-up to full sessions that don\'t have waitlist enabled.';
 $string['appointment:removeattendees'] = 'Remove attendees from a Appointment session';
 $string['appointment:signup'] = 'Sign-up for a session';
@@ -227,6 +228,7 @@ $string['error:shortnametaken'] = 'Custom field with this short name already exi
 $string['error:signedupinothersession'] = 'You are already signed up in another session for this activity. You can only sign up for one session per Appointment activity.';
 $string['error:unknownbuttonclicked'] = 'No action associated with the button that was clicked';
 $string['errorcannoteditsessions'] = 'You don\'t have permission to edit sessions';
+$string['errorcannotmanagecustomfields'] = 'You are not allowed to manage custom fields.';
 $string['errorcannotviewappointment'] = 'You don\'t have permission to view this appointment';
 $string['errorcannotviewattendees'] = 'You don\'t have permission to view attendees';
 $string['eventaddsession'] = 'Session added';
@@ -272,6 +274,7 @@ $string['location_help'] = '**Location** describes the vicinity of the session (
 
 On the \'View all sessions\' page, the listed sessions can be filtered by location.';
 $string['lookfor'] = 'Search';
+$string['managecustomfields'] = 'Manage custom fields';
 $string['manageradded'] = 'Your manager\'s email address has been accepted.';
 $string['managerchanged'] = 'Your manager\'s email address has been changed.';
 $string['manageremail'] = 'Manager\'s email';
@@ -296,7 +299,7 @@ Reminder messages are sent to users and their managers a few days before the ses
 $string['modulename'] = 'Appointment';
 $string['modulename_help'] = 'The Appointment activity module enables a teacher to set up a voluntary booking system for one or many in-person/classroom based sessions.
 
-Each session within a Appointment activity can have customised settings around location, venue, start time, finish time, cost, capacity, etc. These can be set to run over multiple days or to allow for unscheduled and waitlisted sessions.
+Each session within a Appointment activity can have customised settings around start time, finish time, cost, capacity, etc. These can be set to run over multiple days or to allow for unscheduled and waitlisted sessions.
 
 An Activity may be set to require manager approval and teachers can configure automated notifications and session reminders for attendees.
 
