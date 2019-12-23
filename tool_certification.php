@@ -238,6 +238,7 @@ $string['privacy:metadata:certification_users:startdatelocked'] = 'Wether the de
 $string['privacy:metadata:certification_users:status'] = 'Wether the user has been suspended from the certification.';
 $string['privacy:metadata:certification_users:timemodified'] = 'The modified time of the user allocation.';
 $string['privacy:metadata:certification_users:userid'] = 'The allocated user.';
+$string['privacy:metadata:core_tag'] = 'Tags added to certifications';
 $string['program'] = 'Program';
 $string['program_help'] = 'Program associated with this certification';
 $string['programchangewarning'] = 'Users who are currently taking this program will not be reallocated automatically. This can be done manually on per-user basis. The status of users who have already completed the program, or those who were manually marked as certified, will not change but they will be unallocated from the old program and no longer see it on their dashboard.';

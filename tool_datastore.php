@@ -19,6 +19,7 @@ $string['privacy:metadata:tool_datastore:originalid'] = 'The original ID of the 
 $string['privacy:metadata:tool_datastore:originalprogramid'] = 'The ID of the program the action relates to';
 $string['privacy:metadata:tool_datastore:relateduserid'] = 'The ID of the user the action relates to';
 $string['privacy:metadata:tool_datastore:tenantid'] = 'The ID of the tenant the action was performed in';
+$string['privacy:metadata:tool_datastore:timecreated'] = 'The time the action was performed';
 $string['privacy:metadata:tool_datastore:type'] = 'The type of entity';
 $string['privacy:metadata:tool_datastore:usermodified'] = 'The ID of the user who performed the action';
 $string['privacy:metadata:tool_datastore:value'] = 'The field value';
