@@ -297,14 +297,17 @@ Each activity is offered in one or more identical sessions. These sessions can b
 
 Reminder messages are sent to users and their managers a few days before the session is scheduled to start. Confirmation messages are sent when users sign-up for a session or cancel.';
 $string['modulename'] = 'Appointment';
-$string['modulename_help'] = 'The Appointment activity module enables a teacher to set up a voluntary booking system for one or many in-person/classroom based sessions.
+$string['modulename_help'] = 'Appointment is an activity module for teachers to keep track of in-person activities.
 
-Each session within a Appointment activity can have customised settings around start time, finish time, cost, capacity, etc. These can be set to run over multiple days or to allow for unscheduled and waitlisted sessions.
+It enables the teacher to set up a booking system for one or many in-person or classroom-based sessions, for the students to sign-up for.
 
-An Activity may be set to require manager approval and teachers can configure automated notifications and session reminders for attendees.
+This activity module is suitable for either 1-to-1 sessions or multi-session activities such as seminars.
 
-Students can view and sign-up for sessions with their attendance tracked and recorded within the Grades area.';
-$string['modulenameplural'] = 'Appointment';
+Sessions can have multiple dates and times within a single Appointment activity, and can be created in bulk using the time slots specified in the configuration.
+
+The activity allows attendance tracking.';
+$string['modulename_link'] = 'Appointments';
+$string['modulenameplural'] = 'Appointments';
 $string['moreinfo'] = 'More info';
 $string['multidate'] = '(multi-date)';
 $string['multipleappointments'] = 'Multiple appointments';
