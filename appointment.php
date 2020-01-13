@@ -12,9 +12,9 @@ $string['addstudent'] = 'Add student';
 $string['addtimeframe'] = 'Add timeframe';
 $string['advanced'] = 'Advanced';
 $string['alllocations'] = 'All locations';
-$string['allowcancellations'] = 'Allow sign-up cancellations';
+$string['allowcancellations'] = 'Allow cancelling';
 $string['allowcancellations_help'] = 'If checked, session attendees will be able to cancel their signups';
-$string['allowcancellationsdefault'] = 'Allow sign-up cancellations default';
+$string['allowcancellationsdefault'] = 'Allow cancelling default';
 $string['allowcancellationsdefault_help'] = 'If checked, the default setting, when creating new sessions for this activity, will be to allow sign-up cancellations';
 $string['allowwaitlist'] = 'Allow waitlisting';
 $string['allowwaitlist_help'] = 'When "Allow waitlisting" is checked, learners will be able to sign up for a Appointment session even if it is already full.<br />
@@ -51,6 +51,7 @@ $string['attendedsession'] = 'Attended session';
 $string['attendees'] = 'Attendees';
 $string['attendeestablesummary'] = 'People planning on or having attended this session.';
 $string['availableseats'] = '{$a} seats available';
+$string['book'] = 'Book';
 $string['booked'] = 'Booked';
 $string['bookingcancelled'] = 'Your booking has been cancelled.';
 $string['bookingcompleted'] = 'Your booking has been completed.';
@@ -231,6 +232,9 @@ $string['errorcannoteditsessions'] = 'You don\'t have permission to edit session
 $string['errorcannotmanagecustomfields'] = 'You are not allowed to manage custom fields.';
 $string['errorcannotviewappointment'] = 'You don\'t have permission to view this appointment';
 $string['errorcannotviewattendees'] = 'You don\'t have permission to view attendees';
+$string['errornosessionid'] = 'No session id given.';
+$string['errornosstartdate'] = 'No start date given.';
+$string['errornosstarttime'] = 'No start time given.';
 $string['eventaddsession'] = 'Session added';
 $string['eventaddsessionfailed'] = 'Session add (FAILED)';
 $string['eventapproverequests'] = 'Session approve requests';
@@ -296,7 +300,7 @@ $string['mods_help'] = 'Appointment activities are used to keep track of in-pers
 Each activity is offered in one or more identical sessions. These sessions can be given over multiple days.
 
 Reminder messages are sent to users and their managers a few days before the session is scheduled to start. Confirmation messages are sent when users sign-up for a session or cancel.';
-$string['modulename'] = 'Appointment';
+$string['modulename'] = 'Appointment booking';
 $string['modulename_help'] = 'Appointment is an activity module for teachers to keep track of in-person activities.
 
 It enables the teacher to set up a booking system for one or many in-person or classroom-based sessions, for the students to sign-up for.
@@ -632,6 +636,7 @@ $string['setting:sessionroles'] = 'Users assigned to the selected roles in a cou
 $string['setting:sessionroles_caption'] = 'Session roles:';
 $string['setting:showinsummary'] = 'Show in exports and lists';
 $string['setting:type'] = 'Field type';
+$string['settings'] = 'Settings';
 $string['shortname'] = '# Short Name';
 $string['shortname_help'] = '**Short name** is the description of the session that appears on the training calendar when **Show on the calendar** is enabled.';
 $string['showbylocation'] = 'Show by location';

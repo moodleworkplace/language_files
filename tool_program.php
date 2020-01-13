@@ -190,6 +190,7 @@ $string['fullname'] = 'Full name';
 $string['futureallocation'] = 'Future allocation';
 $string['idnumber'] = 'ID number';
 $string['inprogress'] = 'In progress';
+$string['keepprogramdefaults'] = 'Keep program defaults';
 $string['lessthanaday'] = 'Less than a day';
 $string['locked'] = 'Locked';
 $string['lockedreasonparent'] = 'Not available unless: set {$a} is available.';
