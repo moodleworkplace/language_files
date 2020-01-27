@@ -18,6 +18,7 @@ $string['nopermissiontab'] = 'You don\'t have permission to access this page.';
 $string['nothing'] = 'Nothing';
 $string['notpossible'] = 'Not possible';
 $string['outcomes'] = 'Outcomes';
+$string['performanceinfo'] = 'Tab performance information (DB reads/writes: {$a->reads}/{$a->writes})';
 $string['pluginname'] = 'Workplace';
 $string['privacy:metadata:certificationid'] = 'The certification id where this course comes from.';
 $string['privacy:metadata:courseid'] = 'The course that was reseted.';

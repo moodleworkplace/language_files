@@ -486,7 +486,6 @@ $string['setting:defaultcancellationmessagedefault'] = 'This is to advise that y
 Participant:   [firstname] [lastname]
 Course:   [appointmentname]
 
-Duration:   [duration]
 Date(s):
 [alldates]
 
@@ -513,9 +512,7 @@ $string['setting:defaultconfirmationmessagedefault'] = 'This is to confirm that 
 
 Participant:   [firstname] [lastname]
 Course:   [appointmentname]
-Cost:   [cost]
 
-Duration:    [duration]
 Date(s):
 [alldates]
 
@@ -551,9 +548,7 @@ $string['setting:defaultremindermessagedefault'] = 'This is a reminder that you 
 
 Participant:   [firstname] [lastname]
 Course:   [appointmentname]
-Cost:   [cost]
 
-Duration:   [duration]
 Date(s):
 [alldates]
 
@@ -574,9 +569,7 @@ $string['setting:defaultremindersubjectdefault'] = 'Course booking reminder: [ap
 $string['setting:defaultrequestinstrmngrdefault'] = 'This is to advise that [firstname] [lastname] has requested to be booked into the following course, and you are listed as their Team Leader / Manager.
 
 Course:   [appointmentname]
-Cost:   [cost]
 
-Duration:   [duration]
 Date(s):
 [alldates]
 
@@ -594,9 +587,7 @@ $string['setting:defaultrequestmessagedefault'] = 'Your request to book into the
 
 Participant:   [firstname] [lastname]
 Course:   [appointmentname]
-Cost:   [cost]
 
-Duration:   [duration]
 Date(s):
 [alldates]
 
