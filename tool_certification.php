@@ -140,6 +140,7 @@ $string['errorcertificationisarchived'] = 'Certification is archived';
 $string['errorcertificationmustbearchived'] = 'Certification must be archived';
 $string['errorcertificationnotfound'] = 'Certification not found';
 $string['errorevaluatinguserallocationstatus'] = 'Error evaluating user allocation status';
+$string['errorexpirydatepreviousduedate'] = 'Expiry date can not be before due date';
 $string['erroridnumberuniquetenant'] = 'This ID number is already used in another certification';
 $string['errorinvalidcertification'] = 'Invalid certification';
 $string['errorinvalidcertificationstatus'] = 'Invalid certification status';
