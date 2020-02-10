@@ -15,6 +15,7 @@ $string['audienceand'] = 'And';
 $string['audiencecustomise'] = 'Customise...';
 $string['audienceor'] = 'Or';
 $string['audienceselect'] = 'Relation to the report viewer';
+$string['audienceselectinitial'] = 'Select audience';
 $string['audienceusersall'] = 'All users';
 $string['audienceusersdept'] = 'In the same department as the report viewer';
 $string['audienceusersreporting'] = 'Reports to the report viewer';

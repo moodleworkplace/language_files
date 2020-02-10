@@ -324,6 +324,7 @@ $string['selectcertificationoutcome_help'] = 'Select the certification where thi
 $string['selectdate'] = 'Select date';
 $string['selectprogram'] = 'Select program';
 $string['selectprogram_help'] = 'Select a program to be associated to this certification';
+$string['separatetenantsingroupswarning'] = 'In courses shared between tenants, users from each tenant will be added to separate groups.';
 $string['startdate'] = 'Start date';
 $string['startdate_help'] = 'Date when certification starts';
 $string['status'] = 'Status';
