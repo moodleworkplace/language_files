@@ -11,3 +11,5 @@ $string['pluginname'] = 'Workplace';
 $string['privacy:metadata'] = 'The Workplace theme does not store any personal data about any user.';
 $string['region-side-pre'] = 'Right';
 $string['tablabel'] = 'More';
+$string['wpmenumodal'] = 'Worplace launcher as modal';
+$string['wpmenumodaldesc'] = 'Show the workplace launcher as a modal instead of a popup';

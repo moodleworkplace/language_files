@@ -62,6 +62,7 @@ $string['bookingcompleted'] = 'Your booking has been completed.';
 $string['bookingfull'] = 'Full';
 $string['bookingopen'] = 'Open';
 $string['break'] = 'Break time';
+$string['break_help'] = 'This setting defines the break time between sessions. Setting to 0 means no break is needed.';
 $string['calendareventdescriptionbooking'] = 'You are booked for this <a href="{$a}">Appointment session</a>.';
 $string['calendareventdescriptionsession'] = 'You have created this <a href="{$a}">Appointment session</a>.';
 $string['calendaroptions'] = 'Calendar options';
@@ -128,7 +129,7 @@ $string['deletesession'] = 'Delete session';
 $string['deletetimeframe'] = 'Delete timeframe';
 $string['deletingsession'] = 'Deleting session in {$a}';
 $string['description'] = 'Introduction text';
-$string['description_help'] = '**Description** is the course description that displays when a learner enrols on a Appointment session.
+$string['description_help'] = '**Description** is displayed when a learner enrols on a Appointment session.
 
 The **Description** also displays in the training calendar.';
 $string['details'] = 'Details';
@@ -230,7 +231,8 @@ $string['error:nopermissiontosignup'] = 'You don\'t have permission to signup to
 $string['error:noticeidincorrect'] = 'Notice ID is incorrect: {$a}';
 $string['error:problemsigningup'] = 'There was a problem signing you up.';
 $string['error:removeattendee'] = 'Could not remove {$a} from the session.';
-$string['error:sessionstartafterend'] = 'Session start date/time is after end.';
+$string['error:sessionsplitexceeds'] = 'Session split time exceeds session duration.';
+$string['error:sessionstartafterend'] = 'Session start time is later than session end time.';
 $string['error:shortnametaken'] = 'Custom field with this short name already exists.';
 $string['error:signedupinothersession'] = 'You are already signed up in another session for this activity. You can only sign up for one session per Appointment activity.';
 $string['error:unknownbuttonclicked'] = 'No action associated with the button that was clicked';
@@ -474,18 +476,18 @@ $string['setting:defaultcancellationinstrmngr'] = 'Default cancellation message 
 $string['setting:defaultcancellationinstrmngr_caption'] = 'Cancellation message (managers)';
 $string['setting:defaultcancellationinstrmngrdefault'] = '*** Advice only ****
 
-This is to advise that [firstname] [lastname] is no longer signed-up for the following course and listed you as their Team Leader / Manager.
+This is to advise that [firstname] [lastname] is no longer signed-up for the following appointment and listed you as their Team Leader / Manager.
 
 *** [firstname] [lastname]\'s booking cancellation is copied below ****
 ';
 $string['setting:defaultcancellationmessage'] = 'Default cancellation message sent to the user.';
 $string['setting:defaultcancellationmessage_caption'] = 'Cancellation message';
-$string['setting:defaultcancellationmessagedefault'] = 'This is to advise that your booking on the following course has been cancelled:
+$string['setting:defaultcancellationmessagedefault'] = 'This is to advise that your booking on the following appointment has been cancelled:
 
 ***BOOKING CANCELLED***
 
 Participant:   [firstname] [lastname]
-Course:   [appointmentname]
+Appointment:   [appointmentname]
 
 Date(s):
 [alldates]
@@ -496,12 +498,12 @@ Room:   [session:room]
 ';
 $string['setting:defaultcancellationsubject'] = 'Default subject line for cancellation emails.';
 $string['setting:defaultcancellationsubject_caption'] = 'Cancellation subject';
-$string['setting:defaultcancellationsubjectdefault'] = 'Course booking cancellation';
+$string['setting:defaultcancellationsubjectdefault'] = 'Appointment booking cancellation';
 $string['setting:defaultconfirmationinstrmngr'] = 'Default confirmation message sent to managers.';
 $string['setting:defaultconfirmationinstrmngr_caption'] = 'Confirmation message (managers)';
 $string['setting:defaultconfirmationinstrmngrdefault'] = '*** Advice only ****
 
-This is to advise that [firstname] [lastname] has been booked for the following course and listed you as their Team Leader / Manager.
+This is to advise that [firstname] [lastname] has been booked for the following appointment and listed you as their Team Leader / Manager.
 
 If you are not their Team Leader / Manager and believe you have received this email by mistake please reply to this email.  If have concerns about your staff member taking this course please discuss this with them directly.
 
@@ -509,10 +511,10 @@ If you are not their Team Leader / Manager and believe you have received this em
 ';
 $string['setting:defaultconfirmationmessage'] = 'Default confirmation message sent to users.';
 $string['setting:defaultconfirmationmessage_caption'] = 'Confirmation message';
-$string['setting:defaultconfirmationmessagedefault'] = 'This is to confirm that you are now booked on the following course:
+$string['setting:defaultconfirmationmessagedefault'] = 'This is to confirm that you are now booked on the following appointment:
 
 Participant:   [firstname] [lastname]
-Course:   [appointmentname]
+Appointment:   [appointmentname]
 
 Date(s):
 [alldates]
@@ -521,23 +523,23 @@ Location:   [session:location]
 Venue:   [session:venue]
 Room:   [session:room]
 
-***Please arrive ten minutes before the course starts***
+***Please arrive ten minutes before the appointment starts***
 
 To re-schedule or cancel your booking
-To re-schedule your booking you need to cancel this booking and then re-book a new session.  To cancel your booking, return to the site, then to the page for this course, and then select \'cancel\' from the booking information screen.
+To re-schedule your booking you need to cancel this booking and then re-book a new session.  To cancel your booking, return to the appointment page, and then select \'Cancel\'.
 
 [details]
 
-You will receive a reminder [reminderperiod] business days before this course.
+You will receive a reminder [reminderperiod] business days before this appointment.
 ';
 $string['setting:defaultconfirmationsubject'] = 'Default subject line for confirmation emails.';
 $string['setting:defaultconfirmationsubject_caption'] = 'Confirmation subject';
-$string['setting:defaultconfirmationsubjectdefault'] = 'Course booking confirmation: [appointmentname], [starttime]-[finishtime], [sessiondate]';
+$string['setting:defaultconfirmationsubjectdefault'] = 'Appointment booking confirmation: [appointmentname], [starttime]-[finishtime], [sessiondate]';
 $string['setting:defaultreminderinstrmngr'] = 'Default reminder message sent to managers.';
 $string['setting:defaultreminderinstrmngr_caption'] = 'Reminder message (managers)';
 $string['setting:defaultreminderinstrmngrdefault'] = '*** Reminder only ****
 
-Your staff member [firstname] [lastname] is booked to attend and above course and has also received this reminder email.
+Your staff member [firstname] [lastname] is booked to attend and above appointment and has also received this reminder email.
 
 If you are not their Team Leader / Manager and believe you have received this email by mistake please reply to this email.
 
@@ -545,10 +547,10 @@ If you are not their Team Leader / Manager and believe you have received this em
 ';
 $string['setting:defaultremindermessage'] = 'Default reminder message sent to users.';
 $string['setting:defaultremindermessage_caption'] = 'Reminder message';
-$string['setting:defaultremindermessagedefault'] = 'This is a reminder that you are booked on the following course:
+$string['setting:defaultremindermessagedefault'] = 'This is a reminder that you are booked on the following appointment:
 
 Participant:   [firstname] [lastname]
-Course:   [appointmentname]
+Appointment:   [appointmentname]
 
 Date(s):
 [alldates]
@@ -557,19 +559,19 @@ Location:   [session:location]
 Venue:   [session:venue]
 Room:   [session:room]
 
-***Please arrive ten minutes before the course starts***
+***Please arrive ten minutes before the appointment starts***
 
 To re-schedule or cancel your booking
-To re-schedule your booking you need to cancel this booking and then re-book a new session.  To cancel your booking, return to the site, then to the page for this course, and then select \'cancel\' from the booking information screen.
+To re-schedule your booking you need to cancel this booking and then re-book a new session.  To cancel your booking, return to appointment page, and then select \'Cancel\'.
 
 [details]
 ';
 $string['setting:defaultremindersubject'] = 'Default subject line for reminder emails.';
 $string['setting:defaultremindersubject_caption'] = 'Reminder subject';
-$string['setting:defaultremindersubjectdefault'] = 'Course booking reminder: [appointmentname], [starttime]-[finishtime], [sessiondate]';
-$string['setting:defaultrequestinstrmngrdefault'] = 'This is to advise that [firstname] [lastname] has requested to be booked into the following course, and you are listed as their Team Leader / Manager.
+$string['setting:defaultremindersubjectdefault'] = 'Appointment booking reminder: [appointmentname], [starttime]-[finishtime], [sessiondate]';
+$string['setting:defaultrequestinstrmngrdefault'] = 'This is to advise that [firstname] [lastname] has requested to be booked into the following appointment, and you are listed as their Team Leader / Manager.
 
-Course:   [appointmentname]
+Appointment:   [appointmentname]
 
 Date(s):
 [alldates]
@@ -584,10 +586,10 @@ Please follow the link below to approve the request:
 
 *** [firstname] [lastname]\'s booking request is copied below ****
 ';
-$string['setting:defaultrequestmessagedefault'] = 'Your request to book into the following course has been sent to your manager:
+$string['setting:defaultrequestmessagedefault'] = 'Your request to book into the following appointment has been sent to your manager:
 
 Participant:   [firstname] [lastname]
-Course:   [appointmentname]
+Appointment:   [appointmentname]
 
 Date(s):
 [alldates]
@@ -596,21 +598,21 @@ Location:   [session:location]
 Venue:   [session:venue]
 Room:   [session:room]
 ';
-$string['setting:defaultrequestsubjectdefault'] = 'Course booking request: [appointmentname], [starttime]-[finishtime]';
+$string['setting:defaultrequestsubjectdefault'] = 'Appointment booking request: [appointmentname], [starttime]-[finishtime]';
 $string['setting:defaultvalue'] = 'Default value';
-$string['setting:defaultwaitlistedmessage'] = 'Default wait-listed message sent to users.';
-$string['setting:defaultwaitlistedmessage_caption'] = 'Wait-listed message';
+$string['setting:defaultwaitlistedmessage'] = 'Default wait-listed confirmation sent to users.';
+$string['setting:defaultwaitlistedmessage_caption'] = 'Wait-listed confirmation';
 $string['setting:defaultwaitlistedmessagedefault'] = 'This is to advise that you have been added to the waitlist for:
 
-Course:   [appointmentname]
+Appointment:   [appointmentname]
 Location:  [session:location]
 Participant:   [firstname] [lastname]
 
-***Please note this is not a course booking confirmation***
+***Please note this is not a appointment booking confirmation***
 
-By waitlisting you have registered your interest in this course and will be contacted directly when sessions become available.
+By waitlisting you have registered your interest in this appointment and will be contacted directly when sessions become available.
 
-To remove yourself from this waitlist please return to this course and click Cancel Booking. Please note there is no waitlist removal confirmation email.
+To remove yourself from this waitlist please return to this appointment and click Cancel. Please note there is no waitlist removal confirmation email.
 ';
 $string['setting:defaultwaitlistedsubject'] = 'Default subject line for wait-listed emails.';
 $string['setting:defaultwaitlistedsubject_caption'] = 'Wait-listed subject';
@@ -655,6 +657,7 @@ $string['signupforsession'] = 'Sign-up for an available upcoming session';
 $string['signupforthissession'] = 'Sign-up for this Appointment session';
 $string['signups'] = 'Sign-ups';
 $string['split'] = 'Automatic split';
+$string['split_help'] = 'This setting defines the duration of each session created within the timeframe. Setting it to 0 disables the option.';
 $string['status'] = 'Status';
 $string['status_approved'] = 'Approved';
 $string['status_booked'] = 'Booked';
