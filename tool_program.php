@@ -334,6 +334,7 @@ $string['review'] = 'Review';
 $string['rolemanager'] = 'Program manager';
 $string['rolemanagerdescription'] = 'Allows to create and manage programs within the current tenant and allocate users to them';
 $string['scheduleupdatesuccess'] = 'Schedule successfully updated';
+$string['searchprogram'] = 'Search program';
 $string['seecontent_mobile'] = 'See content';
 $string['selectcourses'] = 'Select courses';
 $string['selectprogram'] = 'Program';
