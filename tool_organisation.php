@@ -113,6 +113,7 @@ $string['missingusers'] = 'Missing user(s)';
 $string['movedepartmentframework'] = 'Move department framework \'{$a}\'';
 $string['movepositionframework'] = 'Move position framework \'{$a}\'';
 $string['myteams'] = 'Teams';
+$string['newframework'] = 'New framework';
 $string['newnamefor'] = 'New name for \'{$a}\'';
 $string['notification'] = 'Notification';
 $string['notificationcannotcreatejobs'] = 'Before assigning jobs to users, create some departments and positions.';
