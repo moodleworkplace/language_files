@@ -35,6 +35,7 @@ $string['privacy:metadata:userid'] = 'The user that had the course reseted.';
 $string['privacy:metadata:usermodified'] = 'The user modified.';
 $string['privacy:metadata:userrequested'] = 'User who requested the course reset.';
 $string['privacy:metadata:wascompleted'] = 'If course was completed by user before reset.';
+$string['processing'] = 'Processing';
 $string['reason'] = 'Reason for reset';
 $string['reg_moodleproduct'] = 'Moodle product ({$a})';
 $string['reg_wpactiveusers'] = 'Number of unique users who logged in last month ({$a})';

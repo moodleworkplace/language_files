@@ -247,6 +247,7 @@ $string['resetallconditions'] = 'Reset all conditions';
 $string['resetalltitle'] = 'Reset all conditions';
 $string['resetcondition'] = 'Reset condition';
 $string['resetfield'] = 'Reset \'{$a}\' field';
+$string['resettable'] = 'Reset table';
 $string['resettitle'] = 'Reset condition';
 $string['rolemanager'] = 'Report builder manager';
 $string['rolemanagerdescription'] = 'Allows to create and manage custom reports within the current tenant';

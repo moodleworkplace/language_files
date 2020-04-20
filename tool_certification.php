@@ -4,14 +4,21 @@ $string['active'] = 'Active';
 $string['activecertifications'] = 'Active certifications';
 $string['addnewcertification'] = 'Add new certification';
 $string['afteractualcertcompletion'] = 'After current certification completion';
+$string['afteractualcertcompletionwithrelativedate'] = '{$a} after current certification completion';
 $string['afterallocation'] = 'after allocation';
 $string['afterallocationdate'] = 'After allocation date';
+$string['afterallocationdatewithrelativedate'] = '{$a} after allocation date';
 $string['aftercompletion'] = 'After completion';
+$string['aftercompletionwithrelativedate'] = '{$a} after completion';
 $string['aftercurrentcertexpdate'] = 'After current certification expiry date';
 $string['afterduedate'] = 'After due date';
+$string['afterduedatewithrelativedate'] = '{$a} after due date';
 $string['afterlatest'] = 'After the latter of the current completion or expiration';
+$string['afterlatestwithrelativedate'] = '{$a} after the latter of the current completion or expiration';
 $string['afterpreviouscertexpdate'] = 'After previous certification expiry date';
+$string['afterpreviouscertexpdatewithrelativedate'] = '{$a} after previous certification expiry date';
 $string['afterstartdate'] = 'After start date';
+$string['afterstartdatewithrelativedate'] = '{$a} after start date';
 $string['allocateusers'] = 'Allocate users';
 $string['allocationdate'] = 'Allocation date';
 $string['allocationdateisonorafter'] = 'Allocation date on or after';
@@ -78,19 +85,33 @@ $string['certifyexpirydate_help'] = 'Select an expiry date for this certified us
 $string['certifyuser'] = 'Certify user';
 $string['completedtheprogram'] = 'Completed the program {$a}';
 $string['conditioncertificationcertified'] = 'Certification certified';
+$string['conditioncertificationcertifieddescriptionwithdate'] = 'Users that have status Certified in certification \'{$a->fullname}\'<br />
+Certified date is on or after \'{$a->conditiondate}\'';
 $string['conditioncertificationexpired'] = 'Certification expired';
+$string['conditioncertificationexpireddescriptionwithdate'] = 'Users that have status Expired in certification \'{$a->fullname}\'<br />
+Expired date is on or after \'{$a->conditiondate}\'';
 $string['conditioncertificationnotcertified'] = 'Certification not certified';
 $string['conditioncertificationoverdue'] = 'Certification overdue';
+$string['conditioncertificationoverduedescriptionwithdate'] = 'Users that have status Overdue in certification \'{$a->fullname}\'<br />
+Due date is on or after \'{$a->conditiondate}\'';
 $string['conditioncertificationstatus'] = 'Certification status';
 $string['conditioncertificationstatusdescription'] = 'Users that have status \'{$a->status}\' in certification \'{$a->fullname}\'';
 $string['conditioncertificationstatusdescriptionnegated'] = 'Users that do not have status \'{$a->status}\' in certification \'{$a->fullname}\'';
 $string['conditioncertificationsuspended'] = 'Certification suspended';
+$string['conditioncertificationsuspendeddescriptionwithdate'] = 'Users that have status Suspended in certification \'{$a->fullname}\'<br />
+Suspended date is on or after \'{$a->conditiondate}\'';
 $string['conditionrecertificationgraceperiod'] = 'Recertification grace period ends';
 $string['conditionrecertificationgraceperiodendsdescription'] = 'Users whose grace period ends in certification \'{$a->fullname}\'';
+$string['conditionrecertificationgraceperiodendsdescriptionwithdate'] = 'Users whose grace period ends in certification \'{$a->fullname}\'<br />
+Recertification grace period ends on or before \'{$a->conditiondate}\'';
 $string['conditionrecertificationstarted'] = 'Recertification period started';
 $string['conditionrecertificationstarteddescription'] = 'Users that have started a recertification period in certification \'{$a->fullname}\'';
+$string['conditionrecertificationstarteddescriptionwithdate'] = 'Users that have started a recertification period in certification \'{$a->fullname}\'<br />
+Recertification started on or after \'{$a->conditiondate}\'';
 $string['conditionuserallocated'] = 'Users allocated to certification';
 $string['conditionuserallocateddescription'] = 'Users allocated to certification {$a}';
+$string['conditionuserallocateddescriptionwithdate'] = 'Users allocated to certification {$a->fullname}<br />
+Allocation date is on or after \'{$a->conditiondate}\'';
 $string['conditionusernotallocated'] = 'Users not allocated to certification';
 $string['conditionusernotallocateddescription'] = 'Users not allocated to certification {$a}';
 $string['confirm'] = 'Confirm';
@@ -111,6 +132,7 @@ $string['displaycertificationdate'] = 'Certification date';
 $string['displaycertificationid'] = 'Internal certification ID used in URLs';
 $string['displaycertificationname'] = 'Certification name';
 $string['displayexpirydate'] = 'Certification expiry date';
+$string['displayexpirydatetimestamp'] = 'Certification expiry date timestamp';
 $string['duedate'] = 'Due date';
 $string['duedate_help'] = 'Date when the certification is due';
 $string['duedateisonorafter'] = 'Due date on or after';
@@ -204,9 +226,11 @@ $string['newcertification'] = 'New certification';
 $string['newvaluefor'] = 'New value for';
 $string['noselection'] = 'No selection';
 $string['notarchived'] = 'Not archived';
+$string['notavailable'] = 'Not available';
 $string['notificationmsgcertificationcompleted'] = 'Congratulations! You completed the certification \'{$a}\'.';
 $string['notificationmsgcertificationuserallocated'] = 'You have been allocated to certification \'{$a}\'.';
 $string['notificationmsgcertificationuserdeallocated'] = 'You have been deallocated from certification \'{$a}\'.';
+$string['notificationmsgfooter'] = 'You can find all your certifications on your <a href="{$a}">Dashboard</a>';
 $string['notificationsubjectcertificationcompleted'] = 'Certification \'{$a}\' completed';
 $string['notificationsubjectcertificationuserallocated'] = 'Allocated to certification \'{$a}\'';
 $string['notificationsubjectcertificationuserdeallocated'] = 'Deallocated from certification \'{$a}\'';
@@ -218,7 +242,10 @@ $string['onorafter'] = 'on or after';
 $string['onorbefore'] = 'on or before';
 $string['open'] = 'Open';
 $string['outcomeallocation'] = 'Allocate users to certifications';
-$string['outcomeallocationdescription'] = 'Allocate users to certification {$a}';
+$string['outcomeallocationdescription'] = 'Allocate users to certification {$a}<br />
+Keep certification default start date';
+$string['outcomeallocationdescriptionwithdate'] = 'Allocate users to certification {$a->certificationname}<br />
+Certification start date: \'{$a->startdate}\'';
 $string['outcomedeallocation'] = 'Deallocate users from certifications';
 $string['outcomedeallocationdescription'] = 'Deallocate users from certification {$a}';
 $string['overdue'] = 'Overdue';
@@ -356,3 +383,4 @@ $string['userstatus'] = 'Status';
 $string['userstatus_help'] = 'Suspended status will hide this certification from this user whereas Default status will show it.';
 $string['viewcertificationuserlog'] = 'Certification activity log';
 $string['warningcertificationprogram'] = 'Warning: Once a certification is created this setting will no longer be editable.';
+$string['withstartdate'] = 'With start date';

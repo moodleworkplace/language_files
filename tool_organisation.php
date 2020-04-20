@@ -25,12 +25,23 @@ $string['conditioncanallocateprograms'] = 'Can allocate to programs';
 $string['conditioncanreceivenotifications'] = 'Can receive notifications';
 $string['conditioncanviewreports'] = 'Can view reports';
 $string['conditionuserdepartment'] = 'User is in department';
-$string['conditionuserdepartmentdescription'] = 'User is allocated to department \'{$a}\'';
-$string['conditionuserdepartmentdescriptionnegated'] = 'User is not allocated to department \'{$a}\'';
+$string['conditionuserdepartmentdescription'] = 'User is allocated to department \'{$a->deptname}\'<br />
+Sub-departments: {$a->subdeptsinclude}';
+$string['conditionuserdepartmentdescriptionnegated'] = 'User is not allocated to department \'{$a->deptname}\'<br />
+Sub-departments: {$a->subdeptsinclude}';
+$string['conditionuserdepartmentdescriptionwithdate'] = 'User is allocated to department \'{$a->deptname}\'<br />
+Sub-departments: {$a->subdeptsinclude}<br />
+On or after: {$a->conditiondate}';
+
 $string['conditionusernotindepartment'] = 'User is not in department';
 $string['conditionuserposition'] = 'User has position';
-$string['conditionuserpositiondescription'] = 'User has position \'{$a}\'';
-$string['conditionuserpositiondescriptionnegated'] = 'User doesn\'t have position \'{$a}\'';
+$string['conditionuserpositiondescription'] = 'User has position \'{$a->posname}\'<br />
+Sub-positions: {$a->subposinclude}';
+$string['conditionuserpositiondescriptionnegated'] = 'User doesn\'t have position \'{$a->posname}\'<br />
+Sub-positions: {$a->subposinclude}';
+$string['conditionuserpositiondescriptionwithdate'] = 'User has position \'{$a->posname}\'<br />
+Sub-positions: {$a->subposinclude}<br />
+On or after: {$a->conditiondate}';
 $string['conditionuserwithoutposition'] = 'User doesn\'t have position';
 $string['delete'] = 'Delete';
 $string['deletedepartment'] = 'Delete department \'{$a}\'';
@@ -120,6 +131,7 @@ $string['notificationcannotcreatejobs'] = 'Before assigning jobs to users, creat
 $string['onlycurrent'] = 'Only current';
 $string['onlyfuture'] = 'Only future';
 $string['onlypast'] = 'Only past';
+$string['onorafter'] = 'on or after';
 $string['organisation:allocateuserstoprogramcertificationsdept'] = 'Allocate users to programs/certifications';
 $string['organisation:allocateuserstoprogramcertificationsdept_help'] = 'Department manager: Allocate users to programs/certifications';
 $string['organisation:allocateuserstoprogramcertificationsglob'] = 'Allocate users to programs/certifications';
