@@ -5,6 +5,7 @@ $string['actiondisableenrolmentremoveroles'] = 'Disable enrolment and remove rol
 $string['actionunenrol'] = 'Unenrol user from course';
 $string['duration'] = 'Duration';
 $string['dynamicrule:config'] = 'Configure dynamicrule enrol instances';
+$string['dynamicrule:unenrol'] = 'Unenrol users';
 $string['enddate'] = 'End date';
 $string['errorinvalidaction'] = 'Invalid action';
 $string['errorinvalidcoursetoenrol'] = 'Invalid course to enrol';
