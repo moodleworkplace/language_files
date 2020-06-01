@@ -43,7 +43,7 @@ Enrolment start date on or after: \'{$a->conditiondate}\'';
 $string['conditionuserlastlogin'] = 'User last login';
 $string['conditionuserlastlogindescriptionbefore'] = 'Users who last logged in over {$a} ago';
 $string['conditionuserlastlogindescriptionever'] = 'Users who have logged in at least once';
-$string['conditionuserlastlogindescriptioninlast'] = 'Users who last logged in the last {$a}';
+$string['conditionuserlastlogindescriptioninlast'] = 'Users who logged in during the last {$a}';
 $string['conditionuserlastlogindescriptionnever'] = 'Users who have never logged in';
 $string['conditionusernotenrolled'] = 'User not enrolled';
 $string['conditionusernotenrolleddescription'] = 'Users who are not enrolled in course \'{$a->course}\'<br />

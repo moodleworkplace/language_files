@@ -46,4 +46,22 @@ $string['resetstatus'] = 'Reset status';
 $string['timerequested'] = 'Time requested';
 $string['timereseted'] = 'Time reset';
 $string['userrequested'] = 'User who requested';
+$string['viewlicense'] = 'View license';
 $string['wascompleted'] = 'Was completed';
+$string['workplacelicense'] = 'Moodle Workplace™ Code is dual-licensed under the terms of both the single GNU General Public Licence version 3.0, dated 29 June 2007 ("GPL") and the terms of the proprietary Moodle Workplace Licence ("MWL") strictly controlled by Moodle Pty Ltd and its certified premium partners. Wherever conflicting terms exist, the terms of the MWL are binding and shall prevail.
+
+The Moodle® open software package governed by GPL is subject to copyright protection from 1999 onwards by Martin Dougiamas with portions contributed/copyrighted by other contributors. It can be freely downloaded at "download.moodle.org". Such Moodle® open software and corresponding documentation are distributed in the hope that they will be useful, but without any warranty; without even the implied warranty of merchantability or fitness for a particular purpose.
+
+By accessing Moodle Workplace™ that is governed by the MWL you agree that you have signed an MWL with Moodle Pty Ltd ensuring (among other things) that you:
+
+- will not possess the Moodle Workplace™ Code without being subject to the terms of the MWL;
+- will cease using Moodle Workplace™ and immediately delete all copies of the Moodle Workplace™ Code from your servers and any computers under your control if you are no longer a client of a Moodle Certified Premium Partner. You must confirm this in writing to Moodle within 7 days of such event occurring;
+- will not distribute copies of Moodle Workplace™ Code to any third party not a party to the MWL that you have signed and you must indemnify Moodle for any loss suffered by Moodle due to failure by you to comply with the MWL;
+- agree that any improvements to Moodle Workplace™ Code must be explicitly shared with Moodle Pty Ltd and its certified premium partners, with such rights in the improvements assigned to Moodle Pty Ltd thereby allowing Moodle Pty Ltd full rights to include such improvements in future versions of Moodle Workplace™ Code.
+- indemnify and hold both Moodle Pty Ltd and its certified premium partners harmless for any damages, fines, penalties, or other liability arising out of any data input by you and your end users.
+
+Moodle Workplace™ websites may include a tracking pixel for statistical purposes and compliance monitoring. No personal data is collected or processed, only the site URL.
+
+This is a summary only: for the full terms of the MWL please refer to the MWL you have signed.';
+$string['workplacelicenseheader'] = 'Moodle Workplace license';
+$string['workplacelicensenotagreed'] = 'Sorry, you can not view this contents until the site administrator agrees to the Moodle Workplace license.';
