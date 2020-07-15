@@ -20,7 +20,7 @@ $string['cachedef_mytenant'] = 'Information about the current tenant';
 $string['cachedef_tenants'] = 'Tenants list';
 $string['cannotarchivetenant'] = 'Cannot archive the default tenant.';
 $string['category'] = 'Course category';
-$string['category_help'] = 'Tenant administrators will be automatically assigned \'Tenant manager\' role in this course category, they be able to create courses, assign roles, etc.
+$string['category_help'] = 'Tenant administrators will be automatically assigned \'Tenant administrator in course category\' role in this course category, they will be able to create courses, assign roles, etc.
 All tenant users will be automatically assigned \'Tenant user\' role in this category.<br><br>Only categories on the top level can be selected as Tenant categories.<br>
 If \'New category\' is selected, a category with the same name as the Tenant name will be created.';
 $string['categorynameexist'] = 'Category with the name \'{$a}\' already exists on top level. Please select this category or choose another name';
@@ -118,7 +118,7 @@ $string['tenant:managetheme'] = 'Manage theme settings for the current tenant';
 $string['tenant:manageusers'] = 'Add and edit users for the current tenant';
 $string['tenantadmin'] = 'Tenant administrator';
 $string['tenantadmincapabilitieslimit'] = 'Capabilities that are not compatible with Multi-tenancy are not listed here. <a href="{$a}">More info</a>';
-$string['tenantadmindescription'] = 'The workplace tenant administrator role. Assigned automatically to the tenant admin in the system context.';
+$string['tenantadmindescription'] = 'The workplace tenant administrator role. Assigned automatically to the tenant administrators in the system context.';
 $string['tenantadministration'] = 'Tenant administration';
 $string['tenantadministrator'] = 'This user is a tenant administrator';
 $string['tenantcategorycapabilitieslimit'] = 'Only capabilities that can be set in the course category context are listed here';
@@ -132,8 +132,8 @@ $string['tenantlimitreached'] = 'Tenant limit reached';
 $string['tenantlimitreached1'] = 'Multi-tenancy feature is not enabled on this site';
 $string['tenantlimitreachedmult'] = 'You can only create {$a} tenants on this site. Please note that archived tenants are also counted towards this limit';
 $string['tenantlimitunlimited'] = 'Unlimited';
-$string['tenantmanager'] = 'Tenant manager';
-$string['tenantmanagerdescription'] = 'The workplace tenant manager role. Assigned automatically to the tenant admin in the context on their course category.';
+$string['tenantmanager'] = 'Tenant administrator in course category';
+$string['tenantmanagerdescription'] = 'The second workplace tenant administrator role. Assigned automatically to the tenant administrators in the context on their course category.';
 $string['tenantnotfound'] = 'Tenant not found';
 $string['tenants'] = 'Tenants';
 $string['tenantuser'] = 'Tenant user';
