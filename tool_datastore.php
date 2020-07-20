@@ -1,12 +1,5 @@
 <?php
 $string['datastore:uploadcoursecompletion'] = 'Upload course completion to datastore';
-$string['datastoreenabled'] = 'Enable data store';
-$string['datastoreenabled_desc'] = 'Allow start tracking the user actions in the data store tables';
-$string['datastorefieldscourse'] = 'Fields of course entity to store';
-$string['datastorefieldscourser_desc'] = 'Enter field names separated with a comma (,).';
-$string['datastorefieldsuser'] = 'Fields of user entity to store';
-$string['datastorefieldsuser_desc'] = 'Enter field names separated with a comma (,).';
-$string['datastoresettings'] = 'Data store settings';
 $string['entitycourse'] = 'Data store course';
 $string['entityuser'] = 'Data store user';
 $string['pluginname'] = 'Data store';
