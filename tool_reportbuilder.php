@@ -113,6 +113,7 @@ $string['error:mustselectsource'] = 'You must select a report source.';
 $string['errormanageschedules'] = 'You don\'t have permission to manage schedules';
 $string['errormissingreportsource'] = 'Couldn\'t find configured report source';
 $string['errornorecipients'] = 'You must select some recipients for this schedule';
+$string['errorunavailablereportsource'] = 'Configured report source is not available';
 $string['eventreportcreated'] = 'Report created';
 $string['eventreportdeleted'] = 'Report deleted';
 $string['eventreportschedulecreated'] = 'Report schedule created';

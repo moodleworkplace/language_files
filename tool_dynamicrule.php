@@ -62,6 +62,7 @@ $string['confirmeditrule'] = 'Since some users matched this rule in the past, yo
 $string['confirmenablecomponentrule'] = 'Are you sure you want to enable this rule? Enabling it will affect {$a} users.';
 $string['confirmenablerule'] = 'Conditions will be locked when at least one user is affected by this rule. Are you sure you want to enable this rule?';
 $string['countmatchingusers'] = '{$a} total matches';
+$string['coursecompletiondate'] = 'Completion date';
 $string['courseinternalid'] = 'Internal course ID used in URLs';
 $string['courseurl'] = 'Course URL';
 $string['date'] = 'Date';
