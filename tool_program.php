@@ -317,6 +317,7 @@ $string['programdisplay'] = 'Program display';
 $string['programduedate'] = 'Program due date';
 $string['programfullname'] = 'Program name';
 $string['programfullname_help'] = 'The name of the program is displayed on the Dashboard and in the list of programs.';
+$string['programhidden'] = 'This program is hidden';
 $string['programidnumber'] = 'Program ID number';
 $string['programidnumber_help'] = 'The ID number of a program is only used when matching the program against external systems and is not displayed anywhere on the site. If the program has an official code name it may be entered, otherwise the field can be left blank.';
 $string['programimage'] = 'Program image';
