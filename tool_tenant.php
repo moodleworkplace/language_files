@@ -115,6 +115,7 @@ $string['siteshortname'] = 'Site short name';
 $string['siteshortname_help'] = 'Allows to overwrite the the default short name of the site for users from this tenant';
 $string['suspenduser'] = 'Suspend user';
 $string['suspendusers'] = 'Suspend users';
+$string['switchedto'] = 'You have switched to tenant \'{$a}\'';
 $string['switchtenant'] = 'Switch tenant';
 $string['tenant'] = 'Tenant';
 $string['tenant:allocate'] = 'Allocate users to all tenants';
