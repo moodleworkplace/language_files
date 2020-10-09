@@ -140,6 +140,7 @@ $string['description'] = 'Description';
 $string['directallocationdisabled'] = 'Direct allocation to this program is disabled';
 $string['displaycompletedcourses'] = 'Courses completed in program';
 $string['displaycompletiondate'] = 'Program completion date';
+$string['displayprogramduedate'] = 'Program due date';
 $string['displayprogramid'] = 'Internal program ID used in URLs';
 $string['displayprogramname'] = 'Program name';
 $string['duedate'] = 'Due date';

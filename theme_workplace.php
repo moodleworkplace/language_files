@@ -1,4 +1,6 @@
 <?php
+$string['blockmyoverviewhideprogramcourses'] = 'Hide program courses from the "Course overview" block';
+$string['blockmyoverviewhideprogramcoursesdesc'] = 'Do not display courses in the "Course overview" block on the Dashboard when a learner is only enrolled into them through programs. This will help to avoid courses being displayed twice when programs are displayed separately, especially in the Mobile app.';
 $string['branding:name'] = 'Moodle Workplace';
 $string['branding:poweredby'] = 'Powered by';
 $string['choosereadme'] = 'Welcome to Workplace.';

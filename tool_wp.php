@@ -86,6 +86,9 @@ $string['exportcoursecontent_help'] = 'This includes everything in the course ex
 The exported file will contain the same settings as those set as default on this site when creating a standard course backup. No user data will be included.';
 $string['exported'] = 'Exported';
 $string['exporter'] = 'Exporter';
+$string['exportercreatefrom'] = 'Create export from';
+$string['exportercreatefrom_help'] = 'This option allows you to define whether you want to export entities from the whole site, or only those associated with the current tenant';
+$string['exportercreatefromcurrenttenant'] = 'Current tenant';
 $string['exporterdesc'] = 'Issued certificates and templates';
 $string['exporterdescription'] = 'Courses without user data, using default course backup configuration';
 $string['exporterdescriptioncategories'] = 'Course categories and subcategories';
@@ -308,6 +311,7 @@ $string['viewexport'] = 'View export';
 $string['viewimport'] = 'View import';
 $string['viewlicense'] = 'View license';
 $string['wascompleted'] = 'Was completed';
+$string['willbeimported'] = 'Will be imported';
 $string['workplacelicense'] = 'Moodle Workplace™ Code is dual-licensed under the terms of both the single GNU General Public Licence version 3.0, dated 29 June 2007 ("GPL") and the terms of the proprietary Moodle Workplace Licence ("MWL") strictly controlled by Moodle Pty Ltd and its certified premium partners. Wherever conflicting terms exist, the terms of the MWL are binding and shall prevail.
 
 The Moodle® open software package governed by GPL is subject to copyright protection from 1999 onwards by Martin Dougiamas with portions contributed/copyrighted by other contributors. It can be freely downloaded at "download.moodle.org". Such Moodle® open software and corresponding documentation are distributed in the hope that they will be useful, but without any warranty; without even the implied warranty of merchantability or fitness for a particular purpose.
