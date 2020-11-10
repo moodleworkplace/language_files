@@ -33,6 +33,7 @@ $string['audiencejobsempty'] = 'No jobs added';
 $string['audiences'] = 'Audiences';
 $string['basicinformation'] = 'Basic information';
 $string['cachedef_userreports'] = 'Custom reports that user can access';
+$string['canviewallreports'] = 'Can view all reports';
 $string['certificatesissues'] = 'Certificates issues';
 $string['certificatetemplates'] = 'Certificate templates';
 $string['checkboxanyvalue'] = 'Any value';
