@@ -6,6 +6,7 @@ $string['branding:poweredby'] = 'Powered by';
 $string['choosereadme'] = 'Welcome to Workplace.';
 $string['courseheaderimage'] = 'Course header image';
 $string['ends'] = 'Ends';
+$string['global'] = 'Global';
 $string['launcher_tooltip'] = 'Toggle workplace launcher';
 $string['logininstructions'] = 'Login instructions';
 $string['nocourses'] = 'No courses';

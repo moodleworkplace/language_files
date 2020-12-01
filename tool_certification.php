@@ -64,6 +64,7 @@ $string['certificationstatus'] = 'Certification status';
 $string['certificationstatus_help'] = 'Status of the current certification';
 $string['certificationtags'] = 'Certification tags';
 $string['certificationtags_help'] = 'Tags for this certification';
+$string['certificationtenant'] = 'Certification tenant';
 $string['certificationuserlog'] = '{$a} activity log';
 $string['certificationuserlogempty'] = 'There are no event logs for this user certification.';
 $string['certificationuserlogfilename'] = '{$a->user} activity log {$a->certification}';
