@@ -183,6 +183,8 @@ $string['tenant:manage'] = 'Manage the addition and editing of tenants';
 $string['tenant:managetheme'] = 'Manage theme settings for the current tenant';
 $string['tenant:manageusers'] = 'Add and edit users for the current tenant';
 $string['tenantadmin'] = 'Tenant administrator';
+$string['tenantadminalreadyassigned'] = '{$a} user(s) skipped as they already have the tenant administrator role';
+$string['tenantadminalreadyunassigned'] = '{$a} user(s) skipped as they do not have the tenant administrator role';
 $string['tenantadmincapabilitieslimit'] = 'Capabilities that are not compatible with Multi-tenancy are not listed here. <a href="{$a}">More info</a>';
 $string['tenantadmindescription'] = 'The workplace tenant administrator role. Assigned automatically to the tenant administrators in the system context.';
 $string['tenantadministration'] = 'Tenant administration';

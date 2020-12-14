@@ -242,6 +242,7 @@ $string['nothing'] = 'Nothing';
 $string['nothingtoexport'] = 'Nothing to export';
 $string['nothingtoimport'] = 'Nothing to import';
 $string['notpossible'] = 'Not possible';
+$string['numhour'] = '{$a} hour';
 $string['outcomes'] = 'Outcomes';
 $string['performanceinfo'] = 'Tab performance information (DB reads/writes: {$a->reads}/{$a->writes})';
 $string['pluginname'] = 'Workplace';

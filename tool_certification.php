@@ -252,13 +252,44 @@ $string['neverexpires'] = 'Never expires';
 $string['newcertification'] = 'New certification';
 $string['newvaluefor'] = 'New value for';
 $string['notavailable'] = 'Not available';
+$string['notificationcertification'] = 'This program is part of the certification \'{$a->certificationname}\'.<br /><br />';
+$string['notificationcertificationcompletedexpiry'] = '{$a->expirymessage}
+After {$a->reopendate} you will be able to retake the program \'{$a->recertificationprogram}\' to maintain your certification.<br /><br />';
+$string['notificationcertificationcompletedmanual'] = 'Hi {$a->userfullname},<br /><br />
+Congratulations on achieving certification in \'{$a->certificationname}\'!<br /><br />
+{$a->expirymessage}
+{$a->sitename}<br />
+{$a->siteurl}
+';
+$string['notificationcertificationcompletedprogram'] = 'Hi {$a->userfullname},<br /><br />
+Congratulations on completing the program \'{$a->programname}\'. You are now certified in \'{$a->certificationname}\'!<br /><br />
+You may revisit the courses within the program at any time. The full program can be found on your Dashboard under Completed programs.<br /><br />
+{$a->expirymessage}
+{$a->sitename}<br />
+{$a->siteurl}
+';
+$string['notificationcertificationdue'] = 'This program is part of the certification \'{$a->certificationname}\', which is due on {$a->duedate}.<br /><br />';
+$string['notificationcertificationuserallocated'] = 'Hi {$a->userfullname},<br /><br />
+Welcome to the program \'{$a->programname}\'.<br /><br />
+{$a->certmsg}<br /><br />
+{$a->sitename}<br />
+{$a->siteurl}
+';
+$string['notificationcertificationuserdeallocated'] = 'Hi {$a->userfullname},<br /><br />
+The program \'{$a->programname}\' has now closed and can no longer be accessed.<br /><br />
+{$a->sitename}<br />
+{$a->siteurl}
+';
+$string['notificationcertificationwillexpireon'] = 'Your certification will expire on {$a}.<br /><br />';
 $string['notificationmsgcertificationcompleted'] = 'Congratulations! You completed the certification \'{$a}\'.';
 $string['notificationmsgcertificationuserallocated'] = 'You have been allocated to certification \'{$a}\'.';
 $string['notificationmsgcertificationuserdeallocated'] = 'You have been deallocated from certification \'{$a}\'.';
 $string['notificationmsgfooter'] = 'You can find all your certifications on your <a href="{$a}">Dashboard</a>';
 $string['notificationsubjectcertificationcompleted'] = 'Certification \'{$a}\' completed';
-$string['notificationsubjectcertificationuserallocated'] = 'Allocated to certification \'{$a}\'';
-$string['notificationsubjectcertificationuserdeallocated'] = 'Deallocated from certification \'{$a}\'';
+$string['notificationsubjectcertificationcompletedmanual'] = 'Congratulations - \'{$a}\' certification!';
+$string['notificationsubjectcertificationcompletedprogram'] = 'Congratulations - \'{$a}\' complete!';
+$string['notificationsubjectcertificationuserallocated'] = 'Welcome to \'{$a}\'';
+$string['notificationsubjectcertificationuserdeallocated'] = '\'{$a}\' closed';
 $string['notset'] = 'Not set';
 $string['nousersselected'] = 'Please select at least one user';
 $string['ongoingcertificationslink'] = '<a href="{$a->href}">Ongoing certifications: {$a->count}</a>';

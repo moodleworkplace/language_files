@@ -180,6 +180,7 @@ $string['errorcantselfenrol'] = 'Can\'t self enrol';
 $string['errorcertificationnotfound'] = 'Certification not found';
 $string['errorcouldnotallocate'] = 'Could not allocate user \'{$a->originaluserfullname}\' to program \'{$a->program}\'';
 $string['errorduedatepreviousstartdate'] = 'Due date can not be before start date';
+$string['errorenddateisnotset'] = 'End date is not set';
 $string['errorenddatepreviousduedate'] = 'End date can not be before due date';
 $string['errorenddatepreviousstartdate'] = 'End date can not be before start date';
 $string['errorhelperactionnotallowed'] = 'Helper action not allowed';
@@ -201,6 +202,7 @@ $string['errorprogramnotfound'] = 'Program not found';
 $string['errorreporttypedoesnotexist'] = 'Report type does not exist';
 $string['errorsameidnumber'] = 'Program with the same ID number already exists';
 $string['errorsomeprogramsdontexist'] = 'Some programs do not exist';
+$string['errorstartdateisnotset'] = 'Program start date is not set';
 $string['errorusercantbeallocated'] = 'User can\'t be allocated';
 $string['eventcourseadded'] = 'Course added';
 $string['eventcourseremoved'] = 'Course removed';
@@ -279,13 +281,29 @@ $string['notarchived'] = 'Not archived';
 $string['notavailable'] = 'Not available';
 $string['notcompleted'] = 'Not completed';
 $string['notenrolledprograms_mobile'] = 'You\'re not enrolled into any program';
+$string['notificationduedate'] = 'This program is due on {$a}<br /><br />';
 $string['notificationmsgfooter'] = 'You can find all your programs on your <a href="{$a}">Dashboard</a>';
 $string['notificationmsgprogramcompleted'] = 'Congratulations! You completed the program \'{$a}\'.';
 $string['notificationmsgprogramuserallocated'] = 'You have been allocated to program \'{$a}\'.';
 $string['notificationmsgprogramuserdeallocated'] = 'You have been deallocated from program \'{$a}\'.';
-$string['notificationsubjectprogramcompleted'] = 'Program \'{$a}\' completed';
-$string['notificationsubjectprogramuserallocated'] = 'Allocated to program \'{$a}\'';
-$string['notificationsubjectprogramuserdeallocated'] = 'Deallocated from program \'{$a}\'';
+$string['notificationprogramcompleted'] = 'Hi {$a->userfullname},<br /><br />
+Congratulations on completing the program \'{$a->programname}\'!<br /><br />
+You may revisit the courses within the program at any time. The full program can be found on your Dashboard under Completed programs.<br /><br />
+{$a->sitename}<br />
+{$a->siteurl}
+';
+$string['notificationprogramuserallocated'] = 'Hi {$a->userfullname},<br /><br />
+Welcome to the program \'{$a->programname}\', which you can find on your Dashboard.<br /><br />
+{$a->duedatemsg}
+{$a->sitename}<br />
+{$a->siteurl}';
+$string['notificationprogramuserdeallocated'] = 'Hi {$a->userfullname},<br /><br />
+The program \'{$a->programname}\' has now closed and can no longer be accessed.<br /><br />
+{$a->sitename}<br />
+{$a->siteurl}';
+$string['notificationsubjectprogramcompleted'] = 'Congratulations - \'{$a}\' complete!';
+$string['notificationsubjectprogramuserallocated'] = 'Welcome to \'{$a}\'';
+$string['notificationsubjectprogramuserdeallocated'] = '\'{$a}\' closed';
 $string['notset'] = 'Not set';
 $string['notsuspended'] = 'Not suspended';
 $string['notvisible'] = 'Not visible';
