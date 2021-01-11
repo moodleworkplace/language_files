@@ -270,7 +270,7 @@ You may revisit the courses within the program at any time. The full program can
 ';
 $string['notificationcertificationdue'] = 'This program is part of the certification \'{$a->certificationname}\', which is due on {$a->duedate}.<br /><br />';
 $string['notificationcertificationuserallocated'] = 'Hi {$a->userfullname},<br /><br />
-Welcome to the program \'{$a->programname}\'.<br /><br />
+Welcome to the program \'{$a->programname}\', which you can find on your Dashboard.<br /><br />
 {$a->certmsg}<br /><br />
 {$a->sitename}<br />
 {$a->siteurl}
