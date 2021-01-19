@@ -26,6 +26,8 @@ Added to cohort on or after: \'{$a->conditiondate}\'';
 $string['conditioncohortnotmember'] = 'User is not member of cohort';
 $string['conditioncohortnotmemberdescription'] = 'Users who are not members of cohort \'{$a}\'';
 $string['conditioncoursecompleted'] = 'Course completed';
+$string['conditioncoursecompletedafter'] = 'Completion date after {$a}';
+$string['conditioncoursecompletedbefore'] = 'Completion date before {$a}';
 $string['conditioncoursecompleteddescription'] = 'Users who have completed course \'{$a}\'';
 $string['conditioncoursecompleteddescriptionwithdate'] = 'Users who have completed course \'{$a->coursename}\'<br />
 Completion date on or \'{$a->datetype}\': \'{$a->conditiondate}\'';
@@ -172,6 +174,7 @@ $string['noruleoutcomes'] = 'No actions on this rule';
 $string['onorafter'] = 'on or after';
 $string['operator'] = 'Condition';
 $string['operatorafter'] = 'After';
+$string['operatoranytime'] = 'Any time';
 $string['operatorbefore'] = 'Before';
 $string['outcomebadge'] = 'Award badge';
 $string['outcomebadgedescription'] = 'Award badge \'{$a}\' to users';
@@ -216,6 +219,7 @@ $string['rulematchfreqenable'] = 'Limit the number of times actions are applied 
 $string['rulename'] = 'Name';
 $string['rulenotfound'] = 'Rule was not found.';
 $string['ruleselectitemarchived'] = '{$a} (archived)';
+$string['scheduledtask'] = 'Scheduled task';
 $string['select'] = 'Select';
 $string['selectbadge'] = 'Select badge';
 $string['selectbadge_help'] = 'In order to be issued by dynamic rule, site badge needs to be enabled and has manual issue criteria added.';
