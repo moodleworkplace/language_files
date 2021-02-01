@@ -31,6 +31,7 @@ $string['audiencejobs'] = 'Jobs';
 $string['audiencejobs_help'] = 'Users can view this report if they belong to one of the selected jobs below';
 $string['audiencejobsempty'] = 'No jobs added';
 $string['audiences'] = 'Audiences';
+$string['authmethod'] = 'Authentication method';
 $string['availableinalltenants'] = 'Available in all tenants';
 $string['availableinalltenants_help'] = 'When enabled, users (with appropriate permissions) in all tenants will be able to view this report. Most report sources will automatically limit the displayed users and other entities (programs, certifications, courses) to those visible inside the tenant.';
 $string['basicinformation'] = 'Basic information';
