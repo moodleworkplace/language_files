@@ -3,7 +3,7 @@ $string['aboutthefile'] = 'About the file';
 $string['actions'] = 'Actions';
 $string['active'] = 'Active';
 $string['activeprograms'] = 'Active programs';
-$string['activeprogramslink'] = '<a href="{$a->href}">Active programs: {$a->count}</a>';
+$string['activeprogramslink'] = '<a href="{$a->href}">{$a->count} active programs</a>';
 $string['addcourses'] = 'Add courses';
 $string['addcourseslist'] = 'Select courses';
 $string['addcourseslist_help'] = 'One or more courses may be selected.';
@@ -78,7 +78,7 @@ $string['completeallinanyorder'] = 'Complete all in any order';
 $string['completeallinorder'] = 'Complete all in order';
 $string['completeatleast'] = 'Complete at least';
 $string['completed'] = 'Completed';
-$string['completedprogramslink'] = '<a href="{$a->href}">Completed programs: {$a->count}</a>';
+$string['completedprogramslink'] = '<a href="{$a->href}">{$a->count} completed programs</a>';
 $string['completion'] = 'Completion';
 $string['completion_help'] = 'Type of completion to apply to the set:
 
@@ -331,7 +331,7 @@ Program start date: \'{$a->startdate}\'';
 $string['outcomedeallocation'] = 'Deallocate users from programs';
 $string['outcomedeallocationdescription'] = 'Deallocate users from program \'{$a}\'';
 $string['overdue'] = 'Overdue';
-$string['overdueprogramslink'] = '<a href="{$a->href}">Overdue programs: {$a->count}</a>';
+$string['overdueprogramslink'] = '<a href="{$a->href}">{$a->count} overdue programs</a>';
 $string['parentname'] = 'Parent name';
 $string['pending'] = 'Pending';
 $string['pendingreasonhiddencourse'] = 'Some courses that are required to unlock this course are not available. Please contact the site administrator.';

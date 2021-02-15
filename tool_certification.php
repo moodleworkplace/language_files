@@ -70,7 +70,7 @@ $string['certificationuserlogempty'] = 'There are no event logs for this user ce
 $string['certificationuserlogfilename'] = '{$a->user} activity log {$a->certification}';
 $string['certified'] = 'Certified';
 $string['certifiedby'] = 'Certified by';
-$string['certifiedcertificationslink'] = '<a href="{$a->href}">Certified certifications: {$a->count}</a>';
+$string['certifiedcertificationslink'] = '<a href="{$a->href}">{$a->count} certified certifications</a>';
 $string['certifieddate'] = 'Certified date';
 $string['certifieddateisonorafter'] = 'Certified date on or after';
 $string['certifiednotification'] = 'User has been successfully certified';
@@ -198,7 +198,7 @@ $string['eventuserallocated'] = 'Was allocated to the certification';
 $string['eventuserdeallocated'] = 'User deallocated';
 $string['eventuserupdated'] = 'User allocation updated';
 $string['expired'] = 'Expired';
-$string['expiredcertificationslink'] = '<a href="{$a->href}">Expired certifications: {$a->count}</a>';
+$string['expiredcertificationslink'] = '<a href="{$a->href}">{$a->count} expired certifications</a>';
 $string['expireddateisonorafter'] = 'Expired date on or after';
 $string['expireson'] = 'expires on {$a}';
 $string['expirydate'] = 'Expiry date';
@@ -299,7 +299,7 @@ $string['notificationsubjectcertificationuserallocated'] = 'Welcome to \'{$a}\''
 $string['notificationsubjectcertificationuserdeallocated'] = '\'{$a}\' closed';
 $string['notset'] = 'Not set';
 $string['nousersselected'] = 'Please select at least one user';
-$string['ongoingcertificationslink'] = '<a href="{$a->href}">Ongoing certifications: {$a->count}</a>';
+$string['ongoingcertificationslink'] = '<a href="{$a->href}">{$a->count} ongoing certifications</a>';
 $string['open'] = 'Open';
 $string['outcomeallocation'] = 'Allocate users to certifications';
 $string['outcomeallocationdescription'] = 'Allocate users to certification {$a}<br />
@@ -309,7 +309,7 @@ Certification start date: \'{$a->startdate}\'';
 $string['outcomedeallocation'] = 'Deallocate users from certifications';
 $string['outcomedeallocationdescription'] = 'Deallocate users from certification {$a}';
 $string['overdue'] = 'Overdue';
-$string['overduecertificationslink'] = '<a href="{$a->href}">Overdue certifications: {$a->count}</a>';
+$string['overduecertificationslink'] = '<a href="{$a->href}">{$a->count} overdue certifications</a>';
 $string['pluginname'] = 'Certifications';
 $string['previewcertificationname'] = 'Certification name preview';
 $string['previouscertexpirydate'] = 'Previous certification expiry date';
