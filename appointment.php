@@ -484,20 +484,15 @@ This is to advise that [firstname] [lastname] is no longer signed-up for the fol
 ';
 $string['setting:defaultcancellationmessage'] = 'Default cancellation message sent to the user.';
 $string['setting:defaultcancellationmessage_caption'] = 'Cancellation message';
-$string['setting:defaultcancellationmessagedefault'] = 'This is to advise that your booking on the following appointment has been cancelled:
-
-***BOOKING CANCELLED***
-
-Participant:   [firstname] [lastname]
-Appointment:   [appointmentname]
-
-Date(s):
-[alldates]
-
-Location:   [session:location]
-Venue:   [session:venue]
-Room:   [session:room]
-';
+$string['setting:defaultcancellationmessagedefault'] = 'This is to advise that your booking on the following appointment has been cancelled:<br><br>
+***BOOKING CANCELLED***<br><br>
+Participant:   [firstname] [lastname]<br>
+Appointment:   [appointmentname]<br><br>
+Date(s):<br>
+[alldates]<br><br>
+Location:   [session:location]<br>
+Venue:   [session:venue]<br>
+Room:   [session:room]';
 $string['setting:defaultcancellationsubject'] = 'Default subject line for cancellation emails.';
 $string['setting:defaultcancellationsubject_caption'] = 'Cancellation subject';
 $string['setting:defaultcancellationsubjectdefault'] = 'Appointment booking cancellation';
@@ -513,27 +508,21 @@ If you are not their Team Leader / Manager and believe you have received this em
 ';
 $string['setting:defaultconfirmationmessage'] = 'Default confirmation message sent to users.';
 $string['setting:defaultconfirmationmessage_caption'] = 'Confirmation message';
-$string['setting:defaultconfirmationmessagedefault'] = 'This is to confirm that you are now booked on the following appointment:
-
-Participant:   [firstname] [lastname]
-Appointment:   [appointmentname]
-
-Date(s):
-[alldates]
-
-Location:   [session:location]
-Venue:   [session:venue]
-Room:   [session:room]
-
-***Please arrive ten minutes before the appointment starts***
-
-To re-schedule or cancel your booking
-To re-schedule your booking you need to cancel this booking and then re-book a new session.  To cancel your booking, return to the appointment page, and then select \'Cancel\'.
-
-[details]
-
-You will receive a reminder [reminderperiod] business days before this appointment.
-';
+$string['setting:defaultconfirmationmessagedefault'] = '
+This is to confirm that you are now booked on the following appointment:<br><br>
+Participant:   [firstname] [lastname]<br>
+Appointment:   [appointmentname]<br><br>
+Date(s):<br>
+[alldates]<br><br>
+Location:   [session:location]<br>
+Venue:   [session:venue]<br>
+Room:   [session:room]<br><br>
+***Please arrive ten minutes before the appointment starts***<br><br>
+To re-schedule or cancel your booking<br>
+To re-schedule your booking you need to cancel this booking and then re-book a new session.<br>
+To cancel your booking, return to the appointment page, and then select \'Cancel\'.<br><br>
+[details]<br><br>
+You will receive a reminder [reminderperiod] business days before this appointment.<br><br>';
 $string['setting:defaultconfirmationsubject'] = 'Default subject line for confirmation emails.';
 $string['setting:defaultconfirmationsubject_caption'] = 'Confirmation subject';
 $string['setting:defaultconfirmationsubjectdefault'] = 'Appointment booking confirmation: [appointmentname], [starttime]-[finishtime], [sessiondate]';
@@ -549,25 +538,19 @@ If you are not their Team Leader / Manager and believe you have received this em
 ';
 $string['setting:defaultremindermessage'] = 'Default reminder message sent to users.';
 $string['setting:defaultremindermessage_caption'] = 'Reminder message';
-$string['setting:defaultremindermessagedefault'] = 'This is a reminder that you are booked on the following appointment:
-
-Participant:   [firstname] [lastname]
-Appointment:   [appointmentname]
-
-Date(s):
-[alldates]
-
-Location:   [session:location]
-Venue:   [session:venue]
-Room:   [session:room]
-
-***Please arrive ten minutes before the appointment starts***
-
-To re-schedule or cancel your booking
-To re-schedule your booking you need to cancel this booking and then re-book a new session.  To cancel your booking, return to appointment page, and then select \'Cancel\'.
-
-[details]
-';
+$string['setting:defaultremindermessagedefault'] = 'This is a reminder that you are booked on the following appointment:<br><br>
+Participant:   [firstname] [lastname]<br>
+Appointment:   [appointmentname]<br><br>
+Date(s):<br>
+[alldates]<br><br>
+Location:   [session:location]<br>
+Venue:   [session:venue]<br>
+Room:   [session:room]<br><br>
+***Please arrive ten minutes before the appointment starts***<br><br>
+To re-schedule or cancel your booking<br>
+To re-schedule your booking you need to cancel this booking and then re-book a new session.<br>
+To cancel your booking, return to appointment page, and then select \'Cancel\'.<br><br>
+[details]';
 $string['setting:defaultremindersubject'] = 'Default subject line for reminder emails.';
 $string['setting:defaultremindersubject_caption'] = 'Reminder subject';
 $string['setting:defaultremindersubjectdefault'] = 'Appointment booking reminder: [appointmentname], [starttime]-[finishtime], [sessiondate]';
@@ -604,18 +587,13 @@ $string['setting:defaultrequestsubjectdefault'] = 'Appointment booking request: 
 $string['setting:defaultvalue'] = 'Default value';
 $string['setting:defaultwaitlistedmessage'] = 'Default wait-listed confirmation sent to users.';
 $string['setting:defaultwaitlistedmessage_caption'] = 'Wait-listed confirmation';
-$string['setting:defaultwaitlistedmessagedefault'] = 'This is to advise that you have been added to the waitlist for:
-
-Appointment:   [appointmentname]
-Location:  [session:location]
-Participant:   [firstname] [lastname]
-
-***Please note this is not a appointment booking confirmation***
-
-By waitlisting you have registered your interest in this appointment and will be contacted directly when sessions become available.
-
-To remove yourself from this waitlist please return to this appointment and click Cancel. Please note there is no waitlist removal confirmation email.
-';
+$string['setting:defaultwaitlistedmessagedefault'] = 'This is to advise that you have been added to the waitlist for:<br><br>
+Appointment:   [appointmentname]<br>
+Location:  [session:location]<br>
+Participant:   [firstname] [lastname]<br><br>
+***Please note this is not a appointment booking confirmation***<br><br>
+By waitlisting you have registered your interest in this appointment and will be contacted directly when sessions become available.<br><br>
+To remove yourself from this waitlist please return to this appointment and click Cancel. Please note there is no waitlist removal confirmation email.';
 $string['setting:defaultwaitlistedsubject'] = 'Default subject line for wait-listed emails.';
 $string['setting:defaultwaitlistedsubject_caption'] = 'Wait-listed subject';
 $string['setting:defaultwaitlistedsubjectdefault'] = 'Waitlisting advice for [appointmentname]';
