@@ -240,6 +240,7 @@ $string['reportlimitreachedsite'] = 'The maximum number of custom reports for th
 $string['reportlimitreachedtenant'] = 'You can only create {$a} custom report(s) on this site. Please remove some reports or contact an administrator';
 $string['reportlimitreachedtitle'] = 'Report limit reached';
 $string['reportlists'] = 'System report for report lists';
+$string['reportliveeditingdisabled'] = 'Data pre-visualization is disabled by the site administrator<br />Click on the "Preview" button to see the report content';
 $string['reportname'] = 'Report name';
 $string['reportname_help'] = 'Enter a name for the report';
 $string['reportschedules'] = 'System report for schedules list';

@@ -92,6 +92,7 @@ $string['changemanageremailaddress'] = 'Change manager email address';
 $string['changemanageremailinstruction'] = 'Please enter the email address for your current manager below.';
 $string['clearall'] = 'Clear all';
 $string['closed'] = 'Closed';
+$string['completionbooked'] = 'Student must book an appointment to complete this activity';
 $string['confirm'] = 'Confirm';
 $string['confirmation'] = 'Confirmation';
 $string['confirmationinstrmngr'] = '# Notice for manager';
