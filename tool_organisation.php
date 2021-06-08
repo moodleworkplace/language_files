@@ -15,6 +15,8 @@ $string['anyposition'] = 'Any';
 $string['assfirstchildof'] = 'As the first child of \'{$a}\'';
 $string['audienceand'] = 'And';
 $string['audiencecustomise'] = 'Customise...';
+$string['audiencejobdescription'] = 'Users in department: {$a->department}<br />
+With position: {$a->position}';
 $string['audienceor'] = 'Or';
 $string['audienceselect'] = 'Relation to the report viewer';
 $string['audienceselectinitial'] = 'Select audience';
