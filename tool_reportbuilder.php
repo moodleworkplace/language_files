@@ -4,6 +4,7 @@ $string['actions'] = 'Actions';
 $string['addacondition'] = 'Add a condition...';
 $string['addafilter'] = 'Add a filter...';
 $string['addaudience'] = 'Add audience';
+$string['addaudiences'] = 'Add an audience to this report';
 $string['addcolumn'] = 'Add column';
 $string['adddefault'] = 'Add default configuration';
 $string['adddefault_help'] = 'Each report source also defines default columns, conditions and filters. If you want to create the report using these defaults, select this field';
