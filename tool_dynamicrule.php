@@ -242,6 +242,7 @@ $string['subject'] = 'Subject';
 $string['taskprocessrules'] = 'Process rules';
 $string['timeadded'] = 'Added to cohort on or after this date and time';
 $string['timecompleted'] = 'Completion date and time is on or after';
+$string['timecreated'] = 'Created';
 $string['timeenrolled'] = 'Enrolment start date and time is on or after';
 $string['toomanybadgestoshow'] = 'Too many badges to show';
 $string['toomanycertificatestoshow'] = 'Too many certificates ({$a}) to show';
