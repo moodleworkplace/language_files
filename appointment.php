@@ -587,6 +587,23 @@ Venue:   [session:venue]
 Room:   [session:room]
 ';
 $string['setting:defaultrequestsubjectdefault'] = 'Appointment booking request: [appointmentname], [starttime]-[finishtime]';
+$string['setting:defaultupdatemessage'] = 'Default update message sent to users.';
+$string['setting:defaultupdatemessage_caption'] = 'Update message';
+$string['setting:defaultupdatemessagedefault'] = '
+This is to inform you that appointment you booked or joined waitlist has changed:<br><br>
+Participant:   [firstname] [lastname]<br>
+Appointment:   [appointmentname]<br><br>
+Date(s):<br>
+[alldates]<br><br>
+Location:   [session:location]<br>
+Venue:   [session:venue]<br>
+Room:   [session:room]<br><br>
+***Please note this is not a appointment booking confirmation***<br><br>
+To cancel your booking or place in waitlist, return to the appointment page, and then select \'Cancel\'.<br><br>
+[details]<br><br>';
+$string['setting:defaultupdatesubject'] = 'Default subject line for update emails.';
+$string['setting:defaultupdatesubject_caption'] = 'Update subject';
+$string['setting:defaultupdatesubjectdefault'] = 'Appointment update: [appointmentname], [starttime]-[finishtime], [sessiondate]';
 $string['setting:defaultvalue'] = 'Default value';
 $string['setting:defaultwaitlistedmessage'] = 'Default wait-listed confirmation sent to users.';
 $string['setting:defaultwaitlistedmessage_caption'] = 'Wait-listed confirmation';
@@ -681,6 +698,8 @@ $string['timestart_help'] = 'Start time is the time when the session begins.';
 $string['unapprovedrequests'] = 'Unapproved Requests';
 $string['unknowndate'] = '(unknown date)';
 $string['unknowntime'] = '(unknown time)';
+$string['updatemessage'] = 'Update message';
+$string['updatemessage_help'] = 'This message is sent out whenever session is changed.';
 $string['updaterequests'] = 'Update requests';
 $string['upgradeprocessinggrades'] = 'Processing Appointment grades, this may take a while if there are many sessions...';
 $string['usercalentry'] = 'Show entry on user\'s calendar';
