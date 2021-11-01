@@ -38,6 +38,8 @@ Completion date on or \'{$a->datetype}\': \'{$a->conditiondate}\'';
 $string['conditioncoursenotcompleted'] = 'Course not completed';
 $string['conditioncoursenotcompleteddescription'] = 'Users who have not completed course \'{$a}\'';
 $string['conditioncoursenotcompletedformnotice'] = 'This condition is applied to users regardless of their enrolment on the course.';
+$string['conditioncriteria'] = 'Criteria';
+$string['conditioncriterianotavailableyet'] = 'Not available yet';
 $string['conditionisbroken'] = 'This condition contains an error.';
 $string['conditionisnotavailable'] = 'This condition is not available.';
 $string['conditionnotsaved'] = 'Condition is not saved.';
