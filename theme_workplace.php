@@ -18,6 +18,7 @@ $string['rawscsspre'] = 'Raw initial SCSS';
 $string['rawscsspre_desc'] = 'In this field you can provide initialising SCSS code, it will be injected before everything else. Most of the time you will use this setting to define variables.';
 $string['recentlyaccessedcourses'] = 'Recently accessed courses';
 $string['region-side-pre'] = 'Right';
+$string['shareyourexperience'] = 'Share your experience with Moodle Workplace';
 $string['tablabel'] = 'More';
 $string['wpdashboard'] = 'Workplace dashboard';
 $string['wpdashboardlearning'] = 'Enable Learning tab on Dashboard';

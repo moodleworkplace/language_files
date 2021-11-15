@@ -328,4 +328,5 @@ $string['userpicture'] = 'User picture';
 $string['usersuspended'] = 'Registration suspended';
 $string['userviewreportas'] = 'View report data as';
 $string['userviewreportas_help'] = 'The report data will be included as if viewed by the selected user. If left empty, the current user will be used as default';
+$string['userviewreportasnotice'] = 'Report may contain data from all tenants';
 $string['viewreports'] = 'Report builder';
