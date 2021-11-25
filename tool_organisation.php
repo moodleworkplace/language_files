@@ -17,6 +17,8 @@ $string['audienceand'] = 'And';
 $string['audiencecustomise'] = 'Customise...';
 $string['audiencejobdescription'] = 'Users in department: {$a->department}<br />
 With position: {$a->position}';
+$string['audiencemanager'] = 'Managers';
+$string['audiencemanagerdescription'] = 'Permissions: {$a->permissions}';
 $string['audienceor'] = 'Or';
 $string['audienceselect'] = 'Relation to the report viewer';
 $string['audienceselectinitial'] = 'Select audience';

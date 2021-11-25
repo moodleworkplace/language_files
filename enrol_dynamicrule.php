@@ -32,7 +32,11 @@ Group: {$a->groupname}<br />
 End date: {$a->enddate}';
 $string['outcomecourseunenrol'] = 'Unenrol users from a course';
 $string['outcomecourseunenroldescription'] = 'Unenrol from course \'{$a->coursename}\'<br />
-Action: \'{$a->action}\'';
+Action: {$a->action}';
+$string['outcomecourseunenroldescriptionwithmethod'] = 'Unenrol from course \'{$a->coursename}\'<br />
+Enrolment methods: {$a->enrol}<br />
+Action: {$a->action}';
 $string['pluginname'] = 'Dynamic rules';
 $string['privacy:metadata'] = 'The Dynamic rules plugin does not store any personal data about any user.';
 $string['selectcourse'] = 'Select course';
+$string['userwithoutcapability'] = 'You must have capability to unenrol methods \'{$a}\' in selected course';
