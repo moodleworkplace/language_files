@@ -26,7 +26,10 @@ $string['audienceself'] = 'Themselves';
 $string['audienceusersall'] = 'All users';
 $string['audienceusersdept'] = 'In the same department as the report viewer';
 $string['audienceusersreporting'] = 'Reports to the report viewer';
-$string['audienceusersreporting_help'] = 'Include users who report directly to the report viewer (who should have a manager position themself)';
+$string['audienceusersreporting_help'] = 'Include users who report to the report viewer (who should have a manager position themselves)
+
+A direct report is a managed user in a position that is a direct child of the managers position';
+$string['audienceusersreportingdirect'] = 'Direct reports only';
 $string['cachedef_myjob'] = 'Job of current user and their team';
 $string['conditioncanallocateprograms'] = 'Can allocate to programs';
 $string['conditioncanreceivenotifications'] = 'Can receive notifications';
