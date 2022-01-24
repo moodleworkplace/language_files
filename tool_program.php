@@ -161,6 +161,7 @@ $string['default'] = 'Default';
 $string['deleteuserallocation'] = 'Delete user allocation';
 $string['description'] = 'Description';
 $string['directallocationdisabled'] = 'Direct allocation to this program is disabled';
+$string['display'] = 'Display';
 $string['displaycompletedcourses'] = 'Courses completed in program';
 $string['displaycompletiondate'] = 'Program completion date';
 $string['displayprogramduedate'] = 'Program due date';
