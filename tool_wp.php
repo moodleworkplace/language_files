@@ -70,6 +70,7 @@ $string['errorcoursessameshortname'] = 'Courses with the same shortname already 
 $string['errorcustomfielddoesnotexist'] = 'Custom field does not exist, could not import data \'{$a}\'';
 $string['errorcustomfieldnotfound'] = 'Custom field field instance not found';
 $string['errorcustomfieldnotfounddetail'] = 'Custom field \'{$a}\' not found';
+$string['errornegativenumber'] = 'You must enter a non-negative number here.';
 $string['eventcoursemodulereset'] = 'Course module reset for individual user';
 $string['eventcoursereset'] = 'Course reset for individual user';
 $string['eventexportcreated'] = 'Export created';
