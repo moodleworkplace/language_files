@@ -128,8 +128,20 @@ $string['confirmdeleteuserallocation'] = 'Are you sure you want to completely de
 $string['confirmduplicate'] = 'A copy will be made including program content and schedule but excluding users. The program ID number field will be removed.';
 $string['confirmrecalculateprogress'] = 'Normally if program settings are changed after some students have already completed the program, their program remains in the \'Completed\' status even if they no longer satisfy completion requirements. This action allows you to reset and recalculate the program completion. This will not affect any program courses or linked certifications.
 <br />This action can not be undone. Are you sure you want to continue?';
-$string['confirmresetprogress'] = 'Are you sure you want to reset the progress of \'{$a}\'? By doing so, all completion data will be lost. This action could take some minutes to be completed and can not be undone.';
-$string['confirmresetusersprogramusers'] = 'This action will reset the program for all the selected users. By doing so, all completion data will be lost. This action could take some minutes to be completed and can not be undone.';
+$string['confirmresetprogress'] = 'Are you sure you want to reset the progress of \'{$a}\'? This action will:<br /><br />
+<ul>
+<li>reset the program</li>
+<li>reset all courses inside this program</li>
+<li>remove all completion data</li>
+</ul>
+This action could take some minutes to be completed and can not be undone.';
+$string['confirmresetusersprogramusers'] = 'For all the selected users, this action will:<br /><br />
+<ul>
+<li>reset the program</li>
+<li>reset all courses inside this program</li>
+<li>remove all completion data</li>
+</ul>
+This action could take some minutes to be completed and can not be undone.';
 $string['containscourse'] = 'Contains course';
 $string['content'] = 'Content';
 $string['continue'] = 'Continue';
