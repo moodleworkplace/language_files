@@ -21,6 +21,7 @@ $string['certificate_customfield'] = 'Certificate custom fields';
 $string['certificatecopy'] = '{$a} (copy)';
 $string['certificateimages'] = 'Certificate images';
 $string['certificates'] = 'Certificates';
+$string['certificatesettings'] = 'Certificates settings';
 $string['certificatesissued'] = 'Certificates issued';
 $string['certificatesissues'] = 'Certificates issues';
 $string['certificatetemplate'] = 'Certificate template';
@@ -96,12 +97,22 @@ $string['invalidwidth'] = 'The width has to be a valid number greater than 0.';
 $string['issuecertificates'] = 'Issue certificates';
 $string['issueddate'] = 'Date issued';
 $string['issuedon'] = 'Issued on';
+$string['issuelang'] = 'Issue certificates in user language';
+$string['issuelangdesc'] = 'On multi-lingual sites when user language is different from the site language the certificates will be generated in the user\'s language, otherwise all certificates will be generated in the site default language.';
 $string['issuenewcertificate'] = 'Issue certificates from this template';
 $string['issuenewcertificates'] = 'Issue new certificates';
 $string['issuenotallowed'] = 'You are not allowed to issue certificates from this template.';
 $string['issueormangenotallowed'] = 'You are not allowed to issue certificates from or manage this template.';
 $string['leftmargin'] = 'Left margin';
 $string['leftmargin_help'] = 'This is the left margin of the certificate PDF in mm.';
+$string['linkedinorganizationid'] = 'LinkedIn organization id';
+$string['linkedinorganizationid_desc'] = 'The id of the LinkedIn organization issuing certificates.
+
+Where do I find my LinkedIn organization id?
+
+1.    Log in to LinkedIn as the admin for your business\' Organisation Page
+2.    Check the URL used when you are logged in as the admin. (The URL should resemble "https://linkedin.com/company/xxxxxxx/admin")
+3.    Your LinkedIn organization id will be the seven-digit number in the URL (Shown as "xxxxxxx" in the step above)';
 $string['manageelementplugins'] = 'Manage certificate element plugins';
 $string['managetemplates'] = 'Manage certificate templates';
 $string['mappingerrorcertificateheader'] = 'Some certificate templates do not exist';
@@ -155,6 +166,9 @@ $string['selectcertificate'] = 'Select certificate';
 $string['selectdate'] = 'Select date';
 $string['selectuserstoissuecertificatefor'] = 'Select users to issue certificate to';
 $string['shared'] = 'Shared';
+$string['shareonlinkedin'] = 'Share on LinkedIn';
+$string['show_shareonlinkedin'] = 'Show share on LinkedIn';
+$string['show_shareonlinkedin_desc'] = 'If the "Share on LinkedIn" button should be shown on the my certificates page';
 $string['subplugintype_certificateelement_plural'] = 'Element plugins';
 $string['timecreated'] = 'Time created';
 $string['toomanycertificatestoshow'] = 'Too many certificates ({$a}) to show';
