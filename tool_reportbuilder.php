@@ -277,6 +277,7 @@ $string['sortingtab'] = 'Sorting';
 $string['subject'] = 'Subject';
 $string['tabletab'] = 'Table';
 $string['teststring2'] = 'Test string 2';
+$string['timecreated'] = 'Time created';
 $string['userconfirmed'] = 'Registration confirmed';
 $string['userpicture'] = 'User picture';
 $string['usersuspended'] = 'Registration suspended';
