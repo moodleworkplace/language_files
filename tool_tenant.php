@@ -36,6 +36,8 @@ $string['category_help'] = 'Tenant administrators will be automatically assigned
 All tenant users will be automatically assigned \'Tenant user\' role in this category.<br><br>Only categories on the top level can be selected as Tenant categories.<br>
 If \'New category\' is selected, a category with the same name as the Tenant name will be created.';
 $string['categorynameexist'] = 'Category with the name \'{$a}\' already exists on top level. Please select this category or choose another name';
+$string['categorynameexistws'] = 'Category with the name \'{$a}\' already exists on top level. Please change tenant name or create it with no category';
+$string['categorynotfound'] = 'Category not found or isn\'t on top level';
 $string['categorytaken'] = 'This category is assigned to another tenant.';
 $string['changesite'] = 'Change site';
 $string['chooseexistingcategory'] = 'Choose an existing category';
@@ -90,6 +92,7 @@ $string['enrolinseparategroups'] = 'This course may be shared with other tenants
 $string['enrolwithoutgroups'] = 'Users from other tenants may be enrolled in this course and be able to see each other because this course is not in separate groups mode';
 $string['errorcannotallocate'] = 'Cannot allocate to tenant';
 $string['errorinvalidtenant'] = 'Invalid tenant \'{$a}\'';
+$string['errornewcategorytenant'] = 'Parameters \'autocreatecategory\' and \'categoryid\' can not be used together';
 $string['errortenantarchived'] = 'This tenant has been archived';
 $string['errortenantnotfound'] = 'This tenant does not exist';
 $string['errorurlnotavailable'] = 'At least one Login URL must be available.';
