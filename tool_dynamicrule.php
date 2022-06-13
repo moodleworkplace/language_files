@@ -170,6 +170,8 @@ $string['importlogsuccess'] = 'Created new rule \'{$a->name}\' with {$a->conditi
 $string['importlogsuccesslink'] = 'Created new rule \'<a href="{$a->url}">{$a->name}</a>\' with {$a->conditionscount} conditions and {$a->outcomescount} actions';
 $string['importselectall'] = 'Select all Dynamic rules in this file';
 $string['importselectspecified'] = 'Select manually...';
+$string['includesuspendedusers'] = 'Include suspended users';
+$string['includesuspendedusers_help'] = 'If checked, the rule will evaluate the conditions also against the users whose accounts were suspended on this site. It will then try to apply the actions to all the matched users. Keep in mind that some actions may not apply fully for suspended users, for example, they never receive notifications.';
 $string['lastlogin'] = 'The user\'s last login was';
 $string['lastlogin_help'] = 'You can select a date relative to the current date or users who have never logged in.';
 $string['limitreached'] = 'Dynamic rules limit reached';
@@ -266,6 +268,7 @@ $string['sitelink'] = 'Site link';
 $string['siteplaceholders'] = 'Site placeholders';
 $string['siteshortname'] = 'Site short name';
 $string['subject'] = 'Subject';
+$string['suspendedusers'] = 'Also apply to suspended users';
 $string['taskprocessrules'] = 'Process rules';
 $string['timeadded'] = 'Added to cohort on or after this date and time';
 $string['timecompleted'] = 'Completion date and time is on or after';
