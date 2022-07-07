@@ -45,12 +45,10 @@ $string['becamecertified'] = 'Became certified ({$a})';
 $string['beforepreviouscertexpdate'] = 'before previous certification expiry date';
 $string['calendarduedate'] = 'Due date for certification {$a}';
 $string['calendarexpirydate'] = 'Expiry date for certification {$a}';
-$string['cannotallocateuser'] = 'Cannot allocate user to certitication {$a}';
 $string['certification'] = 'Certification';
 $string['certification:allocateuser'] = 'Permission to allocate user';
 $string['certification:configurecustomfields'] = 'Configure certifications custom fields';
 $string['certification:edit'] = 'Permission to edit';
-$string['certification:view'] = 'Permission to view';
 $string['certificationfullname'] = 'Certification full name';
 $string['certificationfullname_help'] = 'Certification full name';
 $string['certificationidnumber'] = 'Certification ID number';
@@ -73,7 +71,7 @@ $string['certified'] = 'Certified';
 $string['certifiedby'] = 'Certified by';
 $string['certifiedcertificationslink'] = '<a href="{$a->href}">{$a->count} certified certifications</a>';
 $string['certifieddate'] = 'Certified date';
-$string['certifieddateisonorafter'] = 'Certified date on or after';
+$string['certifieddateisonorafter'] = 'Certification date is on or after';
 $string['certifiednotification'] = 'User has been successfully certified';
 $string['certifiedtype'] = 'Certified type';
 $string['certify'] = 'Certify';
@@ -82,33 +80,35 @@ $string['certifyexpirydate_help'] = 'Select an expiry date for this certified us
 $string['certifyuser'] = 'Certify user';
 $string['completedtheprogram'] = 'Completed the program {$a}';
 $string['conditioncertificationcertified'] = 'Certification certified';
-$string['conditioncertificationcertifieddescriptionallwithdate'] = 'Users who have status Certified in all of the following certifications: \'{$a->fullname}\'<br />
-Certified date is on or after \'{$a->conditiondate}\'';
-$string['conditioncertificationcertifieddescriptionanywithdate'] = 'Users who have status Certified in at least one of the following certifications: \'{$a->fullname}\'<br />
-Certified date is on or after \'{$a->conditiondate}\'';
+$string['conditioncertificationcertifieddescription'] = 'Users who are certified in certification \'{$a->fullname}\'';
+$string['conditioncertificationcertifieddescriptionall'] = 'Users who are certified in all of the following certifications: \'{$a->fullname}\'';
+$string['conditioncertificationcertifieddescriptionallwithdate'] = 'Users who are certified in all of the following certifications: \'{$a->fullname}\'<br />
+Certification date is on or after \'{$a->conditiondate}\'';
+$string['conditioncertificationcertifieddescriptionany'] = 'Users who are certified in at least one of the following certifications: \'{$a->fullname}\'';
+$string['conditioncertificationcertifieddescriptionanywithdate'] = 'Users who are certified in at least one of the following certifications: \'{$a->fullname}\'<br />
+Certification date is on or after \'{$a->conditiondate}\'';
 $string['conditioncertificationcertifieddescriptiononrecert'] = 'Execute for each re-certification';
 $string['conditioncertificationcertifieddescriptionstatusonly'] = 'Execute only on status change';
-$string['conditioncertificationcertifieddescriptionwithdate'] = 'Users who have status Certified in certification \'{$a->fullname}\'<br />
-Certified date is on or after \'{$a->conditiondate}\'';
+$string['conditioncertificationcertifieddescriptionwithdate'] = 'Users who are certified in certification \'{$a->fullname}\'<br />
+Certification date is on or after \'{$a->conditiondate}\'';
 $string['conditioncertificationcertifiedonrecert'] = 'Always execute actions on all re-certifications';
 $string['conditioncertificationcertifiedonrecert_help'] = 'This will effectively change the condition to <b>"User is certified and the re-certification period is not open"</b>. This will ensure that the user is marked as "unmatched" when re-certification opens, and the actions are executed for them again on program completion, even if they continue to be certified all the time.';
 $string['conditioncertificationcertifiedstatusonly'] = 'Only execute actions when the user status changes from "not certified" to "certified"';
 $string['conditioncertificationcertifiedstatusonly_help'] = 'In this case the actions may or may not be executed on re-certification, depending on whether the previous certification has expired or not. To make sure that actions are <b>never</b> executed during re-certification, consider setting the "Rule action limit" in the rule settings.';
 $string['conditioncertificationexpired'] = 'Certification expired';
-$string['conditioncertificationexpireddescriptionwithdate'] = 'Users who have status Expired in certification \'{$a->fullname}\'<br />
-Expired date is on or after \'{$a->conditiondate}\'';
+$string['conditioncertificationexpireddescription'] = 'Users whose certification \'{$a}\' has expired';
+$string['conditioncertificationexpireddescriptionwithdate'] = 'Users whose certification \'{$a->fullname}\' has expired <br />
+Expiry date is on or after \'{$a->conditiondate}\'';
 $string['conditioncertificationnotcertified'] = 'Certification not certified';
+$string['conditioncertificationnotcertifieddescription'] = 'Users who are not certified in certification \'{$a}\'';
 $string['conditioncertificationoverdue'] = 'Certification overdue';
-$string['conditioncertificationoverduedescriptionwithdate'] = 'Users who have status Overdue in certification \'{$a->fullname}\'<br />
+$string['conditioncertificationoverduedescription'] = 'Users who are overdue in certification \'{$a}\'';
+$string['conditioncertificationoverduedescriptionwithdate'] = 'Users who are overdue in certification \'{$a->fullname}\'<br />
 Due date is on or after \'{$a->conditiondate}\'';
-$string['conditioncertificationstatus'] = 'Certification status';
-$string['conditioncertificationstatusdescription'] = 'Users who have status \'{$a->status}\' in certification \'{$a->fullname}\'';
-$string['conditioncertificationstatusdescriptionall'] = 'Users who have status \'{$a->status}\' in all of the following certifications: \'{$a->fullname}\'';
-$string['conditioncertificationstatusdescriptionany'] = 'Users who have status \'{$a->status}\' in at least one of the following certifications: \'{$a->fullname}\'';
-$string['conditioncertificationstatusdescriptionnegated'] = 'Users who do not have status \'{$a->status}\' in certification \'{$a->fullname}\'';
 $string['conditioncertificationsuspended'] = 'Certification suspended';
-$string['conditioncertificationsuspendeddescriptionwithdate'] = 'Users who have status Suspended in certification \'{$a->fullname}\'<br />
-Suspended date is on or after \'{$a->conditiondate}\'';
+$string['conditioncertificationsuspendeddescription'] = 'Users who are suspended in certification \'{$a}\'';
+$string['conditioncertificationsuspendeddescriptionwithdate'] = 'Users who are suspended in certification \'{$a->fullname}\'<br />
+Suspension date is on or after \'{$a->conditiondate}\'';
 $string['conditionrecertificationgraceperiod'] = 'Recertification grace period ends';
 $string['conditionrecertificationgraceperiodendsdescription'] = 'Users whose grace period ends in certification \'{$a->fullname}\'';
 $string['conditionrecertificationgraceperiodendsdescriptionwithdate'] = 'Users whose grace period ends in certification \'{$a->fullname}\'<br />
@@ -129,7 +129,6 @@ $string['confirmdeletecertification'] = 'Are you sure you want to delete the cer
 $string['confirmdeleteuserallocation'] = 'Are you sure you want to completely delete allocation of user \'{$a}\' and associated data? This action can not be undone.';
 $string['confirmduplicate'] = 'A copy of the certification configuration will be created and you will be able to change the program and other properties. No user allocations will be carried over to the copy';
 $string['content'] = 'Content';
-$string['coursebackups'] = 'Course backups (without user data)';
 $string['criteriaall'] = 'All of the selected certifications have been certified';
 $string['criteriaany'] = 'At least one of the selected certifications is certified';
 $string['criteriaany_help'] = 'When a user has already been certified in one of the certifications, certifying in the second certification does not trigger the actions again';
@@ -142,6 +141,7 @@ $string['dayssinceallocation'] = 'Days since allocation';
 $string['daystakingcertification'] = 'Days taking certification';
 $string['deallocateusers'] = 'De-allocate users';
 $string['default'] = 'Default';
+$string['deleteallocation'] = 'Delete allocation';
 $string['deleteuserallocation'] = 'Delete user allocation';
 $string['displaycertificationdate'] = 'Certification date';
 $string['displaycertificationduedate'] = 'Certification due date';
@@ -162,6 +162,7 @@ $string['dynamic'] = 'Dynamic';
 $string['dynamicrules'] = 'Dynamic rules';
 $string['dynamicrulesplugincheck'] = 'Viewing the list of dynamic rules is impossible without plugin tool_dynamicrules';
 $string['dynamicrulewarningdeallocation'] = 'Users can only be unallocated if they were allocated by another dynamic rule, manual allocations will not be affected.';
+$string['editallocation'] = 'Edit allocation';
 $string['editcertification'] = 'Edit certification \'{$a}\'';
 $string['editcertificationname'] = 'Edit certification name';
 $string['editcertificationsettings'] = 'Edit certification settings';
@@ -176,12 +177,10 @@ $string['errorallocatinguserintorelatedprogram'] = 'Can\'t allocate user into re
 $string['errorallocationsourcenotfound'] = 'Allocation source not found';
 $string['erroralreadycertified'] = 'User already certified in this certification with this start date.';
 $string['errorcannotallocate'] = 'Unable to allocate user to certification (allocation already exists or is not permitted)';
-$string['errorcantallocateuser'] = 'Can\'t allocate user';
 $string['errorcantdeletecertification'] = 'Can\'t delete certification';
 $string['errorcantdeletenotarchivedcertification'] = 'Can\'t delete a not archived certification';
 $string['errorcantmanageusers'] = 'Can\'t manage users';
 $string['errorcantrestorecertification'] = 'Can\'t restore certification';
-$string['errorcertificationnotvisiblecurrentuser'] = 'Certification is not visible to the current user based on the certification tenant';
 $string['errorcertificationsdontexist'] = 'Some certifications do not exist';
 $string['errorcouldnotallocate'] = 'Could not allocate user \'{$a->originaluserfullname}\' to certification \'{$a->certification}\'';
 $string['errorevaluatinguserallocationstatus'] = 'Error evaluating user allocation status';
@@ -189,12 +188,10 @@ $string['errorexpirydatepreviousduedate'] = 'Expiry date can not be before due d
 $string['erroridnumberuniquetenant'] = 'This ID number is already used in another certification';
 $string['errorinvalidcertification'] = 'Invalid certification';
 $string['errorinvaliddate'] = 'Invalid date';
-$string['errorinvalidexpirydate'] = 'Invalid date in certificationcertifyexpire';
 $string['errorinvalidpastexpirydate'] = 'Expiry date cannot be in the past';
 $string['errorinvalidpaststartdate'] = 'Start date cannot be in the past';
 $string['errorinvalidtimecertified'] = 'Time certified cannot be in future.';
 $string['errormissingassociatedprogram'] = 'Missing associated program';
-$string['errormustnotcontainsharedcertifications'] = 'Must not contain shared certifications';
 $string['errornopermissionallocateusers'] = 'No permission to allocate users to certification';
 $string['errornopermissioncertifyuser'] = 'This user can\'t be marked as certified because either they are already marked as certified or you don\'t have permission to perform this action';
 $string['errornopermissionmanagecertifications'] = 'No permission to manage certifications';
@@ -224,8 +221,6 @@ $string['expirydate'] = 'Expiry date';
 $string['expirydate_help'] = 'Expiry date for the certification';
 $string['export_content'] = 'Settings';
 $string['export_content_help'] = 'Certifications, names, descriptions, dates, tags, etc.';
-$string['export_course_backups'] = 'Course backups (without user data)';
-$string['export_course_backups_help'] = 'Backups from all courses added to these certifications.';
 $string['export_dynamic_rules'] = 'Dynamic rules';
 $string['export_dynamic_rules_help'] = 'All dynamic rules configuration for these certifications';
 $string['export_programs'] = 'Associated programs';
@@ -239,8 +234,6 @@ $string['gotocertification'] = 'Go to certification';
 $string['idnumber'] = 'ID number';
 $string['import_content'] = 'Settings';
 $string['import_content_help'] = 'Certifications, names, descriptions, dates, tags, etc.';
-$string['import_course_backups'] = 'Course backups (without user data)';
-$string['import_course_backups_help'] = 'Import backup courses into these programs.';
 $string['import_dynamic_rules'] = 'Dynamic rules';
 $string['import_dynamic_rules_help'] = 'All dynamic rules configuration for these programs.';
 $string['import_programs'] = 'Associated programs';
@@ -307,13 +300,8 @@ The program \'{$a->programname}\' has now closed and can no longer be accessed.<
 {$a->siteurl}
 ';
 $string['notificationcertificationwillexpireon'] = 'Your certification will expire on {$a}.<br /><br />';
-$string['notificationmsgcertificationcompleted'] = 'Congratulations! You completed the certification \'{$a}\'.';
-$string['notificationmsgcertificationuserallocated'] = 'You have been allocated to certification \'{$a}\'.';
-$string['notificationmsgcertificationuserdeallocated'] = 'You have been deallocated from certification \'{$a}\'.';
-$string['notificationmsgfooter'] = 'You can find all your certifications on your <a href="{$a}">Dashboard</a>';
 $string['notificationsubjectcertificationcompleted'] = 'Certification \'{$a}\' completed';
 $string['notificationsubjectcertificationcompletedmanual'] = 'Congratulations - \'{$a}\' certification!';
-$string['notificationsubjectcertificationcompletedprogram'] = 'Congratulations - \'{$a}\' complete!';
 $string['notificationsubjectcertificationuserallocated'] = 'Welcome to \'{$a}\'';
 $string['notificationsubjectcertificationuserdeallocated'] = '\'{$a}\' closed';
 $string['notset'] = 'Not set';
@@ -376,11 +364,6 @@ $string['recertstartdatewarning'] = 'On this date the recertification program wi
 $string['reg_wpcertifications'] = 'Number of certifications ({$a})';
 $string['reportactivecerts'] = 'System report for active certifications';
 $string['reportarchivedcerts'] = 'System report for archived certifications';
-$string['reportbuilderactivecertifications'] = 'Viewing the list of active certifications is impossible without plugin tool_reportbuilder';
-$string['reportbuilderarchivedcertifications'] = 'Viewing the list of archived certifications is impossible without plugin tool_reportbuilder';
-$string['reportbuilderdynamicrules'] = 'Viewing the list of dynamic rules is impossible without plugin tool_reportbuilder';
-$string['reportbuilderuserallocations'] = 'Viewing the list of user allocations is impossible without plugin tool_reportbuilder';
-$string['reportbuilderuserlist'] = 'Viewing the list of users is impossible without plugin tool_reportbuilder';
 $string['reportcertificationprogress'] = 'System report for certification progress';
 $string['reportcertsusers'] = 'System report for certification users';
 $string['reportusercerts'] = 'System report for user certification list';

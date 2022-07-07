@@ -3,7 +3,6 @@ $string['canntenrol'] = 'Enrolment is disabled or inactive';
 $string['canntenrolearly'] = 'You cannot enrol yet; enrolment starts on {$a}.';
 $string['canntenrollate'] = 'You cannot enrol any more, since enrolment ended on {$a}.';
 $string['canntenrollocked'] = 'You can not enrol, this course is locked.';
-$string['enrolme'] = 'Enrol me';
 $string['pluginname'] = 'Program enrolment';
 $string['privacy:metadata'] = 'The Program enrolment plugin does not store any personal data about any user.';
 $string['program:config'] = 'Configure Program enrolment instances';

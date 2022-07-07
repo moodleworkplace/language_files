@@ -1,5 +1,10 @@
 <?php
+$string['columncompletionreaggregate'] = 'Time reaggregated';
+$string['columncompletiontimecompleted'] = 'Time completed';
+$string['columncompletiontimeenrolled'] = 'Time enrolled';
+$string['columncompletiontimestarted'] = 'Time started';
 $string['datastore:uploadcoursecompletion'] = 'Upload course completion to datastore';
+$string['entitycompletion'] = 'Data store completion';
 $string['entitycourse'] = 'Data store course';
 $string['entityuser'] = 'Data store user';
 $string['pluginname'] = 'Data store';
@@ -20,3 +25,4 @@ $string['privacy:metadata:tool_datastore_action'] = 'Information about the store
 $string['privacy:metadata:tool_datastore_entity'] = 'Information about entities related to each action';
 $string['privacy:metadata:tool_datastore_idx_fields'] = 'Information about fields related to each entity';
 $string['reg_wpdatastorerecords'] = 'Number of records in datastore ({$a})';
+$string['reportcoursecompletion'] = 'Course completion from datastore';

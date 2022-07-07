@@ -8,7 +8,6 @@ $string['courseheaderimage'] = 'Course header image';
 $string['ends'] = 'Ends';
 $string['global'] = 'Global';
 $string['launcher_tooltip'] = 'Toggle workplace launcher';
-$string['logininstructions'] = 'Login instructions';
 $string['nocourses'] = 'No courses';
 $string['pluginname'] = 'Workplace';
 $string['privacy:metadata'] = 'The Workplace theme does not store any personal data about any user.';
