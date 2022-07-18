@@ -32,6 +32,7 @@ $string['appointmentcustomfields'] = 'Appointment custom fields';
 $string['appointmentname'] = 'Appointment name';
 $string['appointments'] = 'Appointments';
 $string['appointmentsession'] = 'Appointment session';
+$string['appointmentsessiondates'] = 'Appointment session dates';
 $string['appointmentsessions'] = 'Appointment sessions';
 $string['appointmentsettings'] = 'Appointment settings';
 $string['approvalreqd'] = 'Approval required';
@@ -201,6 +202,7 @@ $string['seatsbooked'] = 'Seats booked';
 $string['sessionavailability'] = 'Session availability';
 $string['sessiondatetime'] = 'Session date/time';
 $string['sessiondescription'] = 'Description';
+$string['sessionduration'] = 'Session duration';
 $string['sessionfinished'] = 'Finished';
 $string['sessionfinishtime'] = 'Session finish time';
 $string['sessioninprogress'] = 'session in progress';
@@ -214,6 +216,7 @@ $string['sessionstartdateandtimewithouttimezone'] = '{$a->startdate}, {$a->start
 $string['sessionstartfinishdateandtime'] = '{$a->startdate} - {$a->enddate}, {$a->starttime} - {$a->endtime} (time zone: {$a->timezone})';
 $string['sessionstartfinishdateandtimewithouttimezone'] = '{$a->startdate} - {$a->enddate}, {$a->starttime} - {$a->endtime}';
 $string['sessionstarttime'] = 'Session start time';
+$string['sessionstatus'] = 'Session status';
 $string['setting:defaultcancellationmessagedefault'] = 'This is to advise that your booking on the following appointment has been cancelled:<br><br>
 ***BOOKING CANCELLED***<br><br>
 Participant:   [firstname] [lastname]<br>
