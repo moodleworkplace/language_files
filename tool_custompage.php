@@ -1,6 +1,7 @@
 <?php
 $string['access'] = 'Access';
 $string['audience'] = 'Audience';
+$string['cachedef_user_allowed_pages'] = 'User allowed pages according to audience';
 $string['custompage:edit'] = 'Edit custom pages';
 $string['custompage:editall'] = 'Edit all custom pages';
 $string['custompage:skipblockvalidation'] = 'Duplicate custom page blocks without validation';
