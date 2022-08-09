@@ -246,6 +246,7 @@ $string['tenantadmincapabilitieslimit'] = 'Capabilities that are not compatible 
 $string['tenantadmindescription'] = 'The workplace tenant administrator role. Assigned automatically to the tenant administrators in the system context.';
 $string['tenantadministration'] = 'Tenant administration';
 $string['tenantadministrator'] = 'This user is a tenant administrator';
+$string['tenantadmins'] = 'Tenant administrators';
 $string['tenantavailability'] = 'Edit tenant availability';
 $string['tenantavailabilityfor'] = 'Tenant availability for \'{$a}\'';
 $string['tenantcategorycapabilitieslimit'] = 'Only capabilities that can be set in the course category context are listed here';

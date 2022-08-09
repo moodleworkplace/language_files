@@ -18,6 +18,7 @@ $string['coursecoverhelpmultiprogram']  = 'This course is part of some programs'
 $string['coursecoverhelptext'] = '<ul><li>This is just one course inside larger programs</li><li>New courses could be available after completing this one</li></ul>';
 $string['coursedisplayduelimit'] = 'Show days left for courses';
 $string['coursedisplayduelimit_desc'] = 'Amount of days from which users will see a small reminder (X days left) next to the course name. For example, if set to 14, the reminder will be visible during the 14 days before the course reaches its conclusion date. In the case of many different conclusion dates, the system will evaluate which one is the next closest one. Set to 0 to disable this functionality.';
+$string['coursefiles'] = 'Course files';
 $string['courseimage_help'] = 'The course image.';
 $string['coursenotavailable'] = 'Course not available';
 $string['courses'] = 'Courses';

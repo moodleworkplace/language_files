@@ -1,7 +1,9 @@
 <?php
 $string['access'] = 'Access';
+$string['allsiteadmin'] = 'Site or tenant administrators';
 $string['audience'] = 'Audience';
 $string['cachedef_user_allowed_pages'] = 'User allowed pages according to audience';
+$string['categoryrole'] = 'Assigned category role';
 $string['custompage:edit'] = 'Edit custom pages';
 $string['custompage:editall'] = 'Edit all custom pages';
 $string['custompage:skipblockvalidation'] = 'Duplicate custom page blocks without validation';
@@ -53,6 +55,7 @@ $string['privacy:metadata:page:title'] = 'The title of the page';
 $string['privacy:metadata:page:usercreated'] = 'The ID of the user who created the page';
 $string['privacy:metadata:page:usermodified'] = 'The ID of the user who last modified the page';
 $string['privacy:metadata:page:weight'] = 'The weight of the page';
+$string['siteadmin'] = 'Site administrators';
 $string['tenantpage'] = 'Tenant page';
 $string['title'] = 'Title in navigation';
 $string['title_help'] = 'If specified, the text in the primary navigation can be changed here';
