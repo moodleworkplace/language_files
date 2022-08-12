@@ -26,6 +26,7 @@ $string['errorpagelist'] = 'You cannot view the list of pages';
 $string['errorpagepreview'] = 'You cannot preview this page';
 $string['errorpageview'] = 'You cannot view this page';
 $string['globalpage'] = 'Global page';
+$string['myteamspagename'] = 'My teams';
 $string['name'] = 'Name';
 $string['name_help'] = 'The name will be used as the page heading and as the text in the primary navigation';
 $string['newpage'] = 'New page';

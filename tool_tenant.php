@@ -305,5 +305,6 @@ $string['usersunassignedtenantadminsuccess'] = 'Removed {$a} users(s) from the l
 $string['usersunsuspendedfail'] = '{$a} user(s) not found or could not be unsuspended';
 $string['usersunsuspendedsuccess'] = '{$a} user(s) unsuspended';
 $string['usersuspendedsuccess'] = 'User suspended successfully';
+$string['usertenant'] = 'User tenant';
 $string['userunsuspendedsuccess'] = 'User unsuspended successfully';
 $string['viewusers'] = 'Manage tenant \'{$a}\'';
