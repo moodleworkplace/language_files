@@ -239,6 +239,7 @@ $string['tenant:manage'] = 'Manage the addition and editing of tenants';
 $string['tenant:managedashboard'] = 'Manage dashboard settings for the current tenant';
 $string['tenant:managetheme'] = 'Manage theme settings for the current tenant';
 $string['tenant:manageusers'] = 'Add and edit users for the current tenant';
+$string['tenant:mobileconfig'] = 'Edit tenant mobile settings';
 $string['tenantadmin'] = 'Tenant administrator';
 $string['tenantadminalreadyassigned'] = '{$a} user(s) skipped as they are already tenant administrators';
 $string['tenantadminalreadyunassigned'] = '{$a} user(s) skipped as they are not tenant administrators';
