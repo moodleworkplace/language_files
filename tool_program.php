@@ -311,12 +311,12 @@ $string['notenrolledprograms_mobile'] = 'You\'re not enrolled into any program';
 $string['notificationduedate'] = 'This program is due on {$a}<br /><br />';
 $string['notificationprogramcompleted'] = 'Hi {$a->userfullname},<br /><br />
 Congratulations on completing the program \'{$a->programname}\'!<br /><br />
-You may revisit the courses within the program at any time. The full program can be found on your Dashboard under Completed programs.<br /><br />
+You may revisit the courses within the program at any time. The full program can be found on your \'My courses\' page.<br /><br />
 {$a->sitename}<br />
 {$a->siteurl}
 ';
 $string['notificationprogramuserallocated'] = 'Hi {$a->userfullname},<br /><br />
-Welcome to the program \'{$a->programname}\', which you can find on your Dashboard.<br /><br />
+Welcome to the program \'{$a->programname}\', which you can find on your \'My courses\' page.<br /><br />
 {$a->duedatemsg}
 {$a->sitename}<br />
 {$a->siteurl}';
@@ -407,6 +407,7 @@ $string['programtenant'] = 'Program tenant';
 $string['programuserallocations'] = 'Program user allocations';
 $string['programvisibility'] = 'Program visibility';
 $string['programvisibility_help'] = 'This setting determines whether the program is shown on a user\'s Dashboard and whether they can access it.';
+$string['progress'] = '{$a} completed';
 $string['progressoverview'] = 'Progress overview';
 $string['progresspercent'] = 'Progress';
 $string['progressreport'] = 'Progress report';

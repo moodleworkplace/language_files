@@ -74,3 +74,4 @@ $string['showmore'] = 'Show {$a} more...';
 $string['startcourse'] = 'Start course';
 $string['todo'] = 'To-do:';
 $string['trainers'] = 'Trainers';
+$string['xcourses'] = '{$a} courses';

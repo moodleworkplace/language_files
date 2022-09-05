@@ -282,14 +282,14 @@ Congratulations on achieving certification in \'{$a->certificationname}\'!<br />
 ';
 $string['notificationcertificationcompletedprogram'] = 'Hi {$a->userfullname},<br /><br />
 Congratulations on completing the program \'{$a->programname}\'. You are now certified in \'{$a->certificationname}\'!<br /><br />
-You may revisit the courses within the program at any time. The full program can be found on your Dashboard under Completed programs.<br /><br />
+You may revisit the courses within the program at any time. The full program can be found on your \'My courses\' page.<br /><br />
 {$a->expirymessage}
 {$a->sitename}<br />
 {$a->siteurl}
 ';
 $string['notificationcertificationdue'] = 'This program is part of the certification \'{$a->certificationname}\', which is due on {$a->duedate}.<br /><br />';
 $string['notificationcertificationuserallocated'] = 'Hi {$a->userfullname},<br /><br />
-Welcome to the program \'{$a->programname}\', which you can find on your Dashboard.<br /><br />
+Welcome to the program \'{$a->programname}\', which you can find on your \'My courses\' page.<br /><br />
 {$a->certmsg}<br /><br />
 {$a->sitename}<br />
 {$a->siteurl}
@@ -341,6 +341,7 @@ $string['program'] = 'Program';
 $string['programchangewarning'] = 'Users who are currently taking this program will not be reallocated automatically. This can be done manually on per-user basis. The status of users who have already completed the program, or those who were manually marked as certified, will not change but they will be unallocated from the old program and no longer see it on their dashboard.';
 $string['programcourse'] = 'Program course';
 $string['programuserallocation'] = 'Program user allocation';
+$string['progress'] = '{$a} completed';
 $string['progressreport'] = 'Progress report';
 $string['recertdifferentprogram'] = 'Select a different program';
 $string['recertdifferentprogram_help'] = 'Select \'Yes\' if you want to choose a different program for the recertification than the one that is set as the initial program.';
