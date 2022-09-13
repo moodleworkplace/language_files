@@ -187,6 +187,7 @@ $string['fullname'] = 'User';
 $string['globalmanagementicons'] = 'Manager icons';
 $string['globalmanager'] = 'Manager';
 $string['globalmanager_help'] = 'A person with the manager job will be considered a manager of anyone in a lower position, regardless of their departments.';
+$string['hascurrentjobs'] = 'Has current jobs';
 $string['hasjobdepartment'] = 'Has job in department';
 $string['hasjobposition'] = 'Has job in position';
 $string['hierarchy'] = 'Hierarchy';
