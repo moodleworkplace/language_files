@@ -21,7 +21,3 @@ $string['region-side-pre'] = 'Right';
 $string['shareyourexperience'] = 'Share your experience with Moodle Workplace';
 $string['tablabel'] = 'More';
 $string['wpdashboard'] = 'Workplace dashboard';
-$string['wpdashboardlearning'] = 'Enable Learning tab on Dashboard';
-$string['wpdashboardlearningdesc'] = "Show the Learning tab on the Dashboard. The Learning tab replaces the Course overview block and shows a combined view of the learners' courses and programs. It is the only place where learners can view the programs they are allocated to.";
-$string['wpdashboardteams'] = 'Enable Teams tab on Dashboard';
-$string['wpdashboardteamsdesc'] = 'Show the Teams tab on the Dashboard. This tab is only displayed to users who have a manager position in the organisation structure and will display all other users that report to them.';

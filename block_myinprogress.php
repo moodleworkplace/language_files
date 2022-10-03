@@ -4,6 +4,7 @@ $string['configshowcourses'] = 'Show courses';
 $string['configshowwithoutcompletion'] = 'Show courses without completion tracking';
 $string['myinprogress:addinstance'] = 'Add new "In progress courses" block';
 $string['myinprogress:myaddinstance'] = 'Add new "In progress courses" block';
+$string['nocourses'] = 'You have no courses in progress';
 $string['pluginname'] = 'In progress courses';
 $string['privacy:metadata'] = 'The In progress courses block does not store any personal data.';
 $string['showcoursesall'] = 'All enrolled courses except completed';

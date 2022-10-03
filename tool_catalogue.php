@@ -4,7 +4,6 @@ $string['aboutthisprogram'] = 'About this program';
 $string['all'] = 'All';
 $string['cataloguesettings'] = 'My programs and courses catalogue settings';
 $string['certifications'] = 'Certifications';
-// TODO shorter name.
 $string['certificationstatuscertified'] = 'The certification \'<strong>{$a->name}</strong>\' is completed';
 $string['certificationstatuscertifiedwithdate'] = 'The certification \'<strong>{$a->name}</strong>\' is completed. It will expire on \'<strong>{$a->date}</strong>\'';
 $string['certificationstatusexpired'] = 'The certification \'<strong>{$a->name}</strong>\' expired on {$a->date}';

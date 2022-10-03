@@ -383,7 +383,6 @@ $string['revokewarning'] = 'Are you sure you want to revoke the certification fr
 $string['rolemanager'] = 'Certification manager';
 $string['rolemanagerdescription'] = 'Allows to create and manage certifications within the current tenant and allocate users to them';
 $string['schedule'] = 'Certification dates';
-$string['scheduleupdatesuccess'] = 'Your changes have been saved successfully.';
 $string['selectactiveandarchivedcertifications'] = 'Select active and archived certifications';
 $string['selectadifferentprogram'] = 'Select a different program';
 $string['selectallactivecertifications'] = 'Select all active certifications';

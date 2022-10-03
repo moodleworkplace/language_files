@@ -45,20 +45,20 @@ $string['conditionuserdepartmentdescriptionwithdate'] = 'Users who have a job in
 Sub-departments: {$a->subdeptsinclude}<br />
 On or after: {$a->conditiondate}';
 $string['conditionuserdepartmentsallcriteria'] = 'User has jobs in all of the selected departments';
-$string['conditionuserdepartmentsalldescription'] = 'Users who have jobs in all of the following departments: \'{$a->deptname}\'<br />
+$string['conditionuserdepartmentsalldescription'] = 'Users who have jobs in all of the following departments at the same time: \'{$a->deptname}\'<br />
 Sub-departments: {$a->subdeptsinclude}';
-$string['conditionuserdepartmentsalldescriptionnegated'] = 'Users who don\'t have jobs in any of the following departments: \'{$a->deptname}\'<br />
+$string['conditionuserdepartmentsalldescriptionnegated'] = 'Users who don\'t have jobs in all of the following departments at the same time: \'{$a->deptname}\'<br />
 Sub-departments: {$a->subdeptsinclude}';
-$string['conditionuserdepartmentsalldescriptionwithdate'] = 'Users who have jobs in all of the following departments: \'{$a->deptname}\'<br />
+$string['conditionuserdepartmentsalldescriptionwithdate'] = 'Users who have jobs in all of the following departments at the same time: \'{$a->deptname}\'<br />
 Sub-departments: {$a->subdeptsinclude}<br />
 On or after: {$a->conditiondate}';
-$string['conditionuserdepartmentsanycriteria'] = 'User has a job in at least one of the selected departments';
+$string['conditionuserdepartmentsanycriteria'] = 'User has a job in any of the selected departments';
 $string['conditionuserdepartmentsanycriteria_help'] = 'When a user already has a job in one selected department, getting a new job in the second one does not trigger the actions again';
-$string['conditionuserdepartmentsanydescription'] = 'Users who have a job in at least one of the following departments: \'{$a->deptname}\'<br />
+$string['conditionuserdepartmentsanydescription'] = 'Users who have a job in any of the following departments: \'{$a->deptname}\'<br />
 Sub-departments: {$a->subdeptsinclude}';
-$string['conditionuserdepartmentsanydescriptionnegated'] = 'Users who don\'t have a job in at least one of the following departments: \'{$a->deptname}\'<br />
+$string['conditionuserdepartmentsanydescriptionnegated'] = 'Users who don\'t have a job in any of the following departments: \'{$a->deptname}\'<br />
 Sub-departments: {$a->subdeptsinclude}';
-$string['conditionuserdepartmentsanydescriptionwithdate'] = 'Users who have a job in at least one of the following departments: \'{$a->deptname}\'<br />
+$string['conditionuserdepartmentsanydescriptionwithdate'] = 'Users who have a job in any of the following departments: \'{$a->deptname}\'<br />
 Sub-departments: {$a->subdeptsinclude}<br />
 On or after: {$a->conditiondate}';
 $string['conditionuserdepartmentseachcriteria'] = 'Every time a user gets a job in any of the selected departments';
@@ -73,20 +73,20 @@ $string['conditionuserpositiondescriptionwithdate'] = 'Users who have position \
 Sub-positions: {$a->subposinclude}<br />
 On or after: {$a->conditiondate}';
 $string['conditionuserpositionsallcriteria'] = 'User has jobs in all of the selected positions';
-$string['conditionuserpositionsalldescription'] = 'Users who have jobs in all of the following positions: \'{$a->posname}\'<br />
+$string['conditionuserpositionsalldescription'] = 'Users who have jobs in all of the following positions at the same time: \'{$a->posname}\'<br />
 Sub-positions: {$a->subposinclude}';
-$string['conditionuserpositionsalldescriptionnegated'] = 'Users who don\'t have jobs in any of the positions: \'{$a->posname}\'<br />
+$string['conditionuserpositionsalldescriptionnegated'] = 'Users who don\'t have jobs in all of the positions at the same time: \'{$a->posname}\'<br />
 Sub-positions: {$a->subposinclude}';
-$string['conditionuserpositionsalldescriptionwithdate'] = 'Users who have jobs in all of the following positions: \'{$a->posname}\'<br />
+$string['conditionuserpositionsalldescriptionwithdate'] = 'Users who have jobs in all of the following positions at the same time: \'{$a->posname}\'<br />
 Sub-positions: {$a->subposinclude}<br />
 On or after: {$a->conditiondate}';
-$string['conditionuserpositionsanycriteria'] = 'User has a job in at least one of the selected positions';
+$string['conditionuserpositionsanycriteria'] = 'User has a job in any of the selected positions';
 $string['conditionuserpositionsanycriteria_help'] = 'When a user already has a job in one selected position, getting a new job in the second one does not trigger the actions again';
-$string['conditionuserpositionsanydescription'] = 'Users who have a job in at least one of the following positions: \'{$a->posname}\'<br />
+$string['conditionuserpositionsanydescription'] = 'Users who have a job in any of the following positions: \'{$a->posname}\'<br />
 Sub-positions: {$a->subposinclude}';
-$string['conditionuserpositionsanydescriptionnegated'] = 'Users who don\'t have a job in at least one of the following positions: \'{$a->posname}\'<br />
+$string['conditionuserpositionsanydescriptionnegated'] = 'Users who don\'t have a job in any of the following positions: \'{$a->posname}\'<br />
 Sub-positions: {$a->subposinclude}';
-$string['conditionuserpositionsanydescriptionwithdate'] = 'Users who have a job in at least one of the following positions: \'{$a->posname}\'<br />
+$string['conditionuserpositionsanydescriptionwithdate'] = 'Users who have a job in any of the following positions: \'{$a->posname}\'<br />
 Sub-positions: {$a->subposinclude}<br />
 On or after: {$a->conditiondate}';
 $string['conditionuserpositionseachcriteria'] = 'Every time user gets a job in any of the selected positions';

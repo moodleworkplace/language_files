@@ -1,5 +1,9 @@
 <?php
+$string['courseprogress'] = 'Course progress';
+$string['coursestatus'] = 'Course status';
+$string['errornopermissionviewreports'] = 'No permission to view reports';
 $string['fullreport'] = 'Full report';
+$string['futurestart'] = 'Future enrolment';
 $string['myteams:addinstance'] = 'Add new "My teams" block';
 $string['myteams:myaddinstance'] = 'Add new "My teams" block';
 $string['pluginname'] = 'Team overview';
