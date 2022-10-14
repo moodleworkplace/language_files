@@ -252,6 +252,7 @@ $string['sendtodptlead'] = 'Department lead';
 $string['sendtomanager'] = 'Manager';
 $string['sendtomatching'] = 'Matching users';
 $string['sitelink'] = 'Site link';
+$string['sitelinkspecific'] = 'Site link specific for the tenant';
 $string['siteshortname'] = 'Site short name';
 $string['subject'] = 'Subject';
 $string['taskprocessrules'] = 'Process rules';

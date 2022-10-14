@@ -45,6 +45,7 @@ $string['attendees'] = 'Attendees';
 $string['attendeestablesummary'] = 'People planning on or having attended this session.';
 $string['availableseats'] = '{$a} seats available';
 $string['book'] = 'Book';
+$string['bookedat'] = '<strong>Booked:</strong> {$a}';
 $string['bookedvscapacity'] = 'Booked / Capacity';
 $string['bookingcancelled'] = 'Your booking has been cancelled.';
 $string['bookingcompleted'] = 'Your booking has been completed.';
