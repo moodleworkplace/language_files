@@ -393,6 +393,7 @@ $string['programnamewithimageandlink'] = 'Program name with image and link';
 $string['programnamewithlink'] = 'Program name with link';
 $string['programparentsetname'] = 'Parent set name';
 $string['programprogress'] = 'Program progress';
+$string['programprogressexport'] = '{$a} program progress';
 $string['programprogresswithreportlinks'] = 'Program progress with report links';
 $string['programreset'] = 'Program reset';
 $string['programrules'] = 'Program rules';

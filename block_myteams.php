@@ -1,5 +1,6 @@
 <?php
 $string['courseprogress'] = 'Course progress';
+$string['courseprogressexport'] = '{$a} course progress';
 $string['coursestatus'] = 'Course status';
 $string['errornopermissionviewreports'] = 'No permission to view reports';
 $string['fullreport'] = 'Full report';

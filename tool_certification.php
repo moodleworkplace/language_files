@@ -56,6 +56,7 @@ $string['certificationidnumber_help'] = 'The ID number of a certification is onl
 $string['certificationname'] = 'Certification name';
 $string['certificationnamewithlink'] = 'Certification name with link';
 $string['certificationprogress'] = 'Certification progress';
+$string['certificationprogressexport'] = '{$a} certification progress';
 $string['certificationrules'] = 'Certification rules';
 $string['certifications'] = 'Certifications';
 $string['certificationscustomfield'] = 'Certifications custom fields';
