@@ -93,6 +93,7 @@ $string['customizefilter'] = 'Edit filter name';
 $string['customizeheader'] = 'Edit header for the column \'{$a}\'';
 $string['customreports'] = 'Custom reports';
 $string['customreportsdesc'] = 'Custom reports, including audience and schedule data';
+$string['customreportslegacy'] = 'Custom reports from outdated version';
 $string['customreportslimit'] = 'Custom reports limit';
 $string['customreportslimit_desc'] = 'The number of custom reports may be limited for performance reasons. If set to zero, then there is no limit.';
 $string['customreportsliveediting'] = 'Custom reports live editing';
