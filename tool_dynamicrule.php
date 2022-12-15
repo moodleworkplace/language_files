@@ -265,6 +265,7 @@ $string['timeenrolled'] = 'Enrolment start date and time is on or after';
 $string['toomanybadgestoshow'] = 'Too many badges to show';
 $string['toomanycertificatestoshow'] = 'Too many certificates ({$a}) to show';
 $string['toomanycompetenciestoshow'] = 'Too many competencies ({$a}) to show';
+$string['uneditabledescription'] = '{$a} (details not available)';
 $string['usercreatetype_help'] = 'You can select a date relative to the current date to match users created within the specified period of time.';
 $string['userplaceholders'] = 'User placeholders';
 $string['viewmatchingusers'] = 'View matching users';

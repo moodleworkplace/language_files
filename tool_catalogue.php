@@ -42,6 +42,7 @@ $string['duedatex'] = '<strong>Due date:</strong> {$a}';
 $string['enddatex'] = '<strong>End date:</strong> {$a}';
 $string['errornopermissionviewcoursecover'] = 'No permission to view course cover page';
 $string['errornopermissionviewprogram'] = 'No permission to view program';
+$string['hiddenfromlearners'] = 'Hidden from learners';
 $string['incomplete'] = 'Not completed';
 $string['information'] = 'Information';
 $string['iunderstand'] = 'I understand';
