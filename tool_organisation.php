@@ -211,10 +211,11 @@ $string['importlogposfrmsuccess'] = 'Created new position framework \'<a href="{
 $string['importlogpossuccess'] = 'Created new position \'{$a->name}\'';
 $string['include_shared_entities'] = 'Include shared entities';
 $string['include_shared_entities_help'] = 'By enabling this option, the exported file will also contain all shared frameworks available in the current tenant';
+$string['jobcreated'] = 'Job created';
 $string['jobdeleteconfirm'] = 'Are you sure you want to delete this job and all associated data?<br />
 If you want to keep this job\'s data for future consultation, you should consider setting this job as finished instead.<br />
 <br />This action cannot be undone.';
-$string['jobdeleted'] = 'Job has been deleted successfully';
+$string['jobdeleted'] = 'Job deleted';
 $string['jobfrom'] = 'From {$a}';
 $string['jobfromto'] = 'From {$a->from} to {$a->to}';
 $string['jobname'] = '{$a->position} in {$a->department}';
@@ -225,6 +226,8 @@ $string['jobsnumber'] = 'Jobs';
 $string['jobsnumber_help'] = 'Shows active and past jobs.<br /> For example \'10 (2)\' means that there are 10 active jobs and 2 jobs in the past.';
 $string['jobstartdateafter'] = 'Job start date is on or after';
 $string['jobtenantdoesnotmatch'] = 'Job tenant does not match user tenant';
+$string['jobtransfered'] = 'User transfered to a new job';
+$string['jobupdated'] = 'Job updated';
 $string['learning'] = 'Learning';
 $string['listdeptsnohierarchy'] = 'List of departments with no hierarchy';
 $string['listposnohierarchy'] = 'List of positions with no hierarchy';
