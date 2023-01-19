@@ -10,6 +10,7 @@ $string['allocateusers'] = 'Allocate users';
 $string['alltenants'] = 'All tenants';
 $string['alltenantsselected'] = 'Users in all tenants (including future ones)';
 $string['allusers'] = 'All users';
+$string['alluserslegacy'] = 'All users (legacy)';
 $string['andxmoretenants'] = 'and {$a} more...';
 $string['archive'] = 'Archive';
 $string['archivedtenants'] = 'Archived tenants';
