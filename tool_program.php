@@ -412,6 +412,7 @@ $string['programvisibility'] = 'Program visibility';
 $string['programvisibility_help'] = 'This setting determines if the program is shown on the user\'s list of courses or not.';
 $string['progress'] = '{$a} completed';
 $string['progressoverview'] = 'Progress overview';
+$string['progressoverviewfor'] = 'Progress overview for {$a}';
 $string['progresspercent'] = 'Progress';
 $string['progressreport'] = 'Progress report';
 $string['recalculateprogramcompletion'] = 'Re-calculate program completion';

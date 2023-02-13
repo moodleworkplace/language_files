@@ -74,8 +74,11 @@ $string['capacity_help'] = '**Capacity** is the number of seats available in a s
 When a Appointment session reaches capacity the session details do not appear on the course page. The details will appear greyed out on the \'View all sessions\' page and the learner cannot enrol on the session.
 &nbsp;';
 $string['closed'] = 'Closed';
+$string['completionattended'] = 'Learner must book and attend the appointment to complete this activity';
+$string['completionattended_help'] = 'If enabled, the activity will be considered completed if the learner\'s booking attendance is marked as "Fully attended" or "Partially attended".';
 $string['completionbooked'] = 'Learner must book an appointment to complete this activity';
 $string['completionbooked_help'] = 'If enabled, the activity will be considered completed if the learner status is "Booked", "Fully attended", or "Partially attended". If the learner has cancelled, is wait-listed, or their attendance is marked as "No show", the activity will not be considered completed.';
+$string['completiondetail:attended'] = 'Attend an appointment';
 $string['completiondetail:booked'] = 'Book an appointment';
 $string['confirmationinstrmngr'] = '# Notice for manager';
 $string['confirmationinstrmngr_help'] = 'When "Send notice to manager" is checked, the text in the "Notice for manager" field is sent to a manager advising that a staff member has signed up for a Appointment session.';

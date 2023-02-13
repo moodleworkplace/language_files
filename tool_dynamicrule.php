@@ -267,6 +267,7 @@ $string['toomanycertificatestoshow'] = 'Too many certificates ({$a}) to show';
 $string['toomanycompetenciestoshow'] = 'Too many competencies ({$a}) to show';
 $string['uneditabledescription'] = '{$a} (details not available)';
 $string['usercreatetype_help'] = 'You can select a date relative to the current date to match users created within the specified period of time.';
+$string['userdetailshidden'] = 'Details are hidden';
 $string['userplaceholders'] = 'User placeholders';
 $string['viewmatchingusers'] = 'View matching users';
 $string['warningchangeswillnotapplymatchedusers'] = 'The changes will not apply to users that matched this rule in the past';
