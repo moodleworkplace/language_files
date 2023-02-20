@@ -137,6 +137,8 @@ $string['criteriaeach'] = 'Every time a user is certified in any of the selected
 $string['criteriaeach_help'] = 'Equivalent of creating multiple rules, one for each of the selected certifications';
 $string['currentprogram'] = 'Current program';
 $string['currentprogram_help'] = 'This is the current program this user is taking';
+$string['currentprogramprogress'] = 'Current program progress';
+$string['currentprogramstatus'] = 'Current program status';
 $string['dateoverrided'] = 'Date overridden';
 $string['dayssinceallocation'] = 'Days since allocation';
 $string['daystakingcertification'] = 'Days taking certification';
@@ -252,6 +254,7 @@ $string['include_shared_entities_help'] = 'By enabling this option, the exported
 * All shared certifications available in the current tenant
 * All shared programs linked to the selected certifications
 * All program courses outside of the current tenant course category';
+$string['isrecertification'] = 'Is recertification';
 $string['keepcertificationdefaults'] = 'Keep certification defaults';
 $string['lastallocationdate'] = 'Last allocation date: {$a}';
 $string['lessthanaday'] = 'Less than a day';
