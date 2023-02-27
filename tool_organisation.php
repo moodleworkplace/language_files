@@ -269,6 +269,7 @@ $string['orgfilterdirectreports'] = 'Show my own direct reports only';
 $string['orgfiltereverybody'] = 'Show everybody reporting to me';
 $string['orgstructure'] = 'Organisation structure';
 $string['parent'] = 'Parent';
+$string['parentidchanged'] = 'Specified parent department \'{$a}\' could not be found. The department was created directly under the framework.';
 $string['parentsameiderror'] = 'Parent element cannot be itself';
 $string['pluginname'] = 'Organisation structure';
 $string['position'] = 'Position';
