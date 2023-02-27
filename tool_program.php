@@ -257,6 +257,7 @@ $string['export_user_allocations'] = 'Program user allocations';
 $string['export_user_allocations_help'] = 'Includes user allocations to these programs. A copy of the users themselves will not be included.';
 $string['exportonlyallocationspostfix'] = '(only user allocations)';
 $string['exportprogramsdescription'] = 'Programs with their courses, user allocations and component dynamic rules';
+$string['fullprogramreport'] = 'Full program report';
 $string['futureallocation'] = 'Future allocation';
 $string['gotocourse'] = 'Go to course';
 $string['gotoprogram'] = 'Go to program';

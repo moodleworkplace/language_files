@@ -232,6 +232,7 @@ $string['export_user_allocations'] = 'Certification user allocations';
 $string['export_user_allocations_help'] = 'Includes user allocations to these certifications. A copy of the users themselves will not be included.';
 $string['exportcertificationsdescription'] = 'Certifications with their associated programs, courses, user allocations and component dynamic rules';
 $string['exportonlyallocationspostfix'] = '(only user allocations)';
+$string['fullcertificationreport'] = 'Full certification report';
 $string['futureallocation'] = 'Future allocation';
 $string['gotocertification'] = 'Go to certification';
 $string['idnumber'] = 'ID number';

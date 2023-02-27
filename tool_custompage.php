@@ -5,6 +5,7 @@ $string['audience'] = 'Audience';
 $string['audiencecreated'] = 'Custom page audience created';
 $string['audiencedeleted'] = 'Custom page audience deleted';
 $string['audienceupdated'] = 'Custom page audience updated';
+$string['audiencewarning'] = 'You need permissions to view or modify this audience';
 $string['cachedef_user_allowed_pages'] = 'User allowed pages according to audience';
 $string['categoryrole'] = 'Assigned category role';
 $string['custompage:edit'] = 'Edit custom pages';
