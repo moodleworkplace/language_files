@@ -312,6 +312,9 @@ $string['rolemanager'] = 'Organisation structure manager';
 $string['rolemanagerdescription'] = 'Allows to create and manage jobs, positions and departments within the current tenant';
 $string['ruleoutcomeassignjob'] = 'Assign job';
 $string['ruleoutcomeassignjobdesc'] = 'Assign job in department \'{$a->department}\' with position \'{$a->position}\'';
+$string['ruleoutcomeassignjobdescwithdates'] = 'Assign job in department \'{$a->department}\' with position \'{$a->position}\'<br />
+Start date: {$a->startdate}<br />
+End date: {$a->enddate}';
 $string['ruleoutcomeassignjobstartruledate'] = 'Date of rule execution';
 $string['ruleoutcomeassignjobstartuserdate'] = 'Date of user creation';
 $string['selectallactivejobs'] = 'Select all active jobs';
