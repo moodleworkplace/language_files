@@ -13,6 +13,7 @@ $string['fullreport'] = 'Full report';
 $string['futurestart'] = 'Future enrolment';
 $string['myteams:addinstance'] = 'Add new "My teams" block';
 $string['myteams:myaddinstance'] = 'Add new "My teams" block';
+$string['overdue'] = 'Overdue';
 $string['pluginname'] = 'Team overview';
 $string['privacy:metadata'] = 'The My teams block does not store any personal data.';
 $string['privacy:metadata:preference:block_myteams_filter_overdue'] = 'The sorting by type.';

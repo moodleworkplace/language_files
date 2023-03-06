@@ -231,6 +231,8 @@ $string['jobupdated'] = 'Job updated';
 $string['learning'] = 'Learning';
 $string['listdeptsnohierarchy'] = 'List of departments with no hierarchy';
 $string['listposnohierarchy'] = 'List of positions with no hierarchy';
+$string['locked'] = 'Locked';
+$string['locked_help'] = 'Only users with the capability to assign jobs in locked positions/departments can do it';
 $string['mappingerrordeptnotfound'] = 'A department {$a} was not found';
 $string['mappingerrorposnotfound'] = 'A position {$a} was not found';
 $string['mappingnoticenodeptidnumber'] = 'The department was located by name because ID number was empty. It is recommended to assign ID numbers to departments';
@@ -252,6 +254,7 @@ $string['organisation:allocateuserstoprogramcertificationsdept'] = 'Allocate use
 $string['organisation:allocateuserstoprogramcertificationsdept_help'] = 'Department lead: Allocate users to programs/certifications';
 $string['organisation:allocateuserstoprogramcertificationsglob'] = 'Allocate users to programs/certifications';
 $string['organisation:allocateuserstoprogramcertificationsglob_help'] = 'Manager: Allocate users to programs/certifications';
+$string['organisation:assigninlocked'] = 'Assign jobs in locked departments and positions';
 $string['organisation:assignjobs'] = 'Assign jobs';
 $string['organisation:managedepartments'] = 'Manage departments';
 $string['organisation:managepositions'] = 'Manage positions';
@@ -310,10 +313,25 @@ $string['reg_wppositionframeworks'] = 'Number of position frameworks ({$a})';
 $string['reg_wppositions'] = 'Number of positions ({$a})';
 $string['rolemanager'] = 'Organisation structure manager';
 $string['rolemanagerdescription'] = 'Allows to create and manage jobs, positions and departments within the current tenant';
+$string['ruleoutcomeactive'] = 'Active jobs only';
+$string['ruleoutcomeall'] = 'All jobs';
 $string['ruleoutcomeassignjob'] = 'Assign job';
 $string['ruleoutcomeassignjobdesc'] = 'Assign job in department \'{$a->department}\' with position \'{$a->position}\'';
+$string['ruleoutcomeassignjobdescwithdates'] = 'Assign job in department \'{$a->department}\' with position \'{$a->position}\'<br />
+Start date: {$a->startdate}<br />
+End date: {$a->enddate}';
 $string['ruleoutcomeassignjobstartruledate'] = 'Date of rule execution';
 $string['ruleoutcomeassignjobstartuserdate'] = 'Date of user creation';
+$string['ruleoutcomedaybeforeruledate'] = 'Day before rule execution';
+$string['ruleoutcomeendjobs'] = 'End all jobs';
+$string['ruleoutcomeendjobsdesc'] = 'End all jobs in department \'{$a->department}\' and position \'{$a->position}\'<br />
+Include subdepartments: \'{$a->includesubdepartments}\'<br />
+Include subpositions: \'{$a->includesubpositions}\'<br />
+End date: \'{$a->enddate}\'<br />
+Target: \'{$a->target}\'';
+$string['ruleoutcomeruledate'] = 'Date of rule execution';
+$string['ruleoutcometarget'] = 'Target';
+$string['ruleoutcometarget_help'] = 'End all jobs or only the ones that are active';
 $string['selectallactivejobs'] = 'Select all active jobs';
 $string['selectalldepartmentframeworks'] = 'Select all department frameworks';
 $string['selectallframeworks'] = 'Select all department and position frameworks';

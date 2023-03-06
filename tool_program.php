@@ -1,5 +1,6 @@
 <?php
 $string['aboutthefile'] = 'About the file';
+$string['action'] = 'Action';
 $string['actions'] = 'Actions';
 $string['active'] = 'Active';
 $string['activeprograms'] = 'Active programs';
@@ -182,7 +183,7 @@ $string['duplicate'] = 'Duplicate';
 $string['dynamic'] = 'Dynamic';
 $string['dynamicrules'] = 'Dynamic rules';
 $string['dynamicrulesplugincheck'] = 'Viewing the list of dynamic rules is impossible without plugin tool_dynamicrule';
-$string['dynamicrulewarningdeallocation'] = 'Users can only be unallocated if they were allocated by another dynamic rule, manual allocations will not be affected.';
+$string['dynamicrulewarningdeallocation'] = 'Users can only be deallocated if they were allocated by another dynamic rule, manual allocations will not be affected.';
 $string['editallocation'] = 'Edit allocation';
 $string['editcontent'] = 'Edit content';
 $string['editdetails'] = 'Edit details';
@@ -337,12 +338,23 @@ $string['numbercoursesinset'] = 'Number of courses in set';
 $string['numbercurrentallocatedusers'] = 'Number of currently allocated users';
 $string['open'] = 'Open';
 $string['outcomeallocation'] = 'Allocate users to programs';
-$string['outcomeallocationdescription'] = 'Allocate users to program \'{$a}\'<br />
-Keep program default start date';
-$string['outcomeallocationdescriptionwithdate'] = 'Allocate users to program \'{$a->programname}\'<br />
-Program start date: \'{$a->startdate}\'';
+$string['outcomeallocationdescdate'] = 'Allocate users to program {$a->programname}<br />
+{$a->startdatestr}<br />
+With suspended users: {$a->suspendedusers}';
+$string['outcomeallocationdesckeepdate'] = 'Unsuspend and leave the existing program start/end dates';
+$string['outcomeallocationdesckeepstartdate'] = 'Keep program default start date';
+$string['outcomeallocationdescstartdate'] = 'Program start date: \'{$a->startdate}\'';
+$string['outcomeallocationdescsuspendchangedate'] = 'Unsuspend and change the program start/end dates';
+$string['outcomeallocationdontmodify'] = 'Do not modify allocations';
+$string['outcomeallocationsuspendedusers'] = 'With suspended users';
+$string['outcomeallocationsuspendedusers_help'] = 'Action to perform when users are already allocated but their allocation is suspended or ended';
+$string['outcomeallocationunsuspend'] = 'Unsuspend, leave the existing program start/end dates';
+$string['outcomeallocationunsuspendchangedate'] = 'Unsuspend, change the program start/end dates';
+$string['outcomedeallocate'] = 'Deallocate user from program';
+$string['outcomedeallocatesuspend'] = 'Suspend existing allocation';
 $string['outcomedeallocation'] = 'Deallocate users from programs';
 $string['outcomedeallocationdescription'] = 'Deallocate users from program \'{$a}\'';
+$string['outcomedeallocationdescriptionsuspend'] = 'Suspend existing user allocations from program \'{$a}\'';
 $string['overdue'] = 'Overdue';
 $string['overdueprogramslink'] = '<a href="{$a->href}">{$a->count} overdue programs</a>';
 $string['parentname'] = 'Parent name';

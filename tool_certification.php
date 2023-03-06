@@ -1,4 +1,5 @@
 <?php
+$string['action'] = 'Action';
 $string['actions'] = 'Actions';
 $string['active'] = 'Active';
 $string['activecertifications'] = 'Active certifications';
@@ -164,7 +165,7 @@ $string['duplicate'] = 'Duplicate';
 $string['dynamic'] = 'Dynamic';
 $string['dynamicrules'] = 'Dynamic rules';
 $string['dynamicrulesplugincheck'] = 'Viewing the list of dynamic rules is impossible without plugin tool_dynamicrules';
-$string['dynamicrulewarningdeallocation'] = 'Users can only be unallocated if they were allocated by another dynamic rule, manual allocations will not be affected.';
+$string['dynamicrulewarningdeallocation'] = 'Users can only be deallocated if they were allocated by another dynamic rule, manual allocations will not be affected.';
 $string['editallocation'] = 'Edit allocation';
 $string['editcertification'] = 'Edit certification \'{$a}\'';
 $string['editcertificationname'] = 'Edit certification name';
@@ -314,12 +315,27 @@ $string['nousersselected'] = 'Please select at least one user';
 $string['ongoingcertificationslink'] = '<a href="{$a->href}">{$a->count} ongoing certifications</a>';
 $string['open'] = 'Open';
 $string['outcomeallocation'] = 'Allocate users to certifications';
+$string['outcomeallocationdescdate'] = 'Allocate users to certification {$a->certificationname}<br />
+{$a->startdatestr}<br />
+With suspended users: {$a->suspendedusers}';
+$string['outcomeallocationdesckeepdate'] = 'Unsuspend and leave the existing certification start date';
+$string['outcomeallocationdesckeepstartdate'] = 'Keep certification default start date';
 $string['outcomeallocationdescription'] = 'Allocate users to certification {$a}<br />
 Keep certification default start date';
 $string['outcomeallocationdescriptionwithdate'] = 'Allocate users to certification {$a->certificationname}<br />
 Certification start date: \'{$a->startdate}\'';
+$string['outcomeallocationdescstartdate'] = 'Certification start date: \'{$a->startdate}\'';
+$string['outcomeallocationdescsuspendchangedate'] = 'Unsuspend and change the certification start date';
+$string['outcomeallocationdontmodify'] = 'Do not modify allocations';
+$string['outcomeallocationsuspendedusers'] = 'With suspended users';
+$string['outcomeallocationsuspendedusers_help'] = 'Action to perform when users are already allocated but their allocation is suspended or ended';
+$string['outcomeallocationunsuspend'] = 'Unsuspend, leave the existing certification start date';
+$string['outcomeallocationunsuspendchangedate'] = 'Unsuspend, change the certification start date';
+$string['outcomedeallocate'] = 'Deallocate user from certification';
+$string['outcomedeallocatesuspend'] = 'Suspend existing allocation';
 $string['outcomedeallocation'] = 'Deallocate users from certifications';
 $string['outcomedeallocationdescription'] = 'Deallocate users from certification {$a}';
+$string['outcomedeallocationdescriptionsuspend'] = 'Suspend existing user allocations from certification \'{$a}\'';
 $string['overdue'] = 'Overdue';
 $string['overduecertificationslink'] = '<a href="{$a->href}">{$a->count} overdue certifications</a>';
 $string['pluginname'] = 'Certifications';

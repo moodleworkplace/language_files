@@ -211,6 +211,7 @@ $string['sessionfinished'] = 'Finished';
 $string['sessionfinishtime'] = 'Session finish time';
 $string['sessioninprogress'] = 'session in progress';
 $string['sessionisfull'] = 'This session is now full. You will need to pick another time or talk to the instructor.';
+$string['sessionnotstarted'] = 'Not started';
 $string['sessionrequiresmanagerapproval'] = 'This session requires manager approval to book.';
 $string['sessions'] = 'Sessions';
 $string['sessionsdetailstablesummary'] = 'Full description of the current session.';
