@@ -273,6 +273,7 @@ $string['orgfiltereverybody'] = 'Show everybody reporting to me';
 $string['orgstructure'] = 'Organisation structure';
 $string['parent'] = 'Parent';
 $string['parentidchanged'] = 'Specified parent department \'{$a}\' could not be found. The department was created directly under the framework.';
+$string['parentidchangedposition'] = 'Specified parent position \'{$a}\' could not be found. The position was created directly under the framework.';
 $string['parentsameiderror'] = 'Parent element cannot be itself';
 $string['pluginname'] = 'Organisation structure';
 $string['position'] = 'Position';
