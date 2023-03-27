@@ -260,6 +260,7 @@ $string['isrecertification'] = 'Is recertification';
 $string['keepcertificationdefaults'] = 'Keep certification defaults';
 $string['lastallocationdate'] = 'Last allocation date: {$a}';
 $string['lessthanaday'] = 'Less than a day';
+$string['managedusersoverdue'] = 'Some team members have overdue certifications.';
 $string['manageprograms'] = 'Manage programs';
 $string['manual'] = 'Manual';
 $string['manuallycertifieduser'] = 'Manually certified {$a->usertarget} ({$a->expirydate})';

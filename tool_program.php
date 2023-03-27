@@ -291,6 +291,7 @@ $string['lockedreasonparent'] = 'Not available unless: set {$a} is available.';
 $string['lockedreasonpreviouscourse'] = 'Not available unless: previous course {$a} is marked as completed.';
 $string['lockedreasonpreviousset'] = 'Not available unless: previous set {$a} is marked as completed.';
 $string['maincompletion'] = 'Main completion';
+$string['managedusersoverdue'] = 'Some team members have overdue programs.';
 $string['manual'] = 'Manual';
 $string['mappingerrorprogramnotfound'] = 'Program {$a} was not found';
 $string['mappingnoticenoidnumber'] = 'The program was located by name because ID number was empty. It is recommended to assign ID numbers to programs';
