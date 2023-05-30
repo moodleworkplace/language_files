@@ -66,7 +66,6 @@ $string['privacy:metadata:page:usermodified'] = 'The ID of the user who last mod
 $string['privacy:metadata:page:weight'] = 'The weight of the page';
 $string['singletenant'] = 'This page is defined as a global page. If this site becomes multi-tenant in the future, this page will be shown to all tenants. Some audience
 types such as \'Organisation structure\' are not available here, if you want to use them please duplicate this page';
-$string['siteadmin'] = 'Site administrators';
 $string['tenantpage'] = 'Tenant page';
 $string['title'] = 'Title in navigation';
 $string['title_help'] = 'If specified, the text in the primary navigation can be changed here';

@@ -1,7 +1,6 @@
 <?php
 $string['blocktitle'] = 'In progress courses ({$a})';
 $string['configshowcourses'] = 'Show courses';
-$string['configshowwithoutcompletion'] = 'Show courses without completion tracking';
 $string['donthide'] = 'Don\'t hide from my view';
 $string['hidden'] = 'Hidden from my view';
 $string['hidefromview'] = 'Hide from my view';
