@@ -53,6 +53,7 @@ $string['configureoauth2link'] = 'Configure OAuth 2 services';
 $string['configusedefault'] = 'Use default';
 $string['confirmallocateusers'] = 'Are you sure you want to allocate the selected users to the selected tenant?';
 $string['confirmarchivetenant'] = 'Are you sure you want to archive the tenant \'{$a}\'? All users allocated to this tenant will be moved to the default tenant.';
+$string['confirmarchivetenantwarning'] = 'The tenant administrators will become regular users and the tenant administrator role will not be restored if the tenant is restored.';
 $string['confirmassigntenantadmins'] = 'Are you sure you want to add the selected users to the list of tenant administrators?';
 $string['confirmdeletetenant'] = 'Are you sure you want to delete the tenant \'{$a}\'? This action cannot be undone.';
 $string['confirmdeleteuser'] = 'Are you sure you want to delete this user? This action cannot be undone.';
