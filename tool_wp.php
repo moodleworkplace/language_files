@@ -98,6 +98,7 @@ $string['exporterrequirestenant'] = 'Exporter \'{$a}\' requires a tenant';
 $string['exportersettingsinvalid'] = 'Exporter settings are not in valid JSON format';
 $string['exportersettingsvalidationfailed'] = 'Exporter settings validation failed: {$a}';
 $string['exportersunavailable'] = 'There are no available exporters for you to use';
+$string['exportformatcsv'] = 'CSV';
 $string['exportgeneralsettings'] = 'General settings';
 $string['exportgeneralsettingsdesc'] = 'Select which exporter you want to use. On the next step you will be able to narrow down your selection and specify which elements you want to export.';
 $string['exportimport'] = 'Migration';
