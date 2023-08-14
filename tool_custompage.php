@@ -1,5 +1,7 @@
 <?php
 $string['access'] = 'Access';
+$string['allauthenticatedusers'] = "All authenticated users";
+$string['allauthenticatedusersdesc'] = "All authenticated site users";
 $string['allsiteadmin'] = 'Site or tenant administrators';
 $string['audience'] = 'Audience';
 $string['audiencecreated'] = 'Custom page audience created';
@@ -37,6 +39,8 @@ $string['newpage'] = 'New page';
 $string['newpageglobal'] = 'New global page';
 $string['newpagetenant'] = 'New tenant page';
 $string['noaudiences'] = 'There are no audiences for this page';
+$string['nonauthenticatedusers'] = 'Non-authenticated users';
+$string['nonauthenticatedusersdesc'] = 'Guest users and Non-authenticated users';
 $string['page'] = 'Page';
 $string['pagecreated'] = 'Custom page created';
 $string['pagedeleted'] = 'Custom page deleted';
