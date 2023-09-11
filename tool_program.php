@@ -237,6 +237,7 @@ $string['eventsetdeleted'] = 'Set deleted';
 $string['eventsetupdated'] = 'Set updated';
 $string['eventuserallocated'] = 'User allocated';
 $string['eventuserdeallocated'] = 'User deallocated';
+$string['eventuserupdated'] = 'User allocation updated';
 $string['export_content'] = 'Settings';
 $string['export_content_help'] = 'Programs, names, descriptions, dates, tags, etc.';
 $string['export_dynamic_rules'] = 'Dynamic rules';

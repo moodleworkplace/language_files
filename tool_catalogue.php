@@ -6,6 +6,7 @@ $string['allowhtmltags'] = 'Allow HTML tags';
 $string['aria:courseactions'] = 'Course actions';
 $string['catalogue:config'] = 'Configure learning catalogue';
 $string['cataloguesettings'] = 'My programs and courses catalogue settings';
+$string['categories'] = 'Categories';
 $string['categoriesdepthlimit'] = 'Maximum number of nested categories levels';
 $string['categoriesdepthlimit_desc'] = 'Maximum number of nested categories levels in the category selector. Courses located on the deeper levels will still appear in the search results.';
 $string['categorieslimit'] = 'Maximum number of same-level categories';
