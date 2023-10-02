@@ -10,6 +10,7 @@ $string['audienceupdated'] = 'Custom page audience updated';
 $string['audiencewarning'] = 'You need permissions to view or modify this audience';
 $string['cachedef_user_allowed_pages'] = 'User allowed pages according to audience';
 $string['categoryrole'] = 'Assigned category role';
+$string['copyurl'] = 'Copy URL';
 $string['custompage:edit'] = 'Edit custom pages';
 $string['custompage:editall'] = 'Edit all custom pages';
 $string['custompage:skipblockvalidation'] = 'Duplicate custom page blocks without validation';

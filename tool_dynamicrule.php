@@ -289,6 +289,7 @@ $string['selectlearningplan_help'] = 'Select learning plan template';
 $string['sendto'] = 'Send to';
 $string['sendtodptlead'] = 'Department lead';
 $string['sendtomanager'] = 'Manager';
+$string['sendtomanualmanager'] = 'Manually assigned manager';
 $string['sendtomatching'] = 'Matching users';
 $string['sitelink'] = 'Site link';
 $string['sitelinkspecific'] = 'Site link specific for the tenant';
