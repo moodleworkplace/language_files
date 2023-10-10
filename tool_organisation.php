@@ -136,6 +136,8 @@ $string['departmentparent'] = 'Parent';
 $string['departmentrequiredforjobcreate'] = 'Departments need to be created to proceed with job assignments';
 $string['departments'] = 'Departments';
 $string['departmentwithicons'] = 'Department with permissions';
+$string['directreports'] = '<a href="{$a->url}">{$a->count} direct report</a>';
+$string['directreports_plural'] = '<a href="{$a->url}">{$a->count} direct reports</a>';
 $string['editdates'] = 'Edit dates';
 $string['editdepartment'] = 'Edit department \'{$a}\'';
 $string['editdepartmentframework'] = 'Edit department framework \'{$a}\'';
