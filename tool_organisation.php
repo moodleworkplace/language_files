@@ -414,6 +414,7 @@ $string['transfertojob'] = 'Transfer \'{$a}\' to a new job';
 $string['transfertonewjob'] = 'Transfer this user to a new job';
 $string['unassignmanager'] = 'Un-assign manager';
 $string['unassignperson'] = 'Un-assign person';
+$string['usermanagednotallowed'] = 'Creating mutual management assignments is not permitted. Please make sure that users do not manage each other simultaneously';
 $string['usermanagednotallowedrelation'] = 'The user is not allowed to have this relation with the manager';
 $string['usermanagednotexist'] = 'User manager record does not exist';
 $string['usernotfound'] = 'User not found';
