@@ -38,9 +38,8 @@ $string['coursesadmintab'] = 'Learning';
 $string['createdby'] = 'Created by';
 $string['csvcolumn'] = 'CSV column';
 $string['csvdefaultvalue'] = 'Default value';
-$string['csvfieldsmapping'] = 'Field mapping';
+$string['csvfieldsmapping'] = 'Fields mapping';
 $string['csvmappingnotspecified'] = 'Not specified';
-$string['csvwpcolumn'] = 'Moodle Workplace';
 $string['deletegradeshistory'] = 'Delete grades history during course reset';
 $string['deletegradeshistory_desc'] = 'It is recommended to delete grade history during course reset especially when "Recover grades default" setting is on. If grade history is not deleted during course reset, the process of recovering course grades on re-enrollment will recover the grades, however all activities completion information will no longer be present.';
 $string['descriptionformat'] = 'Description format';
@@ -363,6 +362,7 @@ $string['viewimport'] = 'View import';
 $string['viewlicense'] = 'View license';
 $string['wascompleted'] = 'Was completed';
 $string['willbeimported'] = 'Will be imported';
+$string['workplace'] = 'Moodle Workplace';
 $string['workplacelicensegeneric'] = '
 Moodle Workplace - Copyright © 2018 onwards, Moodle Pty Ltd
 Moodle - Copyright © 1999 onwards, Martin Dougiamas
