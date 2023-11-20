@@ -275,6 +275,7 @@ $string['newnamefor'] = 'New name for \'{$a}\'';
 $string['notactivejob'] = 'Not active';
 $string['notification'] = 'Notification';
 $string['notificationcannotcreatejobs'] = 'Before assigning jobs to users, create some departments and positions.';
+$string['notinsametenant'] = 'User and manager are not in the same tenant';
 $string['onlycurrent'] = 'Only current';
 $string['onlyfuture'] = 'Only future';
 $string['onlypast'] = 'Only past';
