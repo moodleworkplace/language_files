@@ -91,6 +91,7 @@ $string['errorcannotallocate'] = 'Cannot allocate to tenant';
 $string['errorinvalidtenant'] = 'Invalid tenant \'{$a}\'';
 $string['errornewcategorytenant'] = 'Parameters \'autocreatecategory\' and \'categoryid\' can not be used together';
 $string['errornopermissionaddcondition'] = 'Sorry, but you do not currently have permissions to view tenant list';
+$string['errornopermissionallocateusers'] = 'No permission to allocate users to this tenant';
 $string['errortenantarchived'] = 'This tenant has been archived';
 $string['errortenantnotfound'] = 'This tenant does not exist';
 $string['errorurlnotavailable'] = 'At least one Login URL must be available.';
