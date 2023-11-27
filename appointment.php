@@ -350,5 +350,6 @@ $string['usersignedup'] = 'Status: signed up';
 $string['usersignedupon'] = 'User signed up on {$a}';
 $string['userwillbewaitlisted'] = 'This session is currently full. By clicking the "Sign-up" button, you will be placed on the sessions\'s wait-list.';
 $string['venue'] = 'Venue';
+$string['waitlistedat'] = '<strong>Wait-listed:</strong> {$a}';
 $string['waitlistedmessage'] = 'Wait-listed message';
 $string['waitlistedmessage_help'] = 'This message is sent out whenever users sign-up for a wait-listed session.';
