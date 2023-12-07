@@ -346,6 +346,10 @@ $string['outcomeallocationdescdate'] = 'Allocate users to program {$a->programna
 With suspended users: {$a->suspendedusers}';
 $string['outcomeallocationdesckeepdate'] = 'Unsuspend and leave the existing program start/end dates';
 $string['outcomeallocationdesckeepstartdate'] = 'Keep program default start date';
+$string['outcomeallocationdescription'] = 'Allocate users to program \'{$a}\'<br />
+Keep program default start date';
+$string['outcomeallocationdescriptionwithdate'] = 'Allocate users to program \'{$a->programname}\'<br />
+Program start date: \'{$a->startdate}\'';
 $string['outcomeallocationdescstartdate'] = 'Program start date: \'{$a->startdate}\'';
 $string['outcomeallocationdescsuspendchangedate'] = 'Unsuspend and change the program start/end dates';
 $string['outcomeallocationdontmodify'] = 'Do not modify allocations';
