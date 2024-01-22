@@ -18,6 +18,6 @@ $string['rawscsspre_desc'] = 'In this field you can provide initialising SCSS co
 $string['recentlyaccessedcourses'] = 'Recently accessed courses';
 $string['region-content'] = 'Content';
 $string['region-side-pre'] = 'Right';
-$string['shareyourexperience'] = 'Share your experience with Moodle Workplace';
+$string['shareyourexperience'] = 'Leave a review of Moodle Workplace';
 $string['tablabel'] = 'More';
 $string['wpdashboard'] = 'Workplace dashboard';
