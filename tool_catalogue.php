@@ -28,7 +28,6 @@ $string['coursecoverhelptext'] = '<ul><li>This is just one course inside larger 
 $string['coursedisplayduelimit'] = 'Show days left for courses';
 $string['coursedisplayduelimit_desc'] = 'Amount of days from which users will see a small reminder (X days left) next to the course name. For example, if set to 14, the reminder will be visible during the 14 days before the course reaches its conclusion date. In the case of many different conclusion dates, the system will evaluate which one is the next closest one. Set to 0 to disable this functionality.';
 $string['coursefiles'] = 'Course files';
-$string['courseimage_help'] = 'The course image.';
 $string['coursenotavailable'] = 'Course not available';
 $string['courses'] = 'Courses';
 $string['coursesperpage_frontpage'] = 'Number of courses per page, site home page';
@@ -94,7 +93,6 @@ $string['programdisplayduelimit_desc'] = 'Amount of days from which users will s
 $string['programempty'] = 'There are no courses in this program';
 $string['programhelptext'] = '<ul><li>Programs can contain different courses</li><li>Complete the courses to complete the program</li></ul>';
 $string['programhelptitle'] = 'What is a program?';
-$string['programimage_help'] = 'The program image.';
 $string['programlink'] = 'See "{$a}" details';
 $string['programlinksingle'] = 'See program details';
 $string['programs'] = 'Programs';
@@ -118,3 +116,7 @@ $string['trainers'] = 'Trainers';
 $string['truncatesummary'] = 'Truncate course summary';
 $string['truncatesummary_desc'] = 'Maximum number of characters to show in the course summary when it is displayed. Set to 0 to not truncate.<br>This setting controls the text that is sent from the server to the browser. You can also opt for truncating individual fields directly in the browser using custom CSS.';
 $string['xcourses'] = '{$a} courses';
+
+// Deprecated since Moodle 4.4.
+$string['courseimage_help'] = 'The course image.';
+$string['programimage_help'] = 'The program image.';
