@@ -2,8 +2,10 @@
 $string['aboutthiscourse'] = 'About this course';
 $string['aboutthisprogram'] = 'About this program';
 $string['all'] = 'All';
+$string['allavailablecourses'] = 'All available courses';
 $string['allowhtmltags'] = 'Allow HTML tags';
 $string['aria:courseactions'] = 'Course actions';
+$string['cachedef_filters'] = 'Learning catalogue search results and filters';
 $string['catalogue'] = 'Catalogue';
 $string['catalogue:config'] = 'Configure learning catalogue';
 $string['catalogueisdisabled'] = 'Learning catalogue is disabled';
@@ -20,6 +22,7 @@ $string['certificationstatusexpired'] = 'The certification \'<strong>{$a->name}<
 $string['certificationstatusopen'] = 'The certification \'<strong>{$a->name}</strong>\' has no due date';
 $string['certificationstatusopenwithdate'] = 'Complete this program by \'<strong>{$a->date}</strong>\' to get the certification \'<strong>{$a->name}</strong>\'';
 $string['certificationstatusoverdue'] = 'The certification \'<strong>{$a->name}</strong>\' was due on \'<strong>{$a->date}</strong>\'';
+$string['clearall'] = 'Clear all';
 $string['complete'] = 'Completed';
 $string['completeatleast'] = 'Complete at least {$a}';
 $string['coursecoverhelp']  = 'This course is part of the \'{$a}\' program';
@@ -115,6 +118,7 @@ $string['todo'] = 'To-do:';
 $string['trainers'] = 'Trainers';
 $string['truncatesummary'] = 'Truncate course summary';
 $string['truncatesummary_desc'] = 'Maximum number of characters to show in the course summary when it is displayed. Set to 0 to not truncate.<br>This setting controls the text that is sent from the server to the browser. You can also opt for truncating individual fields directly in the browser using custom CSS.';
+$string['trydifferentskeyword'] = 'Try using different keywords or filter configuration';
 $string['xcourses'] = '{$a} courses';
 
 // Deprecated since Moodle 4.4.
