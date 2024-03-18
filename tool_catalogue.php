@@ -77,6 +77,7 @@ $string['learningcataloguesettings'] = 'Learning catalogue settings';
 $string['moreinfo'] = 'More information';
 $string['mycourses'] = 'My courses';
 $string['name'] = 'Sort by name';
+$string['noresultsfor'] = 'No results for \'{$a}\'';
 $string['notavailableunless'] = 'Not available unless \'<strong>{$a}</strong>\' is available';
 $string['notavailableuntil'] = 'Not available until \'{$a}\' is completed';
 $string['notnow'] = 'Not now';
