@@ -122,7 +122,7 @@ $string['startdatex'] = '<strong>Start date:</strong> {$a}';
 $string['todo'] = 'To-do:';
 $string['trainers'] = 'Trainers';
 $string['truncatesummary'] = 'Truncate course summary';
-$string['truncatesummary_desc'] = 'Maximum number of characters to show in the course summary when it is displayed. Set to 0 to not truncate.<br>This setting controls the text that is sent from the server to the browser. You can also opt for truncating individual fields directly in the browser using custom CSS.';
+$string['truncatesummary_desc'] = 'Maximum number of characters to show in the course summary when it is displayed. Set to 0 to not truncate on the server side. The summary can still be shortened with CSS styles on display.<br>This setting controls the text that is sent from the server to the browser. You can also opt for truncating individual fields directly in the browser using custom CSS.';
 $string['trydifferentskeyword'] = 'Try using different keywords or filter configuration';
 $string['xcourses'] = '{$a} courses';
 
