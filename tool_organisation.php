@@ -31,7 +31,7 @@ $string['audiencecustomise'] = 'Customise...';
 $string['audiencejobdescription'] = 'Users in department: {$a->department}<br />
 With position: {$a->position}';
 $string['audiencemanager'] = 'Managers';
-$string['audiencemanagerdescription'] = 'Permissions: {$a->permissions}';
+$string['audiencemanagertypedescription'] = 'Manager type: {$a->type}';
 $string['audienceor'] = 'Or';
 $string['audienceselect'] = 'Relation to the report viewer';
 $string['audienceselectinitial'] = 'Select audience';
@@ -274,6 +274,7 @@ $string['managersdropdown_help'] = "Selecting a direct manager determines who th
 <br>
 The current user can have different managers depending on its position in the organisation structure. However, only one manager can be assigned manually.";
 $string['managersunassigned'] = 'Manually assigned managers unassigned';
+$string['managertype'] = 'Manager type';
 $string['manuallyassigned'] = 'Manager (assigned manually)';
 $string['manuallyassignedbadge'] = 'Manually assigned';
 $string['manuallyassignedcreated'] = 'Successfully assigned';
@@ -457,3 +458,6 @@ $string['withoutpermission'] = 'Without permission \'{$a}\'';
 $string['withpermission'] = 'With permission \'{$a}\'';
 $string['withsubdepartments'] = 'Include subdepartments';
 $string['withsubpositions'] = 'Include subpositions';
+
+// Deprecated since Moodle 4.4.
+$string['audiencemanagerdescription'] = 'Permissions: {$a->permissions}';
