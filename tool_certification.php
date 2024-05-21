@@ -430,6 +430,7 @@ $string['usergotsuspended'] = 'User was suspended';
 $string['userlist'] = 'Select users';
 $string['userlist_help'] = 'Select users to allocate to this certification';
 $string['users'] = 'Users';
+$string['usersallocatedsuccess'] = '{$a} users were successfully allocated';
 $string['usersallocationnotavailable'] = 'Users allocation is not available';
 $string['usersdeallocatedsuccess'] = '{$a} user(s) were succesfully de-allocated';
 $string['userseditedsuccess'] = '{$a} user(s) were succesfully modified';

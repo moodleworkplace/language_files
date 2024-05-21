@@ -385,6 +385,7 @@ $string['privacy:metadata:userid'] = 'User id';
 $string['reg_wpdepartmentframeworks'] = 'Number of department frameworks ({$a})';
 $string['reg_wpdepartments'] = 'Number of departments ({$a})';
 $string['reg_wpjobs'] = 'Number of jobs ({$a})';
+$string['reg_wpmanualmanagerassignments'] = 'Number of manual manager assignments ({$a})';
 $string['reg_wppositionframeworks'] = 'Number of position frameworks ({$a})';
 $string['reg_wppositions'] = 'Number of positions ({$a})';
 $string['relevantjobs'] = 'Relevant jobs';

@@ -320,10 +320,9 @@ $string['reason'] = 'Reason for reset';
 $string['recovercoursegrades'] = 'When enabling this setting make sure to also enable the \'Delete grades history during course reset\' setting.';
 $string['refresh'] = 'Refresh';
 $string['reg_moodleproduct'] = 'Moodle product ({$a})';
-$string['reg_wpactiveusers'] = 'Number of unique users who logged in last month ({$a})';
+$string['reg_wpactiveusersyear'] = 'Number of unique users who logged in last 12 months ({$a})';
 $string['reg_wpcertificates'] = 'Number of certificates ({$a})';
 $string['reg_wpcertificatesissues'] = 'Number of issued certificates ({$a})';
-$string['reg_wpparticipantnumberaverage'] = 'Average number of active participants last month ({$a})';
 $string['reg_wpplugins'] = 'List of installed and enabled plugins, number of instances ({$a})';
 $string['reg_wpproductionstate'] = 'Production state ({$a})';
 $string['resetinfo'] = 'Reset information';
@@ -364,16 +363,16 @@ $string['wascompleted'] = 'Was completed';
 $string['willbeimported'] = 'Will be imported';
 $string['workplace'] = 'Moodle Workplace';
 $string['workplacelicensegeneric'] = '
-Moodle Workplace - Copyright © 2018 onwards, Moodle Pty Ltd
+Moodle Workplace - Copyright © Moodle Pty Ltd
 Moodle - Copyright © 1999 onwards, Martin Dougiamas
 
 Moodle Workplace™ Code is the discrete and self-executable collection of software scripts (plugins and modifications, and any derivations thereof) that are exclusively owned and licensed by Moodle Pty Ltd (Moodle) under the terms of its proprietary Moodle Workplace License ("MWL") made available with Moodle\'s open software package ("Moodle LMS") offering which itself is freely downloadable at "download.moodle.org" and which is provided by Moodle under a single GNU General Public License version 3.0, dated 29 June 2007 ("GPL"). MWL is strictly controlled by Moodle Pty Ltd and its Moodle Certified Premium Partners. Wherever conflicting terms exist, the terms of the MWL shall prevail.
 
 The Moodle LMS software package governed by GPL is subject to copyright protection from 1999 onwards by Martin Dougiamas with portions contributed/copyrighted by other contributors. Such Moodle LMS open software and corresponding documentation are distributed in the hope that they will be useful, but without any warranty; without even the implied warranty of merchantability or fitness for a particular purpose.
 
-If you are accessing Moodle Workplace™ without written permission it is not authorised and you should delete it and all accompanying documentation immediately. Failure to do so will expose you to legal penalties. By accessing Moodle Workplace™ as is governed by the MWL (and terms therein that may apply to you) you agree that you have signed either an MWL with Moodle Pty Ltd or the Customer Terms with a Moodle Certified Premium Partner or Moodle group company (hereinafter “Moodle Certified Premium Partner”) ensuring (among other things) that you will:
+If you are accessing Moodle Workplace™ without written permission it is not authorised and you should delete it and all accompanying documentation immediately. Failure to do so will expose you to legal penalties. By accessing Moodle Workplace™ in accordance with the Moodle Workplace Agreement and/or Customer Terms you agree that you have signed either the Moodle Workplace Agreement and/or Customer Terms with Moodle Pty Ltd or the Customer Terms with a Moodle Certified Premium Partner or Moodle group company (hereinafter “Moodle Certified Premium Partner”) ensuring (among other things) that you will:
 
-- only access and share Moodle Workplace™ in accordance with the terms of the MWL or Customer Terms (where applicable);
+- only access and share Moodle Workplace™ in accordance with the terms of the Moodle Workplace Agreement or Customer Terms (where applicable);
 - ensure each Moodle Workplace™ production instance is accurately registered in the site registration hub provided, as described in https://docs.moodle.org/en/Site_registration;
 - cease using Moodle Workplace™ and immediately delete all copies of the Moodle Workplace™ Code from your servers and any computers under your control if you are no longer a Moodle Certified Premium Partner or a customer of a Moodle Certified Premium Partner. You must confirm this in writing to Moodle within 7 days of such event;
 - indemnify and hold both Moodle Pty Ltd and Moodle Certified Premium Partners harmless for any damages, fines, penalties, or other liability arising out of the reproduction or use of Moodle Workplace by you and your end users;
@@ -381,7 +380,7 @@ If you are accessing Moodle Workplace™ without written permission it is not au
 
 Moodle Workplace™ websites may include a tracking pixel for statistical purposes and compliance monitoring. No personal data is collected or processed, only the site URL.
 
-In order to understand the full scope of your rights and obligations please refer to the MWL or Customer Terms that you have signed.';
+In order to understand the full scope of your rights and obligations please refer to the Moodle Workplace Agreement or Customer Terms that you have signed.';
 $string['workplacelicenseheader'] = 'Moodle Workplace license';
 $string['workplacelicensenotagreed'] = 'You can not view this content until the site administrator agrees to the Moodle Workplace license.';
 $string['wp:manageexportimport'] = 'Manage Workplace export/import';
