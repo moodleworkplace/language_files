@@ -296,6 +296,7 @@ $string['sitelinkspecific'] = 'Site link specific for the tenant';
 $string['siteshortname'] = 'Site short name';
 $string['startdate'] = 'Start date';
 $string['subject'] = 'Subject';
+$string['tagarea_tool_dynamicrule'] = 'Dynamic rules';
 $string['taskprocessrules'] = 'Process rules';
 $string['timeadded'] = 'Added to cohort on or after this date and time';
 $string['timecreated'] = 'Created';
