@@ -294,6 +294,8 @@ $string['movepositionframework'] = 'Move position framework \'{$a}\'';
 $string['newframework'] = 'New framework';
 $string['newnamefor'] = 'New name for \'{$a}\'';
 $string['newuseradded'] = 'A new user has been added. <a href="{$a}">View jobs and reporting lines for this user</a>';
+$string['noavailabledepartments'] = 'No available departments';
+$string['noavailablepositions'] = 'No available positions';
 $string['notactivejob'] = 'Not active';
 $string['notification'] = 'Notification';
 $string['notificationcannotcreatejobs'] = 'Before assigning jobs to users, create some departments and positions.';
