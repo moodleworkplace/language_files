@@ -136,6 +136,7 @@ $string['eventsignup'] = 'Session signup';
 $string['eventupdatesession'] = 'Session updated';
 $string['full'] = 'Date is fully occupied';
 $string['fullfilter'] = 'Full';
+$string['fullybooked'] = 'Fully booked';
 $string['goback'] = 'Go back';
 $string['icalendarheading'] = 'iCalendar Attachments';
 $string['joinwaitlist'] = 'Join waitlist';
