@@ -1,4 +1,5 @@
 <?php
+$string['actions'] = 'Actions...';
 $string['courseprogress'] = 'Course progress';
 $string['courseprogressexport'] = '{$a} course progress';
 $string['coursestatus'] = 'Course status';
@@ -17,10 +18,13 @@ $string['overdue'] = 'Overdue';
 $string['pluginname'] = 'Team overview';
 $string['privacy:metadata:preference:block_myteams_filter_overdue'] = 'The sorting by type.';
 $string['progress'] = '{$a}% completed';
-$string['reports'] = 'Reports...';
+$string['progressreports'] = 'Progress reports';
 $string['seeprofile'] = 'See profile';
 $string['seereport'] = 'See report';
 $string['showmore'] = 'Show {$a} more...';
 $string['sortby'] = 'Sort by';
 $string['sortbyname'] = 'Sort by name';
 $string['sortbyrecent'] = 'Sort by recent access';
+
+// Deprecated since Moodle 4.5.
+$string['reports'] = 'Reports...';
