@@ -1,5 +1,6 @@
 <?php
 $string['actions'] = 'Actions...';
+$string['allocationsenrolments'] = 'Allocations / enrolments';
 $string['courseprogress'] = 'Course progress';
 $string['courseprogressexport'] = '{$a} course progress';
 $string['coursestatus'] = 'Course status';
@@ -23,9 +24,11 @@ $string['progressreports'] = 'Progress reports';
 $string['seeprofile'] = 'See profile';
 $string['seereport'] = 'See report';
 $string['showmore'] = 'Show {$a} more...';
+$string['skippedfullenrolallocate'] = '{$a->count} Allocation/enrolments skipped, please see management page for more details';
 $string['sortby'] = 'Sort by';
 $string['sortbyname'] = 'Sort by name';
 $string['sortbyrecent'] = 'Sort by recent access';
+$string['successfullenrolallocate'] = '{$a->count} Allocation/enrolments successfully done';
 
 // Deprecated since Moodle 4.5.
 $string['reports'] = 'Reports...';

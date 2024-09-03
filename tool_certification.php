@@ -19,8 +19,10 @@ $string['afterstartdate'] = 'After start date';
 $string['afterstartdatewithrelativedate'] = '{$a} after start date';
 $string['allocatetocertification'] = 'Allocate to certification';
 $string['allocateusers'] = 'Allocate users';
+$string['allocateuserstocertification'] = 'Allocate users to certifications...';
 $string['allocationdate'] = 'Allocation date';
 $string['allocationdateisonorafter'] = 'Allocation date on or after';
+$string['allocationdefaultvalue'] = 'Same as defined in certifications (Default)';
 $string['allocationenddate'] = 'Allocation end date';
 $string['allocationfor'] = 'Allocation for \'{$a}\'';
 $string['allocationsource'] = 'Allocation source';
@@ -48,6 +50,11 @@ $string['certification'] = 'Certification';
 $string['certification:allocateuser'] = 'Permission to allocate user';
 $string['certification:configurecustomfields'] = 'Configure certifications custom fields';
 $string['certification:edit'] = 'Permission to edit';
+$string['certificationdates'] = 'Dates';
+$string['certificationdates_help'] = 'Select the dates applicable to this certification allocation:
+
+* **Same as defined in certifications:** It will use the dates defined in the certifications.
+* **Select date:** You can select a specific date (start, due) for this certification allocation.';
 $string['certificationfullname'] = 'Certification full name';
 $string['certificationfullname_help'] = 'Certification full name';
 $string['certificationidnumber'] = 'Certification ID number';
@@ -189,6 +196,7 @@ $string['errorexpirydatepreviousduedate'] = 'Expiry date can not be before due d
 $string['erroridnumberuniquetenant'] = 'This ID number is already used in another certification';
 $string['errorinvalidcertification'] = 'Invalid certification';
 $string['errorinvaliddate'] = 'Invalid date';
+$string['errorinvalidpastduedate'] = 'Due date cannot be before the start date';
 $string['errorinvalidpastexpirydate'] = 'Expiry date cannot be in the past';
 $string['errorinvalidpaststartdate'] = 'Start date cannot be in the past';
 $string['errorinvalidtimecertified'] = 'Time certified cannot be in future.';

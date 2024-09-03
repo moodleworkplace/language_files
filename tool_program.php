@@ -23,8 +23,10 @@ $string['allinanyorder'] = 'All in any order';
 $string['allinorder'] = 'All in order';
 $string['allocatetoprogram'] = 'Allocate to program';
 $string['allocateusers'] = 'Allocate users';
+$string['allocateuserstoprograms'] = 'Allocate users to programs...';
 $string['allocationdate'] = 'Allocation date';
 $string['allocationdateonorafter'] = 'Allocation date on or after';
+$string['allocationdefaultvalue'] = 'Same as defined in programs (Default)';
 $string['allocationenddate'] = 'Allocation end date';
 $string['allocationenddate_help'] = 'End date to allocate users into this program';
 $string['allocationfor'] = 'Allocation for \'{$a}\'';
@@ -208,6 +210,7 @@ $string['errorenddatepreviousstartdate'] = 'End date can not be before start dat
 $string['errorhelperactionnotallowed'] = 'Helper action not allowed';
 $string['erroridnumberuniquetenant'] = 'This ID number is already used in another program';
 $string['errorinvaliddate'] = 'Invalid date';
+$string['errorinvalidpastenddate'] = 'End date cannot be before the start date or due date';
 $string['errorinvalidprogram'] = 'Invalid program';
 $string['errorinvalidprogramitemmove'] = 'Invalid program item move';
 $string['errorloadingprogram_mobile'] = 'Error loading program';
@@ -378,6 +381,11 @@ $string['program:allocateuser'] = 'Allocate users to programs';
 $string['program:configurecustomfields'] = 'Configure program custom fields';
 $string['program:coursereset'] = 'Reset program courses';
 $string['program:edit'] = 'Edit programs';
+$string['programdates'] = 'Dates';
+$string['programdates_help'] = 'Select the dates applicable to this program allocation:
+
+* **Same as defined in programs:** It will use the dates defined in the programs.
+* **Select date:** You can select a specific date (start, due, end) for this program allocation.';
 $string['programdescription'] = 'Program description';
 $string['programdescription_help'] = 'The program description is displayed on the program\'s information and cover pages.';
 $string['programduedate'] = 'Program due date';
