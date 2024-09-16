@@ -10,7 +10,6 @@ $string['admin'] = 'Administrator';
 $string['administrators'] = 'Administrators';
 $string['advanced'] = 'Advanced';
 $string['advancedbrandingwarning'] = 'Any changes you make here may impact the accessibility of the site and the user experience.';
-$string['allocateusers'] = 'Allocate users';
 $string['alltenants'] = 'All tenants';
 $string['alltenantsselected'] = 'Users in all tenants (including future ones)';
 $string['allusers'] = 'All users';
@@ -327,6 +326,7 @@ $string['usersuspendedsuccess'] = 'User suspended successfully';
 $string['usertenant'] = 'User tenant';
 
 // Deprecated since Moodle 4.4.
+$string['allocateusers'] = 'Allocate users';
 $string['alluserslegacy'] = 'All users (legacy)';
 $string['confirmunsuspenduser'] = 'Are you sure you want to unsuspend this user?';
 $string['confirmunsuspendusers'] = 'Are you sure you want to unsuspend the selected users?';
