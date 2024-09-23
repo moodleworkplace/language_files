@@ -4,6 +4,7 @@ $string['blockmyoverviewhideprogramcoursesdesc'] = 'Do not display courses in th
 $string['branding:name'] = 'Moodle Workplace';
 $string['branding:poweredby'] = 'Powered by';
 $string['choosereadme'] = 'Welcome to Workplace.';
+$string['contactsupporttoupgrade'] = 'Please contact <a href="{$a}">Services and support</a> to update your site to the latest version to obtain new features and all recent security and bug fixes';
 $string['courseheaderimage'] = 'Course header image';
 $string['ends'] = 'Ends';
 $string['global'] = 'Global';
@@ -20,4 +21,7 @@ $string['region-content'] = 'Content';
 $string['region-side-pre'] = 'Right';
 $string['shareyourexperience'] = 'Leave a review of Moodle Workplace';
 $string['tablabel'] = 'More';
+$string['updateavailable'] = 'There is a newer Moodle Workplace version available:';
+$string['updateavailable_release'] = 'Moodle Workplace {$a}';
+$string['updateavailablenot'] = 'Everything is up-to-date!';
 $string['wpdashboard'] = 'Workplace dashboard';

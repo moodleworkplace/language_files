@@ -325,6 +325,7 @@ $string['reg_wpcertificates'] = 'Number of certificates ({$a})';
 $string['reg_wpcertificatesissues'] = 'Number of issued certificates ({$a})';
 $string['reg_wpplugins'] = 'List of installed and enabled plugins, number of instances ({$a})';
 $string['reg_wpproductionstate'] = 'Production state ({$a})';
+$string['reg_wprelease'] = 'Moodle Workplace release number ({$a})';
 $string['resetinfo'] = 'Reset information';
 $string['resetstatus'] = 'Reset status';
 $string['safenavigation'] = 'It is safe to continue navigating on the site.';

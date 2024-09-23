@@ -14,6 +14,7 @@ $string['fullreport'] = 'Full report';
 $string['futurestart'] = 'Future enrolment';
 $string['managedusersoverduecourses'] = 'Some team members have overdue courses.';
 $string['management'] = 'Management';
+$string['more'] = 'More...';
 $string['myteams:addinstance'] = 'Add new "My teams" block';
 $string['myteams:myaddinstance'] = 'Add new "My teams" block';
 $string['overdue'] = 'Overdue';

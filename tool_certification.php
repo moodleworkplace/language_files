@@ -18,6 +18,7 @@ $string['afterpreviouscertexpdatewithrelativedate'] = '{$a} after previous certi
 $string['afterstartdate'] = 'After start date';
 $string['afterstartdatewithrelativedate'] = '{$a} after start date';
 $string['allocatetocertification'] = 'Allocate to certification';
+$string['allocatetocertifications'] = 'Allocate to certifications...';
 $string['allocateusers'] = 'Allocate users';
 $string['allocateuserstocertification'] = 'Allocate users to certifications...';
 $string['allocationdate'] = 'Allocation date';

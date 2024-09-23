@@ -22,6 +22,7 @@ $string['afteruserallocationdatewithrelativedate'] = '{$a} after user allocation
 $string['allinanyorder'] = 'All in any order';
 $string['allinorder'] = 'All in order';
 $string['allocatetoprogram'] = 'Allocate to program';
+$string['allocatetoprograms'] = 'Allocate to programs...';
 $string['allocateusers'] = 'Allocate users';
 $string['allocateuserstoprograms'] = 'Allocate users to programs...';
 $string['allocationdate'] = 'Allocation date';
