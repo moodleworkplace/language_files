@@ -88,7 +88,9 @@ $string['enablesharedspace'] = 'Enable Shared space';
 $string['enrolinseparategroups'] = 'This course may be shared with other tenants but users from different tenants will be allocated to separate groups';
 $string['enrolwithoutgroups'] = 'Users from other tenants may be enrolled in this course and be able to see each other because this course is not in separate groups mode';
 $string['errorcannotallocate'] = 'Cannot allocate to tenant';
+$string['errorexperimentalmultidomain'] = 'Individual domains per tenant experimental feature is no longer supported. Please adjust the configuration - see <a href="{$a}">Migrating multi-domain configuration</a>';
 $string['errorinvalidtenant'] = 'Invalid tenant \'{$a}\'';
+$string['errormultidomainandtenant'] = 'Multi-tenancy configuration is invalid. Please adjust the configuration - see <a href="{$a}">Migrating multi-domain configuration</a>';
 $string['errornewcategorytenant'] = 'Parameters \'autocreatecategory\' and \'categoryid\' can not be used together';
 $string['errornopermissionaddcondition'] = 'Sorry, but you do not currently have permissions to view tenant list';
 $string['errornopermissionallocateusers'] = 'No permission to allocate users to this tenant';
@@ -96,6 +98,7 @@ $string['errortenantarchived'] = 'This tenant has been archived';
 $string['errortenantidnumberunique'] = 'This ID number is already used in another tenant';
 $string['errortenantnotfound'] = 'This tenant does not exist';
 $string['errorurlnotavailable'] = 'At least one Login URL must be available.';
+$string['errorwwwroot'] = 'Custom domain must be a valid URL starting with http:// or https:// without a trailing / . It may not contain a path nor a port.';
 $string['eventtenantcreated'] = 'Tenant created';
 $string['eventtenantdeleted'] = 'Tenant deleted';
 $string['eventtenantupdated'] = 'Tenant updated';
@@ -164,6 +167,7 @@ $string['newname'] = 'New tenant \'{$a}\'';
 $string['newnamefor'] = 'New name for \'{$a}\'';
 $string['nocategory'] = 'No category';
 $string['nomanualassignment'] = 'This role can not be assigned manually in any context';
+$string['noreplyaddressdescription'] = 'The noreply email is configured at the site level by default. By selecting \'Override\' a new email can be provided';
 $string['notavailablefortenants'] = 'Not available in any tenant';
 $string['notnow'] = 'Not now';
 $string['notspecified'] = 'Not specified';
@@ -189,6 +193,7 @@ $string['profilecategory_alltenants'] = 'This category is available to all tenan
 $string['profilecategory_exceptfollowingtenants'] = 'This category is available to all tenants except the following';
 $string['profilecategory_onlyfollowingtenants'] = 'This category is available only to the following tenants';
 $string['reg_wpsharedspaceenabled'] = 'Shared space is enabled ({$a})';
+$string['reg_wptenantdomains'] = 'Number of tenants with custom domains set ({$a})';
 $string['reg_wptenants'] = 'Number of tenants ({$a})';
 $string['resendemailsentfail'] = '{$a} user(s) not found or could not be sent confirmation emails';
 $string['resendemailsentsuccess'] = 'Confirmation emails sent to {$a} user(s)';
@@ -324,6 +329,8 @@ $string['usersunassignedtenantadminfail'] = 'Couldn\'t remove {$a} user(s) from 
 $string['usersunassignedtenantadminsuccess'] = 'Removed {$a} users(s) from the list of tenant administrators';
 $string['usersuspendedsuccess'] = 'User suspended successfully';
 $string['usertenant'] = 'User tenant';
+$string['wwwroot'] = 'Custom domain';
+$string['wwwroot_help'] = 'Specify URL that should be used for this tenant. Before doing it make sure that DNS is already set up so that URL points to the same site.';
 
 // Deprecated since Moodle 4.4.
 $string['allocateusers'] = 'Allocate users';

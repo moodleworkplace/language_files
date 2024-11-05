@@ -144,6 +144,7 @@ $string['exportselectallreports'] = 'Export all custom reports';
 $string['exportselectlimitreports'] = 'Export specific custom reports...';
 $string['exportstatus'] = 'Status';
 $string['filecontent'] = 'File content';
+$string['filterworkplacepluginsonly'] = 'Show Workplace plugins only';
 $string['grade'] = 'Grade';
 $string['idnumberchanged'] = 'ID number was changed from \'{$a->from}\' to \'{$a->to}\'';
 $string['import_content'] = 'Certificate template details';
@@ -287,6 +288,8 @@ $string['numhour'] = '{$a} hour';
 $string['outcomes'] = 'Outcomes';
 $string['performanceinfo'] = 'Tab performance information (DB reads/writes: {$a->reads}/{$a->writes})';
 $string['pluginname'] = 'Workplace';
+$string['pluginsourceworkplace'] = 'Workplace';
+$string['pluginsoverviewworkplace'] = 'Workplace plugins';
 $string['privacy:metadata:certificationid'] = 'The certification id where this course comes from.';
 $string['privacy:metadata:courseid'] = 'The course that was reseted.';
 $string['privacy:metadata:exportcreatedby'] = 'The ID of the user who performed the export.';
@@ -323,9 +326,16 @@ $string['reg_moodleproduct'] = 'Moodle product ({$a})';
 $string['reg_wpactiveusersyear'] = 'Number of unique users who logged in last 12 months ({$a})';
 $string['reg_wpcertificates'] = 'Number of certificates ({$a})';
 $string['reg_wpcertificatesissues'] = 'Number of issued certificates ({$a})';
+$string['reg_wpdefaulthomepagetype'] = 'Default homepage type ({$a})';
 $string['reg_wpplugins'] = 'List of installed and enabled plugins, number of instances ({$a})';
 $string['reg_wpproductionstate'] = 'Production state ({$a})';
 $string['reg_wprelease'] = 'Moodle Workplace release number ({$a})';
+$string['registrationwarning'] = 'Your site has not been registered with Moodle. You should fix that now.
+
+If you have problems registering your site, you can contact your <a href="{$a}">Moodle Partner representative</a> and they will register your site for you.
+
+Moodle reserves the right to revoke your access to Moodle Workplace™ which may cause you inconvenience.';
+$string['registrationwarningcontactadmin'] = 'This site is not registered. To comply with the software license and continue to access this Moodle Workplace™ site you must ensure that your administrator registers the site.';
 $string['resetinfo'] = 'Reset information';
 $string['resetstatus'] = 'Reset status';
 $string['safenavigation'] = 'It is safe to continue navigating on the site.';

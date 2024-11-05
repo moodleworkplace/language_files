@@ -73,6 +73,8 @@ Sub-departments: {$a->subdeptsinclude}<br />
 On or after: {$a->conditiondate}';
 $string['conditionuserdepartmentseachcriteria'] = 'Every time a user gets a job in any of the selected departments';
 $string['conditionuserdepartmentseachcriteria_help'] = 'Equivalent of creating multiple rules, one for each of the selected departments';
+$string['conditionusermanager'] = 'User is manager';
+$string['conditionusermanagerdescription'] = 'Users who are managers of type: {$a->type}';
 $string['conditionusernotindepartment'] = 'User is not in department';
 $string['conditionuserposition'] = 'User has position';
 $string['conditionuserpositiondescription'] = 'Users who have position \'{$a->posname}\'<br />

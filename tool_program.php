@@ -351,6 +351,7 @@ $string['outcomedeallocationdescriptionsuspend'] = 'Suspend existing user alloca
 $string['overdue'] = 'Overdue';
 $string['overdueprograms'] = 'Overdue programs';
 $string['overdueprogramslink'] = '<a href="{$a->href}">{$a->count} overdue programs</a>';
+$string['overduex'] = '{$a} overdue';
 $string['parentname'] = 'Parent name';
 $string['pending'] = 'Pending';
 $string['pendingreasonhiddencourse'] = 'Some courses that are required to unlock this course are not available. Please contact the site administrator.';
@@ -412,6 +413,8 @@ $string['programrules'] = 'Program rules';
 $string['programs'] = 'Programs';
 $string['programscustomfield'] = 'Programs custom fields';
 $string['programsetname'] = 'Set name';
+$string['programslink'] = '<a href="{$a->href}">{$a->count} program</a>';
+$string['programslink_plural'] = '<a href="{$a->href}">{$a->count} programs</a>';
 $string['programsoverview_mobile'] = 'Programs overview';
 $string['programstatus'] = 'Program status';
 $string['programtags'] = 'Program tags';

@@ -67,6 +67,8 @@ $string['certificationprogressexport'] = '{$a} certification progress';
 $string['certificationrules'] = 'Certification rules';
 $string['certifications'] = 'Certifications';
 $string['certificationscustomfield'] = 'Certifications custom fields';
+$string['certificationslink'] = '<a href="{$a->href}">{$a->count} certification</a>';
+$string['certificationslink_plural'] = '<a href="{$a->href}">{$a->count} certifications</a>';
 $string['certificationstatus'] = 'Certification status';
 $string['certificationstatus_help'] = 'Status of the current certification';
 $string['certificationtags'] = 'Certification tags';
@@ -347,6 +349,7 @@ $string['outcomedeallocationdescriptionsuspend'] = 'Suspend existing user alloca
 $string['overdue'] = 'Overdue';
 $string['overduecertifications'] = 'Overdue certifications';
 $string['overduecertificationslink'] = '<a href="{$a->href}">{$a->count} overdue certifications</a>';
+$string['overduex'] = '{$a} overdue';
 $string['pluginname'] = 'Certifications';
 $string['previewcertificationname'] = 'Certification name preview';
 $string['previouscertexpirydate'] = 'Previous certification expiry date';
