@@ -130,6 +130,7 @@ $string['enddate'] = 'End date';
 $string['errorbadgehasextracriteria'] = 'This badge has another required criteria in addition to manual issue, thus can\'t be issues by dynamic rule';
 $string['errorbadgenopermission'] = 'You don\'t have role required to issue this badge';
 $string['errorcannotcreate'] = 'You don\'t have permission to create rules';
+$string['errorcannoteditaftermatchedusers'] = 'One or more users have matched this rule after this page was loaded. Conditions can no longer be edited or deleted.';
 $string['errorcannotmanage'] = 'You don\'t have permission to manage this rule';
 $string['errorcannotmanagecondition'] = 'You don\'t have permission to manage this condition';
 $string['errorcannotmanageoutcome'] = 'You don\'t have permission to manage this action';
