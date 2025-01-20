@@ -179,6 +179,7 @@ $string['errormovehierarchy'] = 'An error occurred while moving the position or 
 $string['errorparentnotfound'] = 'Parent not found';
 $string['errorparentnotfounddepartment'] = 'Parent not found for department with id number \'{$a}\'';
 $string['errorparentnotfoundposition'] = 'Parent not found for position with id number \'{$a}\'';
+$string['errorparentsameascurrent'] = 'Parent can not be equal to the current hierarchy entity itself';
 $string['errorsameidnumberdepartment'] = 'Department with the same ID number already exists';
 $string['errorsameidnumberposition'] = 'Position with the same ID number already exists';
 $string['eventdepartmentcreated'] = 'Department created';
