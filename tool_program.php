@@ -382,6 +382,8 @@ $string['program:allocateuser'] = 'Allocate users to programs';
 $string['program:configurecustomfields'] = 'Configure program custom fields';
 $string['program:coursereset'] = 'Reset program courses';
 $string['program:edit'] = 'Edit programs';
+$string['programcompleted'] = 'Program completed';
+$string['programcompletiondate'] = 'Program completion date';
 $string['programdates'] = 'Dates';
 $string['programdates_help'] = 'Select the dates applicable to this program allocation:
 
@@ -452,6 +454,7 @@ $string['selectprogramstoallocate'] = 'Programs';
 $string['selectprogramstoallocate_help'] = 'Select the programs where users will be allocated';
 $string['separatetenantsingroupswarning'] = 'In courses shared between tenants, users from each tenant will be added to separate groups.';
 $string['set'] = 'Set';
+$string['setcompletiondate'] = 'Set completion date';
 $string['setname'] = 'Name';
 $string['setname_help'] = 'Please choose a name for the set';
 $string['setofcourses'] = 'Set of courses';
