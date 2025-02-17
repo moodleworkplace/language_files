@@ -45,6 +45,7 @@ $string['archivedconfirmation'] = 'Are you sure you want to archive the program 
 $string['archivedon'] = 'Archived on';
 $string['archivedprograms'] = 'Archived programs';
 $string['assfirstchildof'] = 'As the first child of "{$a}"';
+$string['associatedcategorywarning'] = 'To include this program in the catalogue, it must be associated with a category. This selection will ensure users can easily find the program within a catalogue.';
 $string['associatedcertification'] = 'Associated certification';
 $string['associatedcertifications'] = 'Associated certifications';
 $string['associatedcertificationswitheditlinks'] = 'Associated certifications with links to edit';
@@ -61,6 +62,12 @@ $string['beforeenddatewithrelativedate'] = '{$a} before end date';
 $string['calendar'] = 'Schedule';
 $string['calendarduedate'] = 'Due date for program {$a}';
 $string['calendarenddate'] = 'End date for program {$a}';
+$string['catalogue'] = 'Catalogue';
+$string['categoryassociation'] = 'Category association';
+$string['categoryassociation_help'] = 'This setting allows you to specify the course category under which this program
+will be listed in the catalogue. Course categories help organise programs, making it easier for users
+to find what they are looking for.';
+$string['categorytenantmismatch'] = 'Selected category is associated with a different tenant';
 $string['certification'] = 'Certification';
 $string['certificationduedate'] = 'Certification due date';
 $string['certificationmsgactive'] = 'Certification <strong>"{$a->fullname}"</strong> must be completed by <strong>{$a->date}</strong>';
@@ -425,6 +432,10 @@ $string['programtenant'] = 'Program tenant';
 $string['programuserallocations'] = 'Program user allocations';
 $string['programvisibility'] = 'Program visibility';
 $string['programvisibility_help'] = 'This setting determines if the program is shown on the user\'s list of courses or not.';
+$string['programvisibilityincatalogue'] = 'Program visibility in the catalogue';
+$string['programvisibilityincatalogue_help'] = 'This setting determines whether the program will be visible in the catalogue. If you enable this option,
+users browsing the catalogue will be able to view and potentially self-allocate to this program.<br /><br />
+Disabling this setting will hide program from the catalogue, but users with direct access (e.g., through specific links or permissions) may still interact with it.';
 $string['progress'] = '{$a} completed';
 $string['progressoverview'] = 'Progress overview';
 $string['progressoverviewfor'] = 'Progress overview for {$a}';
@@ -462,6 +473,7 @@ $string['setname'] = 'Name';
 $string['setname_help'] = 'Please choose a name for the set';
 $string['setofcourses'] = 'Set of courses';
 $string['setsandcoursesnotfound_mobile'] = 'No sets or courses found';
+$string['showincatalogue'] = 'Show this program in the catalogue';
 $string['startdate'] = 'Start date';
 $string['startdate_help'] = 'Start date for this program';
 $string['status'] = 'Status';
