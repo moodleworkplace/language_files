@@ -230,6 +230,7 @@ The exported file will contain the same settings as those set as default on this
 $string['instances'] = 'Instances';
 $string['instancescount'] = 'Instances ({$a}):';
 $string['invaliddevice'] = 'You are trying to access a Moodle Workplace site using the Moodle app. Please download the Moodle Workplace app to continue';
+$string['learningcatalogue'] = 'Learning catalogue';
 $string['loading'] = 'Loading...';
 $string['log'] = 'Log';
 $string['managecoursecategories'] = 'Manage course categories';
@@ -331,6 +332,7 @@ $string['reg_wpdefaulthomepagetype'] = 'Default homepage type ({$a})';
 $string['reg_wpplugins'] = 'List of installed and enabled plugins, number of instances ({$a})';
 $string['reg_wpproductionstate'] = 'Production state ({$a})';
 $string['reg_wprelease'] = 'Moodle Workplace release number ({$a})';
+$string['reg_wpreports'] = 'Number of custom reports ({$a})';
 $string['registrationwarning'] = 'Your site has not been registered with Moodle. You should fix that now.
 
 If you have problems registering your site, you can contact your <a href="{$a}">Moodle Partner representative</a> and they will register your site for you.
@@ -379,19 +381,16 @@ $string['workplacelicensegeneric'] = '
 Moodle Workplace - Copyright © Moodle Pty Ltd
 Moodle - Copyright © 1999 onwards, Martin Dougiamas
 
-Moodle Workplace™ Code is the discrete and self-executable collection of software scripts (plugins and modifications, and any derivations thereof) that are exclusively owned and licensed by Moodle Pty Ltd (Moodle) under the terms of its proprietary Moodle Workplace License ("MWL") made available with Moodle\'s open software package ("Moodle LMS") offering which itself is freely downloadable at "download.moodle.org" and which is provided by Moodle under a single GNU General Public License version 3.0, dated 29 June 2007 ("GPL"). MWL is strictly controlled by Moodle Pty Ltd and its Moodle Certified Premium Partners. Wherever conflicting terms exist, the terms of the MWL shall prevail.
-
-The Moodle LMS software package governed by GPL is subject to copyright protection from 1999 onwards by Martin Dougiamas with portions contributed/copyrighted by other contributors. Such Moodle LMS open software and corresponding documentation are distributed in the hope that they will be useful, but without any warranty; without even the implied warranty of merchantability or fitness for a particular purpose.
-
-If you are accessing Moodle Workplace™ without written permission it is not authorised and you should delete it and all accompanying documentation immediately. Failure to do so will expose you to legal penalties. By accessing Moodle Workplace™ in accordance with the Moodle Workplace Agreement and/or Customer Terms you agree that you have signed either the Moodle Workplace Agreement and/or Customer Terms with Moodle Pty Ltd or the Customer Terms with a Moodle Certified Premium Partner or Moodle group company (hereinafter “Moodle Certified Premium Partner”) ensuring (among other things) that you will:
-
-- only access and share Moodle Workplace™ in accordance with the terms of the Moodle Workplace Agreement or Customer Terms (where applicable);
+Moodle Workplace™ is Moodle\'s customised enterprise learning and training management system only available via Moodle Pty Ltd or Moodle group company ("Moodle") or a Moodle Certified Premium Partner. The Moodle Workplace™ code is a collection of software scripts (plugins and modifications, and any derivations thereof) that are exclusively owned and licensed by Moodle under the terms of a separate Moodle Workplace Agreement and/or Customer Terms.
+It is made available with Moodle\'s open source software ("Moodle LMS") which is freely downloadable at "download.moodle.org" and which is provided by Moodle under a single GNU General Public License version 3.0, dated 29 June 2007 ("GPL"). The Moodle LMS software is distributed in the hope that it will be useful, but without any warranty; including but not limited to the implied warranty of merchantability or fitness for a particular purpose.
+If you are accessing Moodle Workplace™ without written permission it is unauthorised access and you should delete it and all accompanying documentation immediately. Failure to do so will expose you to legal penalties. By accessing Moodle Workplace™ in accordance with the Moodle Workplace Agreement and/or Customer Terms you agree that you have signed either the Moodle Workplace Agreement and/or Customer Terms with a Moodle Certified Premium Partner or Moodle ensuring (among other things) that you will:
+- only access and share Moodle Workplace™ in accordance with the terms of the applicable Moodle Workplace Agreement or applicable Customer Terms including without restriction all indemnities and promises of confidentiality in Moodle\'s favour therein;
 - ensure each Moodle Workplace™ production instance is accurately registered in the site registration hub provided, as described in https://docs.moodle.org/en/Site_registration;
-- cease using Moodle Workplace™ and immediately delete all copies of the Moodle Workplace™ Code from your servers and any computers under your control if you are no longer a Moodle Certified Premium Partner or a customer of a Moodle Certified Premium Partner. You must confirm this in writing to Moodle within 7 days of such event;
-- indemnify and hold both Moodle Pty Ltd and Moodle Certified Premium Partners harmless for any damages, fines, penalties, or other liability arising out of the reproduction or use of Moodle Workplace by you and your end users;
-- (where you are a Moodle Certified Premium Partner) have unlimited liability to Moodle for direct and indirect damages (including consequential loss) arising from unauthorised or unlawful use of Moodle Workplace Code by you as a Moodle Certified Premium Partner.
+- register accurate Customer details in the Moodle Partner Portal including the URL and the location of hosting and for Customer-Hosted instances, ensure the Customer Terms are properly and lawfully executed by the Customer and returned to Moodle together with providing a copy of the Customer\'s commercial general liability insurance coverage;
+- ensure that all production sites are upgraded to a version of Moodle Workplace Code confirmed by Moodle as currently supported by bug fixes for security vulnerabilities as stated by Moodle publicly on its website; and
+- cease using Moodle Workplace™ and immediately delete all copies of the Moodle Workplace™ Code from your servers and any computers under your control if you are no longer a Moodle Certified Premium Partner or a customer of a Moodle Certified Premium Partner. You must confirm this in writing to Moodle within 7 days of such event.
 
-Moodle Workplace™ websites may include a tracking pixel for statistical purposes and compliance monitoring. No personal data is collected or processed, only the site URL.
+Moodle Workplace™ websites may include a tracking pixel for statistical purposes and compliance monitoring. Please note that no personal data is collected or processed.
 
 In order to understand the full scope of your rights and obligations please refer to the Moodle Workplace Agreement or Customer Terms that you have signed.';
 $string['workplacelicenseheader'] = 'Moodle Workplace license';

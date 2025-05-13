@@ -1,0 +1,61 @@
+<?php
+$string['action:disable'] = 'Disable course enrolment and remove roles';
+$string['action:keep'] = 'Keep user enrolled ';
+$string['action:unenrol'] = 'Unenrol user from course';
+$string['anongroup'] = 'Ex staff manager';
+$string['config:autogroup'] = 'Auto group enrolments';
+$string['config:autogroup_help'] = 'Whether the user should be added to the group: &lt;Tenant name&gt; + &lt;Staff manager full name&gt;';
+$string['config:enrolperiod'] = 'Enrolment duration';
+$string['config:enrolperiod_help'] = 'Default length of time that the enrolment is valid. If set to zero, the enrolment duration will be unlimited';
+$string['config:expiredaction'] = 'Enrolment expiry action';
+$string['config:expiredaction_help'] = 'This is the action to carry out when user enrolment expires using the Staff manager allocation enrolment';
+$string['config:expirynotify'] = 'Notify before enrolment expires';
+$string['config:expirynotify_help'] = 'Determines whether enrolment expiry notification messages are sent';
+$string['config:expirythreshold'] = 'Notification threshold';
+$string['config:expirythreshold_help'] = 'How long before enrolment expiry should users be notified';
+$string['config:newenrols'] = 'Allow new staff enrolments';
+$string['config:newenrols_desc'] = 'Allow users to enrol staff into new courses by default.';
+$string['config:newenrols_help'] = 'This setting determines whether a user can enrol staff into this course.';
+$string['config:roleid'] = 'Default role';
+$string['config:roleid_help'] = 'Indicates which role the user is assigned when enrolled using this enrolment method';
+$string['config:status'] = 'Enable staff manager allocation enrolment';
+$string['config:status_help'] = 'Should the enrolment method be enabled or disabled by default at the course level';
+$string['config:welcome'] = 'Send course welcome message';
+$string['config:welcome_help'] = 'When a user self enrols in the course, they may be sent a welcome message email if this is enabled';
+$string['enrolstaff'] = 'Enrol staff to course';
+$string['enrolusers'] = 'Enrol users';
+$string['expirymessageenrolledbody'] = 'Dear {$a->user}, This is a notification that your enrolment in the course \'{$a->course}\' is due to expire on {$a->timeend}. If you need help, please contact {$a->enroller}.';
+$string['expirymessageenrolledsubject'] = 'Enrolment expiry notification';
+$string['expirymessageenrollerbody'] = 'Dear {$a->user}, This is a notification that the enrolment for your staff member {$a->staffmember} on the course \'{$a->course}\' is due to expire on {$a->timeend}.';
+$string['expirymessageenrollersubject'] = 'Enrolment expiry notification';
+$string['expirynotificationsent'] = 'Enrolment expiry notification sent event';
+$string['expirynotify:both'] = 'Staff manager and enrolled user';
+$string['expirynotify:manager'] = 'Staff manager only';
+$string['expirynotify:no'] = 'No';
+$string['expirynotify:user'] = 'Enrolled user only';
+$string['messageprovider:expiry_notification'] = 'Enrolment expiration';
+$string['mystaff'] = 'My staff enrolments';
+$string['pluginname'] = 'Staff manager allocations';
+$string['privacy:metadata:enrol_staffmgrallocation_groups'] = 'The list of staff managers that groups were auto created for';
+$string['privacy:metadata:enrol_staffmgrallocation_groups:groupid'] = 'Group id';
+$string['privacy:metadata:enrol_staffmgrallocation_groups:tenantid'] = 'Tenant id';
+$string['privacy:metadata:enrol_staffmgrallocation_groups:userid'] = 'The staff manager the group was created for';
+$string['sendexpirynotificationstask'] = 'Staff manager allocation enrolment send expiry notifications task';
+$string['staffmgrallocation:config'] = 'Configure staff manager allocation enrol instances';
+$string['staffmgrallocation:manage'] = 'Manage the student enrolment instances at the course level';
+$string['staffmgrallocation:unenrol'] = 'Unenrol user from a course';
+$string['staffmgrallocation:unenrolself'] = 'Unenrol self from the course';
+$string['staffmgrtab'] = 'Staff manager enrolments';
+$string['syncenrolmentstask'] = 'Synchronise staff manager allocation enrolments task';
+$string['unenrolselfconfirm'] = 'Do you really want to unenrol yourself from course "{$a}"?';
+$string['welcome:body'] = 'Dear <i>{$a->firstname}</i>,
+
+<i>You have been enrolled by your staff manager {$a->staffmgr} to {$a->coursename}.</i><br/>
+
+You can access the course using the following URL <i><a href="{$a->courseurl}">{$a->courseurl}</a>.</i><br/>
+
+<i>If you have not done so already, you should edit your profile page so that we can learn more about you: <a href="{$a->profileurl}">{$a->profileurl}</a></i>';
+$string['welcome:no'] = 'No';
+$string['welcome:subject'] = 'Welcome to {$a}';
+$string['welcome:yes'] = 'From no-reply address (configured under Outgoing mail configuration)';
+$string['welcomemessagesent'] = 'Welcome message sent event';

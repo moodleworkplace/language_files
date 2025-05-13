@@ -31,6 +31,8 @@ $string['authmethod'] = 'Authentication method';
 $string['authnewstatusfor'] = 'New status for {$a}';
 $string['authpluginsettings'] = '{$a}. Settings';
 $string['authtypeofloginwarning'] = 'Some tenants are using specific authentication methods. To offer a consistent experience for mobile app users, it\'s recommended to change the setting \'typeoflogin\' from \'Via the app\' to another option on the <a href="{$a}">Mobile authentication page</a>.';
+$string['availableinalltenants'] = 'Available in all tenants';
+$string['availableinalltenants_help'] = 'When enabled, users (with appropriate permissions) in all tenants will be able to view this report. Most report sources will automatically limit the displayed users and other entities (programs, certifications, courses) to those visible inside the tenant.';
 $string['basicinformation'] = 'Basic information';
 $string['brand'] = 'Primary colour';
 $string['brand_help'] = 'The colour of all links and accent colour of the site';
@@ -57,6 +59,7 @@ $string['colours'] = 'Colours';
 $string['conditionuserallocateddescription'] = 'Users allocated to tenant \'{$a}\'';
 $string['conditionusernotallocateddescription'] = 'Users not allocated to tenant \'{$a}\'';
 $string['configoverride'] = 'Override';
+$string['configoverrideellipsis'] = 'Override...';
 $string['configureoauth2link'] = 'Configure OAuth 2 services';
 $string['configusedefault'] = 'Use default';
 $string['confirmaccounts'] = 'Confirm accounts';
@@ -78,6 +81,8 @@ $string['confirmsuspenduser'] = 'Are you sure you want to suspend this user?';
 $string['confirmsuspendusers'] = 'Are you sure you want to suspend the selected users?';
 $string['confirmunassigntenantadmins'] = 'Are you sure you want to remove the selected users from the list of tenant administrators?';
 $string['createnewcategory'] = 'Create a new category';
+$string['current'] = 'Current';
+$string['currentlysetting'] = 'Currently: {$a}';
 $string['customcss'] = 'Custom SCSS';
 $string['defaultdashboardconfiguration'] = 'Default dashboard configuration';
 $string['defaultname'] = 'Default tenant';
@@ -88,11 +93,17 @@ $string['deleteusers'] = 'Delete users';
 $string['editdashboard'] = 'Edit dashboard';
 $string['editdashboarddescription'] = 'Edit the dashboard for this tenant only.';
 $string['editdetailsinsharedspace'] = 'Edit in Shared space';
+$string['editeachtenantoverride'] = 'Edit this setting for each tenant...';
+$string['editeachtenantoverridetitle'] = 'Edit \'{$a->setting}\' for each tenant';
 $string['editingdashboard'] = 'You are editing the dashboard for \'{$a}\'';
 $string['editingsitedashboard'] = 'You are editing the Default site dashboard page';
+$string['editsettingfortenantoverride'] = 'Edit \'{$a->setting}\' for {$a->tenant}';
+$string['editspecifictenantoverride'] = 'Edit this setting for \'{$a}\'...';
 $string['edittenantname'] = 'Edit name';
+$string['edittenantoverride'] = 'Edit...';
 $string['edituserwithname'] = 'Edit user \'{$a}\'';
 $string['emailsconfirmationresend'] = 'Resend confirmation emails';
+$string['empty'] = 'Empty';
 $string['enablesharedspace'] = 'Enable Shared space';
 $string['enrolinseparategroups'] = 'This course may be shared with other tenants but users from different tenants will be allocated to separate groups';
 $string['enrolwithoutgroups'] = 'Users from other tenants may be enrolled in this course and be able to see each other because this course is not in separate groups mode';
@@ -188,6 +199,18 @@ $string['oauth2availableforlogin'] = 'OAuth 2 services available for login.';
 $string['organisationadmintab'] = 'Organisation';
 $string['outcomeallocation'] = 'Allocate users to tenant';
 $string['outcomeallocationdescription'] = 'Allocate users to tenant \'{$a}\'';
+$string['overridden'] = 'Overridden';
+$string['overrideerror'] = 'There was an error with the setting override process';
+$string['overridesetting'] = 'Allow tenants to override \'{$a}\'';
+$string['overridesetting_help'] = '**Multi-tenant setting**
+
+If this site contains more than one tenant, the value established for this setting will serve as the **default for all tenants**.
+
+By enabling or disabling this option, it is possible to either permit or restrict other tenants from overriding this setting value:
+
+* **Enabled**: Tenant administrators can override this setting for their specific tenant, affecting only that tenant.
+
+* **Disabled**: The value of this setting will be set as the default for all tenants, and tenant administrators will not have the ability to override its value for their specific tenants.';
 $string['pluginname'] = 'Multi-tenancy';
 $string['privacy:metadata:user'] = 'Allocation of users to tenants';
 $string['privacy:metadata:user:component'] = 'Component responsible for allocation';
@@ -234,6 +257,11 @@ $string['selecttenant'] = 'Select tenant';
 $string['selecttenantoutcome'] = 'Select tenant';
 $string['selecttenants'] = 'Select tenants';
 $string['selectuser'] = 'Select user \'{$a}\'';
+$string['settingnotoverriden'] = 'Tenants cannot override this setting now';
+$string['settingoverriden'] = 'Tenants can override this setting now';
+$string['settingoverridensaved'] = 'Settings were saved successfully for: {$a}';
+$string['settingoverridensavedselectedtenant'] = 'Settings were saved successfully for the selected tenants';
+$string['settingtenantvalue'] = '{$a->tenantname}: <i>{$a->tenantvalue}</i>';
 $string['sharedspace'] = 'Shared space';
 $string['sharedspaceconfirmationtext'] = 'Shared space is a place for you to share entities and content among all tenants. Everything you create inside this space will instantly become available for users in any tenants if they have the correct permissions. <br/> Once Shared space is activated, it can\'t be deactivated. <br/> Do you want to enable Shared space?';
 $string['sharedspaceenabledmessage'] = 'Shared space was enabled successfully. Use the tenant switch in the navigation bar to access it.';
@@ -241,6 +269,8 @@ $string['showintenantselector'] = 'Show this tenant in the login selector';
 $string['showintenantselector_help'] = 'By enabling this option, this tenant will be listed on the login page of every tenant as an alternative login page.';
 $string['showtenantselector'] = 'Show tenant selector on the login page';
 $string['showtenantselector_help'] = 'By enabling this option, users will be able to switch between different tenant on the login page. Each tenant can individually set its visibility in this list.';
+$string['siteleveldefault'] = 'Site level default';
+$string['sitelevelsetting'] = 'Use site level setting';
 $string['sitename'] = 'Site name';
 $string['sitename_help'] = 'Allows overriding the default name of the site for users from this tenant';
 $string['siteshortname'] = 'Site short name';
@@ -342,6 +372,7 @@ $string['usersunassignedtenantadminfail'] = 'Couldn\'t remove {$a} user(s) from 
 $string['usersunassignedtenantadminsuccess'] = 'Removed {$a} users(s) from the list of tenant administrators';
 $string['usersuspendedsuccess'] = 'User suspended successfully';
 $string['usertenant'] = 'User tenant';
+$string['value'] = 'Value';
 $string['wwwroot'] = 'Custom domain';
 $string['wwwroot_help'] = 'Specify URL that should be used for this tenant. Before doing it make sure that DNS is already set up so that URL points to the same site.';
 

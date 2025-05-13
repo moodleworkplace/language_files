@@ -154,6 +154,7 @@ $string['programhelptitle'] = 'What is a program?';
 $string['programlink'] = 'See "{$a}" details';
 $string['programlinksingle'] = 'See program details';
 $string['programs'] = 'Programs';
+$string['programsectionhelp'] = '<p>Programs are structured learning paths that include one or more courses. To complete a program, you need to finish all the required courses.</p><p>Some programs may have a set order for completing courses, while others let you choose the sequence. Check your program details to see what’s required.</p>';
 $string['programstructure'] = 'Program structure';
 $string['progress'] = '{$a}% completed';
 $string['progresscompleted'] = '{$a->completed} of {$a->total} completed';
