@@ -224,6 +224,7 @@ $string['privacy:metadata:user:usermodified'] = 'User who modified the record';
 $string['profilecategory_alltenants'] = 'This category is available to all tenants (including future ones)';
 $string['profilecategory_exceptfollowingtenants'] = 'This category is available to all tenants except the following';
 $string['profilecategory_onlyfollowingtenants'] = 'This category is available only to the following tenants';
+$string['reg_wpmultitenantsettingsoverridden'] = 'Number of setting values that have been overridden in tenants ({$a})';
 $string['reg_wpsharedspaceenabled'] = 'Shared space is enabled ({$a})';
 $string['reg_wptenantdomains'] = 'Number of tenants with custom domains set ({$a})';
 $string['reg_wptenants'] = 'Number of tenants ({$a})';
