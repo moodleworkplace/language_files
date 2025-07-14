@@ -478,6 +478,7 @@ $string['progresspercent'] = 'Progress';
 $string['progressreport'] = 'Progress report';
 $string['recalculateprogramcompletion'] = 'Re-calculate program completion';
 $string['recalculateprogramcompletion_help'] = 'Program completion will be re-calculated for all program users. Please, be aware that if a user has completed the program and new content has been added to the program, the user might have to complete the program again. This action could take some minutes to be completed and can not be undone.';
+$string['recalculateprogramtask'] = 'Program content updated successfully. It may take some time to recalculate program completion for all users. It\'s safe to continue navigating on the site.';
 $string['reg_wpprograms'] = 'Number of programs ({$a})';
 $string['reportprogramsallocationcompletion'] = 'Program users allocation and completion';
 $string['reset'] = 'Reset';
