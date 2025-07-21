@@ -37,7 +37,7 @@ $string['pagesize'] = 'Rows per page';
 $string['pagesize_help'] = 'How many rows to show per page in the report and chart';
 $string['piechart'] = 'Pie chart';
 $string['pluginname'] = 'Report and chart';
-$string['privacy:metadata'] = 'The Report and chart block does not store any personal data';
+$string['privacy:metadata:preference:block_reportchart_toggleview'] = 'Block toggled view preference';
 $string['reg_wpchartblockinstances'] = 'Number of instances of block_reportchart block ({$a})';
 $string['reg_wpchartblocktypebar'] = 'Number of instances of block_reportchart using the Bar chart type ({$a})';
 $string['reg_wpchartblocktypeline'] = 'Number of instances of block_reportchart using the Line chart type ({$a})';
@@ -51,3 +51,6 @@ $string['toomanyreportstoshow'] = 'Too many reports ({$a}) to show';
 $string['visualisation'] = 'Visualisation';
 $string['writeafooter'] = 'Write a footer...';
 $string['writeaheader'] = 'Write a header...';
+
+// Deprecated since Moodle 5.1.
+$string['privacy:metadata'] = 'The Report and chart block does not store any personal data';

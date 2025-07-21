@@ -114,6 +114,7 @@ $string['minimumvalue_help'] = 'Specify the lowest value for this range or leave
 $string['moreinfo'] = 'More information';
 $string['mycourses'] = 'My courses';
 $string['name'] = 'Sort by name';
+$string['noavailablecourses'] = 'You have no courses available.<br>Please contact your site administrator for assistance.';
 $string['noresultsfor'] = 'No results for \'{$a}\'';
 $string['notavailableunless'] = 'Not available unless \'{$a}\' is available';
 $string['notavailableuntil'] = 'Not available until \'{$a}\' is completed';
