@@ -11,7 +11,8 @@ $string['blockreport'] = 'Select report';
 $string['blocktitle'] = 'Block title';
 $string['blockviewreport'] = 'Block view';
 $string['chart'] = 'Chart';
-$string['chartempty'] = 'You have no available data for this chart';
+$string['chartempty'] = 'No data is currently visible in this block.<br />
+This may be due to applied filters or the selected report. Try adjusting or clearing them to view the data.';
 $string['charttype'] = 'Chart type';
 $string['custom'] = 'Custom';
 $string['customaspectratio'] = 'Custom aspect ratio';
