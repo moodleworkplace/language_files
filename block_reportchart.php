@@ -11,6 +11,7 @@ $string['blockreport'] = 'Select report';
 $string['blocktitle'] = 'Block title';
 $string['blockviewreport'] = 'Block view';
 $string['chart'] = 'Chart';
+$string['chartcolumns'] = 'Chart columns';
 $string['chartempty'] = 'No data is currently visible in this block.<br />
 This may be due to applied filters or the selected report. Try adjusting or clearing them to view the data.';
 $string['charttype'] = 'Chart type';
@@ -19,8 +20,8 @@ $string['customaspectratio'] = 'Custom aspect ratio';
 $string['displayadaptive'] = 'Adaptive';
 $string['displayascards'] = 'Cards';
 $string['displayastable'] = 'Table';
-$string['editchartlayout'] = 'Edit chart layout';
-$string['edittablelayout'] = 'Edit table layout';
+$string['editchartlayout'] = 'Edit chart';
+$string['edittablelayout'] = 'Edit table';
 $string['expand'] = 'Expand';
 $string['expandviewenable'] = 'Enable expanded view';
 $string['expandviewreport'] = 'Expanded view';
@@ -52,6 +53,8 @@ $string['toomanyreportstoshow'] = 'Too many reports ({$a}) to show';
 $string['visualisation'] = 'Visualisation';
 $string['writeafooter'] = 'Write a footer...';
 $string['writeaheader'] = 'Write a header...';
+$string['xaxis'] = 'X axis';
+$string['yaxis'] = 'Y axis';
 
 // Deprecated since Moodle 5.1.
 $string['privacy:metadata'] = 'The Report and chart block does not store any personal data';
