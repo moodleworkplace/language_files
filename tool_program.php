@@ -565,6 +565,7 @@ $string['timemodified'] = 'Last modified on';
 $string['timesuspended'] = 'Suspended on';
 $string['toomanyprogramstoshow'] = 'Too many programs to show';
 $string['type'] = 'Type';
+$string['userallocatedvia'] = '{$a->user}, via {$a->allocationname} allocation';
 $string['userduedate'] = 'Due date';
 $string['userduedate_help'] = 'Select the program due date for this user.';
 $string['userenddate'] = 'End date';
