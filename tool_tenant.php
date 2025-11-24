@@ -121,6 +121,7 @@ $string['errornopermissionallocateusers'] = 'No permission to allocate users to 
 $string['errortenantarchived'] = 'This tenant has been archived';
 $string['errortenantidnumberunique'] = 'This ID number is already used in another tenant';
 $string['errortenantnotfound'] = 'This tenant does not exist';
+$string['errortenantnotvalid'] = 'A tenant could not be found for the indicated URL';
 $string['errorurlnotavailable'] = 'At least one Login URL must be available.';
 $string['errorwwwroot'] = 'Custom domain must be a valid URL starting with http:// or https:// without a trailing / . It may not contain a path nor a port.';
 $string['eventtenantcreated'] = 'Tenant created';
