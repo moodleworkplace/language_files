@@ -49,6 +49,7 @@ $string['reportchart:addinstance'] = 'Add a new Report and chart block';
 $string['reportchart:myaddinstance'] = 'Add a new Report and chart block to Dashboard';
 $string['showchart'] = 'Show chart only';
 $string['showchartandreport'] = 'Show chart and report';
+$string['showreport'] = 'Show report only';
 $string['toomanyreportstoshow'] = 'Too many reports ({$a}) to show';
 $string['visualisation'] = 'Visualisation';
 $string['writeafooter'] = 'Write a footer...';
