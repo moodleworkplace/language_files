@@ -1,5 +1,4 @@
 <?php
-$string['allocateuserstocourses'] = 'Allocate users to courses...';
 $string['allocateusertocourses'] = 'Enrol to courses...';
 $string['assignrole'] = 'Assign role';
 $string['confirmunenroluser'] = 'Are you sure you want to completely delete enrolment of user \'{$a}\' and associated data?';
@@ -16,6 +15,7 @@ $string['enrolstatus'] = 'Enrolment status';
 $string['enroltocourse'] = 'Enrol users to course';
 $string['enroltocourses'] = 'Enrol users to courses';
 $string['enrolusers'] = 'Enrol users';
+$string['enroluserstocourses'] = 'Enrol users to courses...';
 $string['enrolusertocourses'] = 'Enrol {$a} to courses';
 $string['errorcantenrolusers'] = 'Can\'t enrol users';
 $string['errornopermissionmanageusers'] = 'No permission to manage users';
@@ -40,3 +40,6 @@ $string['userenrolmenteditfailed'] = 'User enrolment was not updated';
 $string['userseditedsuccess'] = '{$a->successcount} user(s) were successfully enrolled on {$a->name}<br/>';
 $string['usersskipped'] = '{$a->skippedcount} user(s) skipped because they are already enrolled on {$a->name}<br/>';
 $string['viewenrolments'] = 'View enrolments';
+
+// Deprecated since Moodle 5.1.
+$string['allocateuserstocourses'] = 'Allocate users to courses...';
