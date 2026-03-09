@@ -149,6 +149,8 @@ $string['price_enrolplugins_help'] = "<p>Select the enrolment methods to check f
 instance exists with the specified currency, the price will be automatically extracted. Instances without a currency (e.g., 'Self enrolment') will be assumed to have price '0'.</p>
 <p>If multiple instances of methods that allow students enrol themselves into a course exist, the lowest price will be shown.</p>
 <p>Note: Test add-on enrolment plugins thoroughly before enabling them, as they may store data differently, affecting price extraction.</p>";
+$string['pricecustomfield'] = 'Price custom field';
+$string['pricecustomfield_desc'] = 'The custom field to use for prices in the catalogue.';
 $string['privacy:metadata:preference:tool_catalogue_collapse_recently_accessed_courses'] = 'Whether to collapse the "Recently accessed courses" section';
 $string['privacy:metadata:preference:tool_catalogue_hide_program_cover_help'] = 'Whether to show the program cover help';
 $string['privacy:metadata:preference:tool_catalogue_my_courses_filter'] = 'Whether to filter the programs/courses by all/courses/programs/complete/incomplete';
