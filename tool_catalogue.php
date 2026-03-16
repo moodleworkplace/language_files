@@ -191,7 +191,6 @@ $string['searchfields_desc'] = "Please select all course fields where the keywor
 $string['searchmethod'] = 'Course search method';
 $string['searchmethod_desc'] = 'Select a method that will be used for course search. Some methods may require regular re-indexing and/or additional configuration.';
 $string['searchmethod_extended'] = 'Extended search';
-$string['searchmethod_simple'] = 'Simple search';
 $string['searchplaceholder'] = 'Search courses or programs';
 $string['selectenrolmentmethod'] = 'Select an enrolment method';
 $string['showcataloguecoursecategory'] = 'Show course category in course cards';
@@ -228,4 +227,4 @@ $string['coursesperpage_search_desc'] = 'Number of courses to display in the cou
 $string['displayfields_list'] = 'Fields to display in the \'list\' (detailed) view of the learning catalogue';
 $string['displayfields_tiles'] = 'Fields to display in the \'tiles\' (compact) view of the learning catalogue';
 $string['programsectionhelp'] = '<p>Programs are structured learning paths that include one or more courses. To complete a program, you need to finish all the required courses.</p><p>Some programs may have a set order for completing courses, while others let you choose the sequence. Check your program details to see what’s required.</p>';
-
+$string['searchmethod_simple'] = 'Simple search';
