@@ -6,7 +6,6 @@ $string['all'] = 'All';
 $string['allavailablecourses'] = 'All available courses';
 $string['allowhtmltags'] = 'Allow HTML tags';
 $string['aria:courseactions'] = 'Course actions';
-$string['cachedef_filters'] = 'Learning catalogue search results and filters';
 $string['catalogue'] = 'Catalogue';
 $string['catalogue:config'] = 'Configure learning catalogue';
 $string['catalogueisdisabled'] = 'Learning catalogue is disabled';
@@ -224,6 +223,7 @@ $string['coursesperpage_search'] = 'Number of courses per page, search results';
 $string['coursesperpage_search_desc'] = 'Number of courses to display in the course search results or when category is selected.';
 
 // Deprecated since Moodle 5.2.
+$string['cachedef_filters'] = 'Learning catalogue search results and filters';
 $string['displayfields_list'] = 'Fields to display in the \'list\' (detailed) view of the learning catalogue';
 $string['displayfields_tiles'] = 'Fields to display in the \'tiles\' (compact) view of the learning catalogue';
 $string['programsectionhelp'] = '<p>Programs are structured learning paths that include one or more courses. To complete a program, you need to finish all the required courses.</p><p>Some programs may have a set order for completing courses, while others let you choose the sequence. Check your program details to see what’s required.</p>';
