@@ -199,6 +199,7 @@ $string['errorcouldnotallocate'] = 'Could not allocate user \'{$a->originaluserf
 $string['errorevaluatinguserallocationstatus'] = 'Error evaluating user allocation status';
 $string['errorexpirydatepreviouscertifieddate'] = 'Expiry date can not be before certified date';
 $string['errorexpirydatepreviousduedate'] = 'Expiry date can not be before due date';
+$string['errorexpirydaterelativeinvalidduedate'] = 'Expiry date can not be relative to due date when due date is not set';
 $string['erroridnumberuniquetenant'] = 'This ID number is already used in another certification';
 $string['errorinvalidcertification'] = 'Invalid certification';
 $string['errorinvaliddate'] = 'Invalid date';
