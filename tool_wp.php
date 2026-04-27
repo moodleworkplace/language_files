@@ -390,7 +390,7 @@ If you are accessing Moodle Workplace™ without written permission it is unauth
 - ensure that all production sites are upgraded to a version of Moodle Workplace Code confirmed by Moodle as currently supported by bug fixes for security vulnerabilities as stated by Moodle publicly on its website; and
 - cease using Moodle Workplace™ and immediately delete all copies of the Moodle Workplace™ Code from your servers and any computers under your control if you are no longer a Moodle Certified Premium Partner or a customer of a Moodle Certified Premium Partner. You must confirm this in writing to Moodle within 7 days of such event.
 
-Moodle Workplace™ websites may include a tracking pixel for statistical purposes and compliance monitoring. Please note that no personal data is collected or processed.
+Moodle Workplace™ includes technical measures, such as a tracking pixel and the premium site management plugin, for the purposes of license validation, compliance monitoring, and the collection of anonymous usage statistics. These tools are used solely to ensure the integrity of the software and to improve the product; no personal data is collected or processed through these mechanisms.
 
 In order to understand the full scope of your rights and obligations please refer to the Moodle Workplace Agreement or Customer Terms that you have signed.';
 $string['workplacelicenseheader'] = 'Moodle Workplace license';
