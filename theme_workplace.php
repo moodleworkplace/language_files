@@ -1,7 +1,6 @@
 <?php
 $string['blockmyoverviewhideprogramcourses'] = 'Hide program courses from the "Course overview" block';
 $string['blockmyoverviewhideprogramcoursesdesc'] = 'Do not display courses in the "Course overview" block on the Dashboard when a learner is only enrolled into them through programs. This will help to avoid courses being displayed twice when programs are displayed separately, especially in the Mobile app.';
-$string['branding:name'] = 'Moodle Workplace';
 $string['branding:poweredby'] = 'Powered by';
 $string['choosereadme'] = 'Welcome to Workplace.';
 $string['contactsupporttoupgrade'] = 'Please contact <a href="{$a}">Services and support</a> to update your site to the latest version to obtain new features and all recent security and bug fixes';
@@ -25,3 +24,6 @@ $string['updateavailable'] = 'There is a newer Moodle Workplace version availabl
 $string['updateavailable_release'] = 'Moodle Workplace {$a}';
 $string['updateavailablenot'] = 'Everything is up-to-date!';
 $string['wpdashboard'] = 'Workplace dashboard';
+
+// Deprecated since Moodle 5.2.
+$string['branding:name'] = 'Moodle Workplace';
