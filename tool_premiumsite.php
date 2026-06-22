@@ -1,9 +1,9 @@
 <?php
-$string['activationdate'] = 'Activation date';
-$string['activeusers'] = 'Active users (Last 12 months)';
-$string['changeenvironment'] = 'Change environment';
+$string['activeusers'] = 'Active users (last 12 months)';
+$string['changeenvironment'] = 'Change state';
 $string['count_of_total'] = '<strong>{$a->count}</strong> of {$a->total}';
 $string['currentusage'] = 'Licence users';
+$string['downloadsitedetails'] = 'Download site details file';
 $string['expirationdate'] = 'Expiration date';
 $string['expired'] = 'Expired';
 $string['lastsynced'] = 'Last synced';
@@ -17,16 +17,23 @@ $string['premiumsite:managelicense'] = 'Manage the Premium site license';
 $string['privacy:metadata'] = 'The Premium site plugin does not store any personal data.';
 $string['serialid'] = 'Licence ID';
 $string['sitedetails'] = 'Site details';
-$string['siteenvironment'] = 'Site environment';
+$string['siteenvironment'] = 'Production state';
+$string['supportinformation'] = 'Support information';
 $string['tasksendusagedata'] = 'Send usage data to Premium hub';
-$string['unsupported'] = 'Unsupported - Upgrade required';
+$string['unsupported'] = 'Workplace version unsupported - Upgrade required';
 $string['userband'] = 'User band';
 $string['userbandexceeded'] = 'User band exceeded';
 $string['userlimitwarningnolicense'] = 'High usage on production site with no licence.';
 $string['userlimitwarningnonprod'] = 'High usage on non-production site.';
 $string['workplaceversion'] = 'Workplace version';
+$string['workplaceversionsupport_content_securityonly'] = 'Bug fixes for general core bugs in {$a->versionbranch} ended {$a->featuredate} ({$a->featureduration}).<br>Bug fixes for security issues in {$a->versionbranch} will end {$a->securitydate} ({$a->securityduration}).';
+$string['workplaceversionsupport_content_unsupported'] = 'Bug fixes for general core bugs in {$a->versionbranch} ended {$a->featuredate} ({$a->featureduration}).<br>Bug fixes for security issues in {$a->versionbranch} ended {$a->securitydate} ({$a->securityduration}).';
+$string['workplaceversionsupport_content_uptodate'] = 'Bug fixes for general core bugs in {$a->versionbranch} will end {$a->featuredate} ({$a->featureduration}).<br>Bug fixes for security issues in {$a->versionbranch} will end {$a->securitydate} ({$a->securityduration}).';
+$string['workplaceversionsupport_duration_months'] = '{$a} months';
+$string['workplaceversionwithbuild'] = '{$a->version} (Build: {$a->build})';
 
 // Deprecated since Workplace 5.2.
+$string['activationdate'] = 'Activation date';
 $string['endpoint'] = 'Endpoint URL';
 $string['of'] = 'of';
 $string['serialid_desc'] = 'The licence ID assigned to the instance from the Premium hub.';
