@@ -223,6 +223,7 @@ $string['overridesetting_limiteddescription'] = 'Tenant level changes to this se
 $string['overridesetting_notallowed'] = 'Use global setting for all tenants';
 $string['overridesetting_notalloweddescription'] = 'Forces all tenants to use the global site setting, and tenant specific overrides will be ignored.';
 $string['pluginname'] = 'Multi-tenancy';
+$string['privacy:metadata:preference:tool_tenant_last_visited_tenants'] = 'A list of the last visited tenants by the user.';
 $string['privacy:metadata:user'] = 'Allocation of users to tenants';
 $string['privacy:metadata:user:component'] = 'Component responsible for allocation';
 $string['privacy:metadata:user:id'] = 'ID';
