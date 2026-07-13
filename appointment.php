@@ -89,6 +89,7 @@ $string['confirmcancelbooking'] = 'Confirm cancellation';
 $string['courseresetsessions'] = 'Remove all sessions';
 $string['courseresetsignups'] = 'Remove all session sign-ups';
 $string['crontask'] = 'Appointment maintenance jobs';
+$string['current'] = 'Current';
 $string['currentstatus'] = 'Current status';
 $string['customisednotifications'] = 'Customised notifications';
 $string['date'] = 'Date';
