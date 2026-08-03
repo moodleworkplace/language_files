@@ -312,7 +312,6 @@ $string['suspendedusers'] = 'Suspended users';
 $string['suspenduser'] = 'Suspend user';
 $string['suspendusers'] = 'Suspend users';
 $string['switchedto'] = 'You have switched to \'{$a}\'';
-$string['switchtenant'] = 'Switch tenant';
 $string['tenant'] = 'Tenant';
 $string['tenant:allocate'] = 'Allocate users to all tenants';
 $string['tenant:browseusers'] = 'Browse users in the current tenant';
@@ -426,3 +425,6 @@ $string['supportpage'] = 'Link to \'Contact site support\'';
 $string['supportpagedescription'] = 'The URL to \'Contact site support\' is configured at site level by default. By selecting \'Override\' a new URL can be provided';
 $string['tenant:authconfig'] = 'Edit tenant authentication settings';
 $string['tenant:mobileconfig'] = 'Edit tenant mobile settings';
+
+// Deprecated since Moodle 5.3.
+$string['switchtenant'] = 'Switch tenant';
