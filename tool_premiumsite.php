@@ -26,9 +26,9 @@ $string['userbandexceeded'] = 'User band exceeded';
 $string['userlimitwarningnolicense'] = 'High usage on production site with no licence.';
 $string['userlimitwarningnonprod'] = 'High usage on non-production site.';
 $string['workplaceversion'] = 'Workplace version';
-$string['workplaceversionsupport_content_securityonly'] = 'Bug fixes for general core bugs in {$a->versionbranch} ended {$a->featuredate} ({$a->featureduration}).<br>Bug fixes for security issues in {$a->versionbranch} will end {$a->securitydate} ({$a->securityduration}).';
-$string['workplaceversionsupport_content_unsupported'] = 'Bug fixes for general core bugs in {$a->versionbranch} ended {$a->featuredate} ({$a->featureduration}).<br>Bug fixes for security issues in {$a->versionbranch} ended {$a->securitydate} ({$a->securityduration}).';
-$string['workplaceversionsupport_content_uptodate'] = 'Bug fixes for general core bugs in {$a->versionbranch} will end {$a->featuredate} ({$a->featureduration}).<br>Bug fixes for security issues in {$a->versionbranch} will end {$a->securitydate} ({$a->securityduration}).';
+$string['workplaceversionsupport_content_securityonly'] = 'Bug fixes for general core bugs in {$a->versionbranch} ended {$a->featuredate}.<br>Bug fixes for security issues in {$a->versionbranch} will end {$a->securitydate}.';
+$string['workplaceversionsupport_content_unsupported'] = 'Bug fixes for general core bugs in {$a->versionbranch} ended {$a->featuredate}.<br>Bug fixes for security issues in {$a->versionbranch} ended {$a->securitydate}.';
+$string['workplaceversionsupport_content_uptodate'] = 'Bug fixes for general core bugs in {$a->versionbranch} will end {$a->featuredate}.<br>Bug fixes for security issues in {$a->versionbranch} will end {$a->securitydate}.';
 $string['workplaceversionsupport_duration_months'] = '{$a} months';
 $string['workplaceversionwithbuild'] = '{$a->version} (Build: {$a->build})';
 
