@@ -233,7 +233,7 @@ $string['eventuserupdated'] = 'User allocation updated';
 $string['expired'] = 'Expired';
 $string['expiredcertificationslink'] = '<a href="{$a->href}">{$a->count} expired certifications</a>';
 $string['expireddateisonorafter'] = 'Expired date on or after';
-$string['expireson'] = 'expires on {$a}';
+$string['expireson'] = 'Expiry date: {$a}';
 $string['expirydate'] = 'Expiry date';
 $string['expirydate_help'] = 'Expiry date for the certification';
 $string['export_content'] = 'Settings';
