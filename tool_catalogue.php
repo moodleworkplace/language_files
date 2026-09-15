@@ -156,6 +156,8 @@ $string['privacy:metadata:preference:tool_catalogue_collapse_recently_accessed_c
 $string['privacy:metadata:preference:tool_catalogue_hide_program_cover_help'] = 'Whether to show the program cover help';
 $string['privacy:metadata:preference:tool_catalogue_my_courses_filter'] = 'Whether to filter the programs/courses by all/courses/programs/complete/incomplete';
 $string['privacy:metadata:preference:tool_catalogue_my_courses_sort'] = 'Whether to sort the programs/courses by name/due date/last access';
+$string['privacy:metadata:preference:tool_catalogue_show_course_content'] = 'Whether to show or hide the content of a course';
+$string['privacy:metadata:preference:tool_catalogue_show_program_content'] = 'Whether to show or hide the content of a program';
 $string['privacy:metadata:preference:tool_catalogue_view_mode'] = 'Whether to display the catalogue in list or tiles view';
 $string['privacy:metadata:showprogramcoverhelp'] = 'Whether to show the program cover help';
 $string['privacy:request:preference:set'] = 'The value of the setting \'{$a->name}\' was \'{$a->value}\'';
